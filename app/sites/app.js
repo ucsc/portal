@@ -1,0 +1,1 @@
+angular.module('portal', ['main','main.emergency']);

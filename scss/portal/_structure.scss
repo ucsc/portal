@@ -1,0 +1,52 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+body {
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+nav,
+article {
+    height: 100%;
+    overflow: auto;
+    float: left;
+}
+
+nav {
+  z-index:1;
+}
+
+article {
+  border-right: 1px $gray-border solid;
+  z-index:3;
+}
+
+article:last-child {
+  border-right: none;
+}
+
+main {
+    height: 100%;
+    position:relative;
+    z-index:2;
+}
+
+.active a,a.active {
+    color: $light;
+}
+
+.pull-left {
+  float: left;
+}

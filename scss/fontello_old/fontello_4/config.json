@@ -1,0 +1,394 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "c64623255a4a7c72436b199b05296c4f",
+      "css": "emo-happy",
+      "code": 59439,
+      "src": "fontelico"
+    },
+    {
+      "uid": "72109d2fb3088d0e66ea6a9204297651",
+      "css": "spin1",
+      "code": 59392,
+      "src": "fontelico"
+    },
+    {
+      "uid": "9dd9e835aebe1060ba7190ad2b2ed951",
+      "css": "search",
+      "code": 59393,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "43ab845088317bd348dee1d975700c48",
+      "css": "ok-circled",
+      "code": 59397,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "0f4cae16f34ae243a6144c18a003f2d8",
+      "css": "cancel-circled",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "4ba33d2607902cf690dd45df09774cb0",
+      "css": "plus-circled",
+      "code": 59395,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "eeadb020bb75d089b25d8424aabe19e0",
+      "css": "minus-circled",
+      "code": 59396,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "757afacc32d82967975cbb3b45cfb41b",
+      "css": "desktop",
+      "code": 59442,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "500fc1f109021e4b1de4deda2f7ed399",
+      "css": "laptop",
+      "code": 59441,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f001fc3d4daa7da078e8c971e4f36977",
+      "css": "tablet",
+      "code": 59440,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "0357f7abbc0babf43509669f332e41e6",
+      "css": "mobile-1",
+      "code": 59443,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "1e7648f03fbdc28114a00b33b059b499",
+      "css": "extinguisher",
+      "code": 59455,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "bcb868184ff9c35f8aef564f50c0d649",
+      "css": "feather",
+      "code": 59398,
+      "src": "entypo"
+    },
+    {
+      "uid": "457c8e2b305e7af74c1be4f07a01ca92",
+      "css": "vcard",
+      "code": 59431,
+      "src": "entypo"
+    },
+    {
+      "uid": "64f5a50cf7ac972a56a9a511acb5d28e",
+      "css": "map",
+      "code": 59430,
+      "src": "entypo"
+    },
+    {
+      "uid": "c117f17c0316ef71fb2a658c4c273002",
+      "css": "compass",
+      "code": 59399,
+      "src": "entypo"
+    },
+    {
+      "uid": "da0fd38d651815e3a12f6c030ff1fe5b",
+      "css": "newspaper",
+      "code": 59433,
+      "src": "entypo"
+    },
+    {
+      "uid": "51727ca007aa35ceabcaffc28934faee",
+      "css": "book-open",
+      "code": 59432,
+      "src": "entypo"
+    },
+    {
+      "uid": "3e617d8049807e128c80d0344ba09e37",
+      "css": "rss",
+      "code": 59400,
+      "src": "entypo"
+    },
+    {
+      "uid": "5854855e963044f93b15738a5bb27a29",
+      "css": "phone",
+      "code": 59434,
+      "src": "entypo"
+    },
+    {
+      "uid": "bc64550dd022ce21604f97309b346cea",
+      "css": "cog",
+      "code": 59435,
+      "src": "entypo"
+    },
+    {
+      "uid": "9248ce8062fb4707a6919bfe9ac1af8e",
+      "css": "popup",
+      "code": 59436,
+      "src": "entypo"
+    },
+    {
+      "uid": "d090355c31f497b61d676416c1fd39fb",
+      "css": "twitter",
+      "code": 59437,
+      "src": "entypo"
+    },
+    {
+      "uid": "fd8d9ae4422e55d3ca23f55d9cf4b20a",
+      "css": "waves",
+      "code": 59438,
+      "src": "typicons"
+    },
+    {
+      "uid": "ae3so8q0b0n2h8esv9flua2nmwswa8fd",
+      "css": "mail",
+      "code": 59413,
+      "src": "modernpics"
+    },
+    {
+      "uid": "ma9pq3m9ye6f33psotqr8e68yyv7fbz6",
+      "css": "user",
+      "code": 59401,
+      "src": "modernpics"
+    },
+    {
+      "uid": "99qmwsnyl7d1848xayggtcwaysc4e415",
+      "css": "user-woman",
+      "code": 59402,
+      "src": "modernpics"
+    },
+    {
+      "uid": "d1a7ajpi3149rk5q4861jw9f2lzg27d1",
+      "css": "user-pair",
+      "code": 59403,
+      "src": "modernpics"
+    },
+    {
+      "uid": "c1d1ix1r5ldq6yl3xwvh3u3fxqale7sy",
+      "css": "home",
+      "code": 59410,
+      "src": "modernpics"
+    },
+    {
+      "uid": "fojo3y3ju5f4vge0bepcxl1mgmzgit9k",
+      "css": "export",
+      "code": 59405,
+      "src": "modernpics"
+    },
+    {
+      "uid": "7ssl5z5jrhu13tb13cd3gb4bdfkzbfzw",
+      "css": "print",
+      "code": 59404,
+      "src": "modernpics"
+    },
+    {
+      "uid": "uaps3vfayj05q7h4rvb10m890xvaequb",
+      "css": "bell",
+      "code": 59409,
+      "src": "modernpics"
+    },
+    {
+      "uid": "too2rspp5e6z6m0y6lconmv23uw3qlqo",
+      "css": "location",
+      "code": 59408,
+      "src": "modernpics"
+    },
+    {
+      "uid": "573lc53801tfc96xt7fubn59tb0o5s4y",
+      "css": "article",
+      "code": 59444,
+      "src": "modernpics"
+    },
+    {
+      "uid": "pzy4lq1ak4datbxpdfj3ya74vjfhwxg1",
+      "css": "article-alt",
+      "code": 59445,
+      "src": "modernpics"
+    },
+    {
+      "uid": "33iuue66u2628uv4kz3vnmh8uee8o7rw",
+      "css": "rss-1",
+      "code": 59411,
+      "src": "modernpics"
+    },
+    {
+      "uid": "3v94fy782j1ddju9fbafpqa1x0li3bt6",
+      "css": "telephone",
+      "code": 59412,
+      "src": "modernpics"
+    },
+    {
+      "uid": "0ohst63cgq1mf1syayvfl8mphms8dbes",
+      "css": "clock",
+      "code": 59406,
+      "src": "modernpics"
+    },
+    {
+      "uid": "m3m8301t2xdy30x4lp7txm0vztl67tcl",
+      "css": "mobile",
+      "code": 59407,
+      "src": "modernpics"
+    },
+    {
+      "uid": "f1315f7ea135cbea7966cce0e7c10ce0",
+      "css": "snow",
+      "code": 59416,
+      "src": "meteocons"
+    },
+    {
+      "uid": "ab5c31256cdd1f6b2d6de7202936f5a1",
+      "css": "hail",
+      "code": 59420,
+      "src": "meteocons"
+    },
+    {
+      "uid": "053a1eaf96184e74876f45bd0f4970eb",
+      "css": "na",
+      "code": 59427,
+      "src": "meteocons"
+    },
+    {
+      "uid": "39a24b1eb625a4a551585745107e8ef0",
+      "css": "celcius",
+      "code": 59426,
+      "src": "meteocons"
+    },
+    {
+      "uid": "5478f7c5cc0ad4897835f711eccea4dd",
+      "css": "fahrenheit",
+      "code": 59425,
+      "src": "meteocons"
+    },
+    {
+      "uid": "c1306ee779029bed4f5a2b9b4f5c79e8",
+      "css": "sun",
+      "code": 59414,
+      "src": "meteocons"
+    },
+    {
+      "uid": "2adfda136b09532bd8174b025b67fe87",
+      "css": "moon",
+      "code": 59423,
+      "src": "meteocons"
+    },
+    {
+      "uid": "2c304ff49075ec9647f498504651abf5",
+      "css": "cloudy-sun",
+      "code": 59419,
+      "src": "meteocons"
+    },
+    {
+      "uid": "c823149b79158a2bd56d802a6a6f1d1c",
+      "css": "cloudy-moon",
+      "code": 59424,
+      "src": "meteocons"
+    },
+    {
+      "uid": "7162ef3c04c51e39b8670cfedb15bcc3",
+      "css": "cloudy",
+      "code": 59415,
+      "src": "meteocons"
+    },
+    {
+      "uid": "4bc859f73783486400fc769a90d0a8e0",
+      "css": "cloud-flash",
+      "code": 59422,
+      "src": "meteocons"
+    },
+    {
+      "uid": "8d8a2d9bcc41c7ac794e83ffbb919c3c",
+      "css": "rain",
+      "code": 59421,
+      "src": "meteocons"
+    },
+    {
+      "uid": "957fd72e52a0e9eb585a0361114c4c83",
+      "css": "fog-sun",
+      "code": 59418,
+      "src": "meteocons"
+    },
+    {
+      "uid": "aba39b610b88a73d81f0fa683649b92d",
+      "css": "fog-cloud",
+      "code": 59417,
+      "src": "meteocons"
+    },
+    {
+      "uid": "9746a4ace95e1797c94cd2fe05c22485",
+      "css": "attach",
+      "code": 59429,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "d4824d88566b0ac66d2cdcff3408690b",
+      "css": "export-1",
+      "code": 59428,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "14e9aa28bf2a3531274f85194e733b71",
+      "css": "color-adjust",
+      "code": 59448,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "cc6a79edb1e82ee90129147ba089c323",
+      "css": "fire",
+      "code": 59447,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "874694a9126e8193bca844356d1b6328",
+      "css": "at",
+      "code": 59446,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "492fe0ef4cb41d4e4de8502897685399",
+      "css": "cafe",
+      "code": 59451,
+      "src": "maki"
+    },
+    {
+      "uid": "020dbfb0a5a4a25775bc751e5891e161",
+      "css": "college",
+      "code": 59449,
+      "src": "maki"
+    },
+    {
+      "uid": "aec75ed0b4851c282824143392dde047",
+      "css": "flag",
+      "code": 59450,
+      "src": "maki"
+    },
+    {
+      "uid": "f43389fa3f5a5b152ed0231fe7bb18a7",
+      "css": "hospital",
+      "code": 59452,
+      "src": "maki"
+    },
+    {
+      "uid": "5cc58545bb38c912940470480d3df145",
+      "css": "restaurant",
+      "code": 59453,
+      "src": "maki"
+    },
+    {
+      "uid": "10fdd98fb50c590b805a3ad6ff9c55f5",
+      "css": "asl",
+      "code": 59454,
+      "src": "elusive"
+    }
+  ]
+}

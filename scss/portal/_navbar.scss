@@ -1,0 +1,180 @@
+nav[role="navigation"] {
+    width: 300px;
+    background-color: #222B2D;
+    float:block;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+
+    .page-wrap {
+    	min-height: 100%;
+    	margin-bottom: -145px;
+    }
+    .page-wrap:after {
+  		content: "";
+  		display: block;
+  		margin-top: 20px;
+	}
+	.site-footer, .page-wrap:after {
+  		height: 145px; 
+	}
+	.site-footer {
+  		//background: orange;
+  		
+  		//padding: 1em 1em .5em 2em;
+
+  		padding: 0 1em 0 2em;
+
+  		h1 {
+  			font-size: 20px;
+  			color: $light-gray;
+  			font-weight: 300;
+
+  		}
+  		label:first-of-type {
+  			margin-top: 5px;
+  		}
+  		label {
+  			display: block;
+  			padding: 4px 0 5px 18px;
+  			position: relative;
+  			line-height: 1.15;
+  			font-size: 14px;
+
+  			a {
+  				color: #2B78A4;
+  				font-weight: 300;
+  				text-decoration: none;
+  			}
+
+  			a:hover {
+  				color: $blue;
+  			}
+  		}
+  		label::before {
+  			color: $gray-heading;
+    		position: absolute;
+    		left: -5px;
+    		font-size: 16px;
+    		
+  		}
+  		small {
+  			display: block;
+  			font-size: .65em;
+  			margin-top: 6px;
+  			color: #383F41;
+  		}
+	}
+    //@include breakpoint(one-col) { 
+    //display: none;
+    //}
+    section[role="report"] {
+        background: linear-gradient(0deg, #222b2d, #3f3d28 90%) no-repeat;
+        height: 120px;
+        padding-top: 1.2em;
+        .left,.right {
+            float: left;
+            padding-left: 2.5em;
+        }
+        .temp, .tide {
+            color: $light;
+            font-size: 17px;
+            font-weight: 400;
+            vertical-align: super;
+        }
+        .left {
+        	margin-left: 5px;
+        }
+        .weather {
+            color: $gray;
+            font-size: 31px;
+            font-weight: 100;
+            margin-top: -6px;
+            padding-left: 0px;
+        }
+        .icon-sun, .icon-cloudy-sun {
+            color: $yellow;
+        }
+        .icon-moon, .icon-cloudy-moon {
+        	color: #C7E6F7;
+        }
+        .icon-waves {
+            color: $blue;
+            font-size: 30px;
+            font-weight: 100;
+            margin-left: -5px;
+        }
+        .icon-fahrenheit {
+        	margin: 0 0 0 -5px;
+        	vertical-align: super;
+        }
+        .tide i {
+        	vertical-align: super;
+        	font-style: normal;
+        	font-size: $font-size-xs;
+        }
+        .height {
+        	font-size: 11px;
+        	font-weight: 400;
+        	color: $light;
+        	margin: -11px 0 0 41px;
+        }
+        h2 {
+        	font-size: $font-size-small;
+        	font-weight: 400;
+        	color: $gray;
+        	opacity: 0.25;
+        	text-transform: uppercase;
+        	padding-bottom: .75em;
+        	margin-top: 0px;
+        }
+    }
+    section[role="nav"] {
+    	margin-top: -40px;
+
+    	h1 {
+        	font-size: $font-size-medium;
+        	font-weight: 500;
+        	color: $gray;
+        	opacity: 0.4;
+        	text-transform: uppercase;
+        	padding-left: 2.75em;
+        	padding-bottom: .75em;
+    	}
+
+    	ul {
+    		a {
+    			color: $gray;
+    			text-decoration: none;
+    			li {
+    				padding: 15px 0;
+    				span {
+    					padding-left: 1.9em;
+    					font-size: 17px;
+    					font-weight: 400;
+
+    					i {
+    						font-size: 20px;
+    						padding-right: 12px;
+    						font-weight: 100;
+    						color: #727779;
+    					}
+    				}
+    				
+
+    			}
+    		}
+
+    		a:hover, a.active {
+    			color: $light;
+
+    			i {
+    				color: #CCCECE;
+    			}
+    		}
+    	}
+    }
+    
+}

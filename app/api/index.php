@@ -1,0 +1,104 @@
+<?php
+
+require 'Slim/Slim.php';
+
+$app = new Slim();
+
+$app->get('/weather', 'getWeather');
+$app->get('/weather/touch', 'touchWeather');
+
+$app->run();
+
+function touchWeather() {
+	//$weatherFeed = "http://api.wunderground.com/api/be527d7317e1fe1c/hourly/q/CA/Santa_Cruz.json";
+	//$weatherFeed = "http://api.wunderground.com/api/be527d7317e1fe1c/conditions/q/CA/Santa_Cruz.json";
+	//$tideFeed = "http://api.wunderground.com/api/be527d7317e1fe1c/tide/q/CA/Santa_Cruz.json";
+	$weatherFeed = "http://api.wunderground.com/api/be527d7317e1fe1c/conditions/tide/alerts/astronomy/q/CA/Santa_Cruz.json";
+	$response = array();
+
+	$weatherReport = json_decode(file_get_contents($weatherFeed), true);
+	$currentTemperature = round($weatherReport["current_observation"]["temp_f"]);
+	$currentCondition = $weatherReport["current_observation"]["weather"];
+	$currentIcon = $weatherReport["current_observation"]["icon"];
+	$currentIconUrl = $weatherReport["current_observation"]["icon_url"];
+
+	//$tideReport = json_decode(file_get_contents($tideFeed), true);
+	foreach($weatherReport["tide"]["tideSummary"] as $report) {
+		if($report["data"]["type"] == "Low Tide") {
+			$prettyTimeStr = $report["date"]["pretty"];
+			$prettyTime = explode(' ',trim($prettyTimeStr));
+			$nextLowTideTime = $prettyTime[0];
+			$tideTOD = $prettyTime[1];
+			$tideHeight = $report["data"]["height"];
+			if($report["data"]["height"]{0} == '-') {
+				$negTide = $report["data"]["height"];
+			}
+			break;
+		}
+	}
+
+	$currentTime = floatval($weatherReport["moon_phase"]["current_time"]["hour"].'.'.$weatherReport["moon_phase"]["current_time"]["minute"]);
+	$sunrise = floatval($weatherReport["moon_phase"]["sunrise"]["hour"].'.'.$weatherReport["moon_phase"]["sunrise"]["minute"]);
+	$sunset = floatval($weatherReport["moon_phase"]["sunset"]["hour"].'.'.$weatherReport["moon_phase"]["sunset"]["minute"]);
+	if($currentTime < $sunrise || $currentTime > $sunset) {
+		$isNight = true;
+		$isDay = false;
+	} else {
+		$isNight = false;
+		$isDay = true;
+	}
+	
+	$clear = array('clear', 'sunny', 'unknown', 'hazy', 'mostlysunny');
+	$cloudy = array('cloudy', 'mostlycloudy', 'fog');
+	$partly = array('partlysunny', 'partlycloudy');
+	$snow = array('flurries', 'snow');
+	$rain = array('sleet', 'rain');
+	$storms = array('tstorms');
+	if(in_array($currentIcon, $cloudy)){
+		$currentIcon = 'icon-cloudy';
+	} elseif(in_array($currentIcon, $partly)){
+		if($isNight){
+			$currentIcon = 'icon-cloudy-moon';
+		} else{
+			$currentIcon = 'icon-cloudy-sun';
+		}
+	} elseif(in_array($currentIcon, $snow)){
+		$currentIcon = 'icon-snow';
+	} elseif(in_array($currentIcon, $rain)){
+		$currentIcon = 'icon-rain';
+	} elseif(in_array($currentIcon, $storms)){
+		$currentIcon = 'icon-cloud-flash';
+	} else{
+		if($isNight){
+			$currentIcon = 'icon-moon';
+		} else{
+			$currentIcon = 'icon-sun';
+		}
+	}
+
+	$response[] = array(
+		'temp'=>$currentTemperature,
+		'condition'=>$currentCondition,
+		'icon'=>$currentIcon,
+		'icon_url'=>$currentIconUrl,
+		'low_tide'=>$nextLowTideTime,
+		'low_tide_ampm'=>$tideTOD,
+		'low_tide_height'=>$tideHeight,
+		'low_tide_neg'=>isset($negTide),
+		'is_day'=>$isDay,
+		'is_night'=>$isNight
+	);
+
+	echo json_encode($response);
+
+	$fp = fopen('static/weather.json', 'w');
+	fwrite($fp, json_encode($response));
+	fclose($fp);
+}
+
+function getWeather() {
+	$json = json_decode(file_get_contents('static/weather.json'));
+	echo json_encode($json);
+}
+
+?>

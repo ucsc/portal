@@ -46,6 +46,8 @@ emergency.config(function($stateProvider) {
 
 emergency.controller('EnewsController', function($scope, enews) {
   $scope.feeds = enews.data.responseData.feed.entries;
+
+  
 });
 
 emergency.controller('EmergencyController', function($scope, emenu) {

@@ -1,0 +1,2212 @@
+[
+  {
+    "link": "http://building-address.ucsc.edu/node/5079",
+    "label": "West Fieldhouse - Tennis Courts",
+    "value": "West Fieldhouse - Tennis Courts"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5049",
+    "label": "Theater Arts - Student Production",
+    "value": "Theater Arts - Student Production"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5050",
+    "label": "Theater Arts - Studio",
+    "value": "Theater Arts - Studio"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5051",
+    "label": "Theater Arts - Ticket Office",
+    "value": "Theater Arts - Ticket Office"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5053",
+    "label": "Thimann Lecture Hall",
+    "value": "Thimann Lecture Hall"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5054",
+    "label": "Thimann Receiving",
+    "value": "Thimann Receiving"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5055",
+    "label": "University House",
+    "value": "University House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5056",
+    "label": "Village Housing - Dining",
+    "value": "Village Housing - Dining"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5057",
+    "label": "Village Housing - Maintenance",
+    "value": "Village Housing - Maintenance"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5048",
+    "label": "Theater Arts - Restrooms",
+    "value": "Theater Arts - Restrooms"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5047",
+    "label": "Theater Arts - Offices",
+    "value": "Theater Arts - Offices"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5039",
+    "label": "Theater Arts - 2nd Stage Annex",
+    "value": "Theater Arts - 2nd Stage Annex"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5040",
+    "label": "Theater Arts - Classroom",
+    "value": "Theater Arts - Classroom"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5041",
+    "label": "Theater Arts - Costume Shop/Storage",
+    "value": "Theater Arts - Costume Shop/Storage"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5042",
+    "label": "Theater Arts - Drama ",
+    "value": "Theater Arts - Drama "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5043",
+    "label": "Theater Arts - Experimental Theater ",
+    "value": "Theater Arts - Experimental Theater "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5044",
+    "label": "Theater Arts - Foundry",
+    "value": "Theater Arts - Foundry"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5045",
+    "label": "Theater Arts - Mainstage",
+    "value": "Theater Arts - Mainstage"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5046",
+    "label": "Theater Arts - Media Theater",
+    "value": "Theater Arts - Media Theater"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5058",
+    "label": "Villiage Housing - B1",
+    "value": "Villiage Housing - B1"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5059",
+    "label": "Villiage Housing - B2",
+    "value": "Villiage Housing - B2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5052",
+    "label": "Thimann Labs",
+    "value": "Thimann Labs"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5071",
+    "label": "Villiage Housing - E4",
+    "value": "Villiage Housing - E4"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5072",
+    "label": "Villiage Housing - F1",
+    "value": "Villiage Housing - F1"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5073",
+    "label": "Villiage Housing - F2",
+    "value": "Villiage Housing - F2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5074",
+    "label": "Villiage Housing - F3",
+    "value": "Villiage Housing - F3"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5075",
+    "label": "Villiage Housing - Laundry/Lounge",
+    "value": "Villiage Housing - Laundry/Lounge"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5076",
+    "label": "Villiage Housing - Office/CRE Residence",
+    "value": "Villiage Housing - Office/CRE Residence"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5077",
+    "label": "Visual Arts Research Center",
+    "value": "Visual Arts Research Center"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5078",
+    "label": "West Fieldhouse",
+    "value": "West Fieldhouse"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5070",
+    "label": "Villiage Housing - E3",
+    "value": "Villiage Housing - E3"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5069",
+    "label": "Villiage Housing - E2",
+    "value": "Villiage Housing - E2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5068",
+    "label": "Villiage Housing - E1",
+    "value": "Villiage Housing - E1"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5060",
+    "label": "Villiage Housing - B3",
+    "value": "Villiage Housing - B3"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5061",
+    "label": "Villiage Housing - C2",
+    "value": "Villiage Housing - C2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5062",
+    "label": "Villiage Housing - C3",
+    "value": "Villiage Housing - C3"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5063",
+    "label": "Villiage Housing - C4",
+    "value": "Villiage Housing - C4"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5064",
+    "label": "Villiage Housing - C5",
+    "value": "Villiage Housing - C5"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5065",
+    "label": "Villiage Housing - C6",
+    "value": "Villiage Housing - C6"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5066",
+    "label": "Villiage Housing - D1",
+    "value": "Villiage Housing - D1"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5067",
+    "label": "Villiage Housing - D2",
+    "value": "Villiage Housing - D2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5002",
+    "label": "TAPS Parking Lot 131 - Family Student Housing",
+    "value": "TAPS Parking Lot 131 - Family Student Housing"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5003",
+    "label": "TAPS Parking Lot 132 - Family Student Housing",
+    "value": "TAPS Parking Lot 132 - Family Student Housing"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5004",
+    "label": "TAPS Parking Lot 133 - Family Student Housing",
+    "value": "TAPS Parking Lot 133 - Family Student Housing"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5005",
+    "label": "TAPS Parking Lot 134 - Family Student Housing",
+    "value": "TAPS Parking Lot 134 - Family Student Housing"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5006",
+    "label": "TAPS Parking Lot 135 - Family Student Housing",
+    "value": "TAPS Parking Lot 135 - Family Student Housing"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5007",
+    "label": "TAPS Parking Lot 136 - Family Student Housing",
+    "value": "TAPS Parking Lot 136 - Family Student Housing"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5008",
+    "label": "TAPS Parking Lot 138 - Post Office",
+    "value": "TAPS Parking Lot 138 - Post Office"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5009",
+    "label": "TAPS Parking Lot 139 - Engineering",
+    "value": "TAPS Parking Lot 139 - Engineering"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5010",
+    "label": "TAPS Parking Lot 140 - Visual Arts",
+    "value": "TAPS Parking Lot 140 - Visual Arts"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5011",
+    "label": "TAPS Parking Lot 143 - Kresge College",
+    "value": "TAPS Parking Lot 143 - Kresge College"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5012",
+    "label": "TAPS Parking Lot 144 - Oakes College",
+    "value": "TAPS Parking Lot 144 - Oakes College"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5001",
+    "label": "TAPS Parking Lot 130 - Family Student Housing",
+    "value": "TAPS Parking Lot 130 - Family Student Housing"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5000",
+    "label": "TAPS Parking Lot 129 - Family Student Housing",
+    "value": "TAPS Parking Lot 129 - Family Student Housing"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4996",
+    "label": "TAPS Parking Lot 125 - Porter College",
+    "value": "TAPS Parking Lot 125 - Porter College"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4989",
+    "label": "TAPS Parking Lot 116 - Campus Facilities",
+    "value": "TAPS Parking Lot 116 - Campus Facilities"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4990",
+    "label": "TAPS Parking Lot 117 - Cook House",
+    "value": "TAPS Parking Lot 117 - Cook House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4992",
+    "label": "TAPS Parking Lot 120 - McHenry Library",
+    "value": "TAPS Parking Lot 120 - McHenry Library"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4993",
+    "label": "TAPS Parking Lot 122 - Barn Theater",
+    "value": "TAPS Parking Lot 122 - Barn Theater"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4994",
+    "label": "TAPS Parking Lot 123 - Heat Plant",
+    "value": "TAPS Parking Lot 123 - Heat Plant"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4995",
+    "label": "TAPS Parking Lot 124 - Porter College",
+    "value": "TAPS Parking Lot 124 - Porter College"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4991",
+    "label": "TAPS Parking Lot 119 - Merrill College",
+    "value": "TAPS Parking Lot 119 - Merrill College"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4997",
+    "label": "TAPS Parking Lot 126 - Performing Arts",
+    "value": "TAPS Parking Lot 126 - Performing Arts"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4998",
+    "label": "TAPS Parking Lot 127 - West Remote",
+    "value": "TAPS Parking Lot 127 - West Remote"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4999",
+    "label": "TAPS Parking Lot 128 - Student Health Center",
+    "value": "TAPS Parking Lot 128 - Student Health Center"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5013",
+    "label": "TAPS Parking Lot 145 - Kresge College",
+    "value": "TAPS Parking Lot 145 - Kresge College"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5014",
+    "label": "TAPS Parking Lot 146 - College Eight",
+    "value": "TAPS Parking Lot 146 - College Eight"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5029",
+    "label": "TAPS Parking Lot 161 - Oakes College",
+    "value": "TAPS Parking Lot 161 - Oakes College"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5030",
+    "label": "TAPS Parking Lot 162 - Oakes/College Eight",
+    "value": "TAPS Parking Lot 162 - Oakes/College Eight"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5031",
+    "label": "TAPS Parking Lot 163 - Cowell Provost",
+    "value": "TAPS Parking Lot 163 - Cowell Provost"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5032",
+    "label": "TAPS Parking Lot 164 - Social Sciences",
+    "value": "TAPS Parking Lot 164 - Social Sciences"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5033",
+    "label": "TAPS Parking Lot 165 - Social Sciences",
+    "value": "TAPS Parking Lot 165 - Social Sciences"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5034",
+    "label": "TAPS Parking Lot 166 - University Center",
+    "value": "TAPS Parking Lot 166 - University Center"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5035",
+    "label": "TAPS Parking Lot 167 - College Nine",
+    "value": "TAPS Parking Lot 167 - College Nine"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5036",
+    "label": "TAPS parking lots 105, 115, 118, 121, 137, 141, 142, 168 and 169 were not assigned addresses because they are in close proximity to the single building that they serve.",
+    "value": "TAPS parking lots 105, 115, 118, 121, 137, 141, 142, 168 and 169 were not assigned addresses because they are in close proximity to the single building that they serve."
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5037",
+    "label": "TAPS Storage Barn ",
+    "value": "TAPS Storage Barn "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5038",
+    "label": "Theater Arts - 2nd Stage",
+    "value": "Theater Arts - 2nd Stage"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5025",
+    "label": "TAPS Parking Lot 157 - Grad Student Housing",
+    "value": "TAPS Parking Lot 157 - Grad Student Housing"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5028",
+    "label": "TAPS Parking Lot 160 - Oakes College",
+    "value": "TAPS Parking Lot 160 - Oakes College"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5027",
+    "label": "TAPS Parking Lot 159 - Redwood Grove Apartments",
+    "value": "TAPS Parking Lot 159 - Redwood Grove Apartments"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5026",
+    "label": "TAPS Parking Lot 158 - Redwood Grove Apartments",
+    "value": "TAPS Parking Lot 158 - Redwood Grove Apartments"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5016",
+    "label": "TAPS Parking Lot 148 - Hagar Court Apartments",
+    "value": "TAPS Parking Lot 148 - Hagar Court Apartments"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5017",
+    "label": "TAPS Parking Lot 149 - Heller Extension",
+    "value": "TAPS Parking Lot 149 - Heller Extension"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5018",
+    "label": "TAPS Parking Lot 150 - North Remote",
+    "value": "TAPS Parking Lot 150 - North Remote"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5019",
+    "label": "TAPS Parking Lot 151 - Women's Center",
+    "value": "TAPS Parking Lot 151 - Women's Center"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5020",
+    "label": "TAPS Parking Lot 152 - Crown-Merrill Apartments",
+    "value": "TAPS Parking Lot 152 - Crown-Merrill Apartments"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5021",
+    "label": "TAPS Parking Lot 153 - Crown-Merrill Apartments",
+    "value": "TAPS Parking Lot 153 - Crown-Merrill Apartments"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5015",
+    "label": "TAPS Parking Lot 147 - Kresge College",
+    "value": "TAPS Parking Lot 147 - Kresge College"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5024",
+    "label": "TAPS Parking Lot 156 - Crown-Merrill Apartments",
+    "value": "TAPS Parking Lot 156 - Crown-Merrill Apartments"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5023",
+    "label": "TAPS Parking Lot 155 - Crown-Merrill Apartments",
+    "value": "TAPS Parking Lot 155 - Crown-Merrill Apartments"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/5022",
+    "label": "TAPS Parking Lot 154 - Crown-Merrill Apartments",
+    "value": "TAPS Parking Lot 154 - Crown-Merrill Apartments"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4953",
+    "label": "Social Sciences 2",
+    "value": "Social Sciences 2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4955",
+    "label": "Stevenson College - Casa Cuarta",
+    "value": "Stevenson College - Casa Cuarta"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4956",
+    "label": "Stevenson College - Casa Decima",
+    "value": "Stevenson College - Casa Decima"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4957",
+    "label": "Stevenson College - Casa Decima Primera",
+    "value": "Stevenson College - Casa Decima Primera"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4954",
+    "label": "Stevenson College - Academic",
+    "value": "Stevenson College - Academic"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4958",
+    "label": "Stevenson College - Casa Novena",
+    "value": "Stevenson College - Casa Novena"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4959",
+    "label": "Stevenson College - Casa Octava",
+    "value": "Stevenson College - Casa Octava"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4960",
+    "label": "Stevenson College - Casa Primera",
+    "value": "Stevenson College - Casa Primera"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4961",
+    "label": "Stevenson College - Casa Quinta",
+    "value": "Stevenson College - Casa Quinta"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4962",
+    "label": "Stevenson College - Casa Segunda",
+    "value": "Stevenson College - Casa Segunda"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4963",
+    "label": "Stevenson College - Casa Septima",
+    "value": "Stevenson College - Casa Septima"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4952",
+    "label": "Social Sciences 1",
+    "value": "Social Sciences 1"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4951",
+    "label": "Sinsheimer Lab",
+    "value": "Sinsheimer Lab"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4940",
+    "label": "Quarry Amphitheater Dressing Rooms",
+    "value": "Quarry Amphitheater Dressing Rooms"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4941",
+    "label": "Quarry Amphitheater Public Toilet Building",
+    "value": "Quarry Amphitheater Public Toilet Building"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4942",
+    "label": "Redwood Building",
+    "value": "Redwood Building"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4943",
+    "label": "Redwood Grove Apartments - Bldg 12",
+    "value": "Redwood Grove Apartments - Bldg 12"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4944",
+    "label": "Redwood Grove Apartments - Bldg 13",
+    "value": "Redwood Grove Apartments - Bldg 13"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4945",
+    "label": "Redwood Grove Apartments - Bldg 14",
+    "value": "Redwood Grove Apartments - Bldg 14"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4946",
+    "label": "Redwood Grove Apartments - Bldg 15",
+    "value": "Redwood Grove Apartments - Bldg 15"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4947",
+    "label": "Redwood Grove Apartments - Bldg 16",
+    "value": "Redwood Grove Apartments - Bldg 16"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4948",
+    "label": "Redwood Grove Apartments - Utility bldg",
+    "value": "Redwood Grove Apartments - Utility bldg"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4949",
+    "label": "Science & Engineering Library",
+    "value": "Science & Engineering Library"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4950",
+    "label": "Sesnon Art Gallery",
+    "value": "Sesnon Art Gallery"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4939",
+    "label": "Quarry Amphitheater",
+    "value": "Quarry Amphitheater"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4964",
+    "label": "Stevenson College - Casa Sextra",
+    "value": "Stevenson College - Casa Sextra"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4979",
+    "label": "TAPS Parking Lot 103 - OPERS",
+    "value": "TAPS Parking Lot 103 - OPERS"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4980",
+    "label": "TAPS Parking Lot 104 - East Remote",
+    "value": "TAPS Parking Lot 104 - East Remote"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4981",
+    "label": "TAPS Parking Lot 106 - Humanities",
+    "value": "TAPS Parking Lot 106 - Humanities"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4982",
+    "label": "TAPS Parking Lot 107 - Cowell College",
+    "value": "TAPS Parking Lot 107 - Cowell College"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4983",
+    "label": "TAPS Parking Lot 108 - Cowell College",
+    "value": "TAPS Parking Lot 108 - Cowell College"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4984",
+    "label": "TAPS Parking Lot 109 - Stevenson",
+    "value": "TAPS Parking Lot 109 - Stevenson"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4985",
+    "label": "TAPS Parking Lot 110 - Stevenson College",
+    "value": "TAPS Parking Lot 110 - Stevenson College"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4986",
+    "label": "TAPS Parking Lot 111 - Crown College",
+    "value": "TAPS Parking Lot 111 - Crown College"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4987",
+    "label": "TAPS Parking Lot 113 - Physical Sciences",
+    "value": "TAPS Parking Lot 113 - Physical Sciences"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4988",
+    "label": "TAPS Parking Lot 114 - Social Sciences/College Ten",
+    "value": "TAPS Parking Lot 114 - Social Sciences/College Ten"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4969",
+    "label": "Stevenson College - Preceptor Apt",
+    "value": "Stevenson College - Preceptor Apt"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4978",
+    "label": "TAPS Parking Lot 102 - Bay Tree Plaza",
+    "value": "TAPS Parking Lot 102 - Bay Tree Plaza"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4977",
+    "label": "TAPS Parking Lot 101 - Hahn Student Services",
+    "value": "TAPS Parking Lot 101 - Hahn Student Services"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4965",
+    "label": "Stevenson College - Casa Tercera",
+    "value": "Stevenson College - Casa Tercera"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4966",
+    "label": "Stevenson College - Event Center",
+    "value": "Stevenson College - Event Center"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4967",
+    "label": "Stevenson College - Library",
+    "value": "Stevenson College - Library"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4968",
+    "label": "Stevenson College - Music Practice Rooms",
+    "value": "Stevenson College - Music Practice Rooms"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4970",
+    "label": "Stevenson College - Provost house",
+    "value": "Stevenson College - Provost house"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4971",
+    "label": "Stone House",
+    "value": "Stone House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4972",
+    "label": "Student Health Center",
+    "value": "Student Health Center"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4973",
+    "label": "Student Health Center Addition",
+    "value": "Student Health Center Addition"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4974",
+    "label": "Student Union",
+    "value": "Student Union"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4975",
+    "label": "Student Union - Shed",
+    "value": "Student Union - Shed"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4976",
+    "label": "Tack House",
+    "value": "Tack House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4906",
+    "label": "Oakes College - Apts D11-12, D21-22",
+    "value": "Oakes College - Apts D11-12, D21-22"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4905",
+    "label": "Oakes College - Apts C11-15, C21-25, C31-35",
+    "value": "Oakes College - Apts C11-15, C21-25, C31-35"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4904",
+    "label": "Oakes College - Apts B16-17, B26-27, B37-37",
+    "value": "Oakes College - Apts B16-17, B26-27, B37-37"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4903",
+    "label": "Oakes College - Apts B11-15, B22-25, B33-35",
+    "value": "Oakes College - Apts B11-15, B22-25, B33-35"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4907",
+    "label": "Oakes College - Apts D14-16, D23-26, D34-36",
+    "value": "Oakes College - Apts D14-16, D23-26, D34-36"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4908",
+    "label": "Oakes College - E Block",
+    "value": "Oakes College - E Block"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4909",
+    "label": "Oakes College - F Block",
+    "value": "Oakes College - F Block"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4910",
+    "label": "Oakes College - G Block",
+    "value": "Oakes College - G Block"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4911",
+    "label": "Oakes College - H Block",
+    "value": "Oakes College - H Block"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4912",
+    "label": "Oakes College - Learning Center",
+    "value": "Oakes College - Learning Center"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4914",
+    "label": "Oakes College - Service Module North",
+    "value": "Oakes College - Service Module North"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4902",
+    "label": "Oakes College - Apts A16-17, A26-27, A36-37",
+    "value": "Oakes College - Apts A16-17, A26-27, A36-37"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4901",
+    "label": "Oakes College - Apts A13-15, A23-25, A33-35",
+    "value": "Oakes College - Apts A13-15, A23-25, A33-35"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4900",
+    "label": "Oakes College - Apts A11-12, A22",
+    "value": "Oakes College - Apts A11-12, A22"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4890",
+    "label": "Merrill College Guzman Suites",
+    "value": "Merrill College Guzman Suites"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4891",
+    "label": "Merrill Electrical Substation",
+    "value": "Merrill Electrical Substation"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4892",
+    "label": "Merrill Garden - Chalet",
+    "value": "Merrill Garden - Chalet"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4893",
+    "label": "Merrill Garden - Storage Shed",
+    "value": "Merrill Garden - Storage Shed"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4894",
+    "label": "Music Center - Recital Hall",
+    "value": "Music Center - Recital Hall"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4895",
+    "label": "Natural Sciences 2",
+    "value": "Natural Sciences 2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4896",
+    "label": "Natural Sciences 2 Annex",
+    "value": "Natural Sciences 2 Annex"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4897",
+    "label": "Natural Sciences Storage Bldg",
+    "value": "Natural Sciences Storage Bldg"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4898",
+    "label": "Natural Sciences Woodshop",
+    "value": "Natural Sciences Woodshop"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4899",
+    "label": "Oakes College - Academic/Admin Bldg",
+    "value": "Oakes College - Academic/Admin Bldg"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4889",
+    "label": "Merrill College - Student Commons A",
+    "value": "Merrill College - Student Commons A"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4913",
+    "label": "Oakes College - Provost House",
+    "value": "Oakes College - Provost House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4928",
+    "label": "Porter College - A dorm",
+    "value": "Porter College - A dorm"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4929",
+    "label": "Porter College - Administration",
+    "value": "Porter College - Administration"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4930",
+    "label": "Porter College - Apartment E",
+    "value": "Porter College - Apartment E"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4931",
+    "label": "Porter College - Apartment F",
+    "value": "Porter College - Apartment F"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4932",
+    "label": "Porter College - Apartment G",
+    "value": "Porter College - Apartment G"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4933",
+    "label": "Porter College - Apartment H",
+    "value": "Porter College - Apartment H"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4934",
+    "label": "Porter College - B dorm",
+    "value": "Porter College - B dorm"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4935",
+    "label": "Porter College - Bldg I",
+    "value": "Porter College - Bldg I"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4936",
+    "label": "Porter College - Dining Commons",
+    "value": "Porter College - Dining Commons"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4937",
+    "label": "Porter College - Provost house",
+    "value": "Porter College - Provost house"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4938",
+    "label": "Powder House",
+    "value": "Powder House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4927",
+    "label": "Pool",
+    "value": "Pool"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4926",
+    "label": "Physical Science Bldg",
+    "value": "Physical Science Bldg"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4915",
+    "label": "Oakes College - Service Module Northwest",
+    "value": "Oakes College - Service Module Northwest"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4916",
+    "label": "Oakes College - Service Module South",
+    "value": "Oakes College - Service Module South"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4917",
+    "label": "Oakes College - Storage Bldg Near Provost house",
+    "value": "Oakes College - Storage Bldg Near Provost house"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4918",
+    "label": "Oakes College Casa Shabazz",
+    "value": "Oakes College Casa Shabazz"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4919",
+    "label": "Oakes Field",
+    "value": "Oakes Field"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4920",
+    "label": "OPERS Activities",
+    "value": "OPERS Activities"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4921",
+    "label": "OPERS Offices",
+    "value": "OPERS Offices"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4922",
+    "label": "OPERS Wellness Center",
+    "value": "OPERS Wellness Center"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4923",
+    "label": "Paleomagnetic Laboratory",
+    "value": "Paleomagnetic Laboratory"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4924",
+    "label": "Physical Planning and Construction Trailer 3",
+    "value": "Physical Planning and Construction Trailer 3"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4925",
+    "label": "Physical Plant Trailer 3 ",
+    "value": "Physical Plant Trailer 3 "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4867",
+    "label": "KZSC Radio Station",
+    "value": "KZSC Radio Station"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4868",
+    "label": "KZSC Storage/Transmitter building",
+    "value": "KZSC Storage/Transmitter building"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4869",
+    "label": "KZSC Transmitter Tower",
+    "value": "KZSC Transmitter Tower"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4870",
+    "label": "Lick Astronomy Shop A",
+    "value": "Lick Astronomy Shop A"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4871",
+    "label": "Lick Astronomy Shop B",
+    "value": "Lick Astronomy Shop B"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4872",
+    "label": "Lower East Field",
+    "value": "Lower East Field"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4866",
+    "label": "Kresge College - Triplets",
+    "value": "Kresge College - Triplets"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4865",
+    "label": "Kresge College - Transfer Student Center",
+    "value": "Kresge College - Transfer Student Center"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4864",
+    "label": "Kresge College - Town Hall",
+    "value": "Kresge College - Town Hall"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4863",
+    "label": "Kresge College - Recreation Room",
+    "value": "Kresge College - Recreation Room"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4862",
+    "label": "Kresge College - Provost house",
+    "value": "Kresge College - Provost house"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4861",
+    "label": "Kresge College - Literature Grad Group Annex B",
+    "value": "Kresge College - Literature Grad Group Annex B"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4860",
+    "label": "Kresge College - Literature Annex A",
+    "value": "Kresge College - Literature Annex A"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4859",
+    "label": "Kresge College - Library",
+    "value": "Kresge College - Library"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4873",
+    "label": "Main Entrance Kiosk",
+    "value": "Main Entrance Kiosk"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4874",
+    "label": "McHenry Library",
+    "value": "McHenry Library"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4887",
+    "label": "Merrill College - Provost Garage",
+    "value": "Merrill College - Provost Garage"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4886",
+    "label": "Merrill College - Ming Ong Computer Lab",
+    "value": "Merrill College - Ming Ong Computer Lab"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4885",
+    "label": "Merrill College - Library",
+    "value": "Merrill College - Library"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4884",
+    "label": "Merrill College - Faculty Office Annex",
+    "value": "Merrill College - Faculty Office Annex"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4883",
+    "label": "Merrill College - Faculty Commons",
+    "value": "Merrill College - Faculty Commons"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4882",
+    "label": "Merrill College - Event Center",
+    "value": "Merrill College - Event Center"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4881",
+    "label": "Merrill College - D Dorm",
+    "value": "Merrill College - D Dorm"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4880",
+    "label": "Merrill College - C Dorm",
+    "value": "Merrill College - C Dorm"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4879",
+    "label": "Merrill College - Baobob Lounge",
+    "value": "Merrill College - Baobob Lounge"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4878",
+    "label": "Merrill College - B Dorm",
+    "value": "Merrill College - B Dorm"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4877",
+    "label": "Merrill College - Administration",
+    "value": "Merrill College - Administration"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4876",
+    "label": "Merrill College - Academic Bldg",
+    "value": "Merrill College - Academic Bldg"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4875",
+    "label": "Merrill College - A Dorm",
+    "value": "Merrill College - A Dorm"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4888",
+    "label": "Merrill College - Provost house",
+    "value": "Merrill College - Provost house"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4858",
+    "label": "Kresge College - House 9 ",
+    "value": "Kresge College - House 9 "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4846",
+    "label": "Kresge College - Classroom",
+    "value": "Kresge College - Classroom"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4845",
+    "label": "Kresge College - Aptartment K",
+    "value": "Kresge College - Aptartment K"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4844",
+    "label": "Kresge College - Apartment  J",
+    "value": "Kresge College - Apartment  J"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4843",
+    "label": "Kresge College - Administration Bldg",
+    "value": "Kresge College - Administration Bldg"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4842",
+    "label": "Kiosk, West entrance",
+    "value": "Kiosk, West entrance"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4841",
+    "label": "Kerr Hall",
+    "value": "Kerr Hall"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4840",
+    "label": "ITS Network Telecommunications Plant",
+    "value": "ITS Network Telecommunications Plant"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4839",
+    "label": "Interdisciplinary Sciences Bldg ",
+    "value": "Interdisciplinary Sciences Bldg "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4847",
+    "label": "Kresge College - Computer Room",
+    "value": "Kresge College - Computer Room"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4848",
+    "label": "Kresge College - House 1",
+    "value": "Kresge College - House 1"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4849",
+    "label": "Kresge College - House 10 ",
+    "value": "Kresge College - House 10 "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4857",
+    "label": "Kresge College - House 8 ",
+    "value": "Kresge College - House 8 "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4856",
+    "label": "Kresge College - House 7 ",
+    "value": "Kresge College - House 7 "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4855",
+    "label": "Kresge College - House 6 ",
+    "value": "Kresge College - House 6 "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4854",
+    "label": "Kresge College - House 5 ",
+    "value": "Kresge College - House 5 "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4853",
+    "label": "Kresge College - House 4 ",
+    "value": "Kresge College - House 4 "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4852",
+    "label": "Kresge College - House 3",
+    "value": "Kresge College - House 3"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4851",
+    "label": "Kresge College - House 2",
+    "value": "Kresge College - House 2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4850",
+    "label": "Kresge College - House 11",
+    "value": "Kresge College - House 11"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4804",
+    "label": "Farm CASFS Soils Building",
+    "value": "Farm CASFS Soils Building"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4803",
+    "label": "Farm CASFS Lab Bldg",
+    "value": "Farm CASFS Lab Bldg"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4805",
+    "label": "Farm Center ",
+    "value": "Farm Center "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4806",
+    "label": "Farm Equipment Shed/sleeploft",
+    "value": "Farm Equipment Shed/sleeploft"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4807",
+    "label": "Farm Gatehouse",
+    "value": "Farm Gatehouse"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4808",
+    "label": "Farm Goat Shed",
+    "value": "Farm Goat Shed"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4809",
+    "label": "Farm Greenhouse",
+    "value": "Farm Greenhouse"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4810",
+    "label": "Farm Library ",
+    "value": "Farm Library "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4811",
+    "label": "Farm Life Lab",
+    "value": "Farm Life Lab"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4812",
+    "label": "Farm Project - CSA Shed",
+    "value": "Farm Project - CSA Shed"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4813",
+    "label": "Farm Slaughter House",
+    "value": "Farm Slaughter House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4802",
+    "label": "Farm Bee Shed",
+    "value": "Farm Bee Shed"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4801",
+    "label": "Farm Apprentice Cabin 9",
+    "value": "Farm Apprentice Cabin 9"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4800",
+    "label": "Farm Apprentice Cabin 8",
+    "value": "Farm Apprentice Cabin 8"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4790",
+    "label": "Family Student Housing - Maintenance",
+    "value": "Family Student Housing - Maintenance"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4791",
+    "label": "Family Student Housing - Playing Field",
+    "value": "Family Student Housing - Playing Field"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4792",
+    "label": "Family Student Housing - School Age Childcare",
+    "value": "Family Student Housing - School Age Childcare"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4793",
+    "label": "Farm Apprentice Cabin 1",
+    "value": "Farm Apprentice Cabin 1"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4794",
+    "label": "Farm Apprentice Cabin 2",
+    "value": "Farm Apprentice Cabin 2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4795",
+    "label": "Farm Apprentice Cabin 3",
+    "value": "Farm Apprentice Cabin 3"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4796",
+    "label": "Farm Apprentice Cabin 4",
+    "value": "Farm Apprentice Cabin 4"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4797",
+    "label": "Farm Apprentice Cabin 5",
+    "value": "Farm Apprentice Cabin 5"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4798",
+    "label": "Farm Apprentice Cabin 6",
+    "value": "Farm Apprentice Cabin 6"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4799",
+    "label": "Farm Apprentice Cabin 7",
+    "value": "Farm Apprentice Cabin 7"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4789",
+    "label": "Family Student Housing - Infant/Toddler Childcare",
+    "value": "Family Student Housing - Infant/Toddler Childcare"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4814",
+    "label": "Farm Vegetable Packing Shed",
+    "value": "Farm Vegetable Packing Shed"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4828",
+    "label": "Hagar Court - Laundry",
+    "value": "Hagar Court - Laundry"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4829",
+    "label": "Hahn Art Facility",
+    "value": "Hahn Art Facility"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4830",
+    "label": "Hahn Student Services",
+    "value": "Hahn Student Services"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4831",
+    "label": "Hay Barn",
+    "value": "Hay Barn"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4832",
+    "label": "Hazardous Waste Storage",
+    "value": "Hazardous Waste Storage"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4833",
+    "label": "Heat Plant - Cooling Tower",
+    "value": "Heat Plant - Cooling Tower"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4834",
+    "label": "Heat Plant Boilers",
+    "value": "Heat Plant Boilers"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4835",
+    "label": "Humanities & Social Sciences",
+    "value": "Humanities & Social Sciences"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4836",
+    "label": "Humanities 1",
+    "value": "Humanities 1"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4837",
+    "label": "Humanities Lecture Hall",
+    "value": "Humanities Lecture Hall"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4838",
+    "label": "Humanities Restroom Building",
+    "value": "Humanities Restroom Building"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4827",
+    "label": "H Barn",
+    "value": "H Barn"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4826",
+    "label": "Grounds Trailer 2",
+    "value": "Grounds Trailer 2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4815",
+    "label": "Firehouse",
+    "value": "Firehouse"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4816",
+    "label": "G Barn",
+    "value": "G Barn"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4817",
+    "label": "Gamelan Studio",
+    "value": "Gamelan Studio"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4818",
+    "label": "GLBTIRC",
+    "value": "GLBTIRC"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4819",
+    "label": "Global Village Café ",
+    "value": "Global Village Café "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4820",
+    "label": "Graduate Commons",
+    "value": "Graduate Commons"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4821",
+    "label": "Graduate Student Housing  Laundry",
+    "value": "Graduate Student Housing  Laundry"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4822",
+    "label": "Graduate Student Housing - House 1",
+    "value": "Graduate Student Housing - House 1"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4823",
+    "label": "Graduate Student Housing - House 2",
+    "value": "Graduate Student Housing - House 2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4824",
+    "label": "Graduate Student Housing - House 3",
+    "value": "Graduate Student Housing - House 3"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4825",
+    "label": "Granary",
+    "value": "Granary"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4756",
+    "label": "Crown College - Maxwell House",
+    "value": "Crown College - Maxwell House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4755",
+    "label": "Crown College - Library",
+    "value": "Crown College - Library"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4754",
+    "label": "Crown College - Leonardo House",
+    "value": "Crown College - Leonardo House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4753",
+    "label": "Crown College - Harvey House",
+    "value": "Crown College - Harvey House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4757",
+    "label": "Crown College - Provost House",
+    "value": "Crown College - Provost House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4758",
+    "label": "Crown College - Rutherford House",
+    "value": "Crown College - Rutherford House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4759",
+    "label": "Crown/Merrill  Community Room",
+    "value": "Crown/Merrill  Community Room"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4760",
+    "label": "Crown/Merrill Apartments  11",
+    "value": "Crown/Merrill Apartments  11"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4761",
+    "label": "Crown/Merrill Apartments 1",
+    "value": "Crown/Merrill Apartments 1"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4762",
+    "label": "Crown/Merrill Apartments 10",
+    "value": "Crown/Merrill Apartments 10"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4763",
+    "label": "Crown/Merrill Apartments 12",
+    "value": "Crown/Merrill Apartments 12"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4752",
+    "label": "Crown College - Gauss House",
+    "value": "Crown College - Gauss House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4751",
+    "label": "Crown College - Gatehouse",
+    "value": "Crown College - Gatehouse"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4750",
+    "label": "Crown College - Galileo House",
+    "value": "Crown College - Galileo House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4739",
+    "label": "Cowell College - Prescott House",
+    "value": "Cowell College - Prescott House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4740",
+    "label": "Cowell College - Provost Garage",
+    "value": "Cowell College - Provost Garage"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4741",
+    "label": "Cowell College - Provost House",
+    "value": "Cowell College - Provost House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4742",
+    "label": "Cowell College - Turner House",
+    "value": "Cowell College - Turner House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4743",
+    "label": "Crown College - Administration",
+    "value": "Crown College - Administration"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4744",
+    "label": "Crown College - Classroom Bldg",
+    "value": "Crown College - Classroom Bldg"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4745",
+    "label": "Crown College - Descartes House",
+    "value": "Crown College - Descartes House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4746",
+    "label": "Crown College - Dining Commons",
+    "value": "Crown College - Dining Commons"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4747",
+    "label": "Crown College - Faculty Apartment",
+    "value": "Crown College - Faculty Apartment"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4749",
+    "label": "Crown College - Galen House",
+    "value": "Crown College - Galen House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4748",
+    "label": "Crown College - Faculty Offices",
+    "value": "Crown College - Faculty Offices"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4764",
+    "label": "Crown/Merrill Apartments 13",
+    "value": "Crown/Merrill Apartments 13"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4778",
+    "label": "East Fieldhouse",
+    "value": "East Fieldhouse"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4779",
+    "label": "East Fieldhouse - Tennis Court Building",
+    "value": "East Fieldhouse - Tennis Court Building"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4780",
+    "label": "East Fieldhouse - Tennis Courts",
+    "value": "East Fieldhouse - Tennis Courts"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4781",
+    "label": "Emergency Response Center",
+    "value": "Emergency Response Center"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4782",
+    "label": "Emergency Response Storage",
+    "value": "Emergency Response Storage"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4783",
+    "label": "Engineering 2",
+    "value": "Engineering 2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4784",
+    "label": "Environmental Health & Safety - Trailer ",
+    "value": "Environmental Health & Safety - Trailer "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4785",
+    "label": "Fackler Co-generation Facility",
+    "value": "Fackler Co-generation Facility"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4786",
+    "label": "Faculty Housing Office",
+    "value": "Faculty Housing Office"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4787",
+    "label": "Family Student Housing - Blue Note Café",
+    "value": "Family Student Housing - Blue Note Café"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4788",
+    "label": "Family Student Housing - Child Care Center ",
+    "value": "Family Student Housing - Child Care Center "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4777",
+    "label": "East Field",
+    "value": "East Field"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4776",
+    "label": "Earth & Marine Sciences",
+    "value": "Earth & Marine Sciences"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4765",
+    "label": "Crown/Merrill Apartments 14",
+    "value": "Crown/Merrill Apartments 14"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4766",
+    "label": "Crown/Merrill Apartments 2",
+    "value": "Crown/Merrill Apartments 2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4767",
+    "label": "Crown/Merrill Apartments 3",
+    "value": "Crown/Merrill Apartments 3"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4768",
+    "label": "Crown/Merrill Apartments 4",
+    "value": "Crown/Merrill Apartments 4"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4769",
+    "label": "Crown/Merrill Apartments 5",
+    "value": "Crown/Merrill Apartments 5"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4770",
+    "label": "Crown/Merrill Apartments 6",
+    "value": "Crown/Merrill Apartments 6"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4771",
+    "label": "Crown/Merrill Apartments 7",
+    "value": "Crown/Merrill Apartments 7"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4772",
+    "label": "Crown/Merrill Apartments 8",
+    "value": "Crown/Merrill Apartments 8"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4773",
+    "label": "Crown/Merrill Apartments 9",
+    "value": "Crown/Merrill Apartments 9"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4774",
+    "label": "Crown/Merrill Maintenance Shop/Laundry Room",
+    "value": "Crown/Merrill Maintenance Shop/Laundry Room"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4775",
+    "label": "DARC",
+    "value": "DARC"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4706",
+    "label": "College 9 - Gandhi House",
+    "value": "College 9 - Gandhi House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4705",
+    "label": "College 8 - Student Commons",
+    "value": "College 8 - Student Commons"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4704",
+    "label": "College 8 - Kitchen",
+    "value": "College 8 - Kitchen"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4703",
+    "label": "College 8 - Dorm D-L",
+    "value": "College 8 - Dorm D-L"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4707",
+    "label": "College 9 - Geneva House",
+    "value": "College 9 - Geneva House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4708",
+    "label": "College 9 - Hague House",
+    "value": "College 9 - Hague House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4709",
+    "label": "College 9 - Namaste Lounge",
+    "value": "College 9 - Namaste Lounge"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4710",
+    "label": "College 9/10 - Apartment 1",
+    "value": "College 9/10 - Apartment 1"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4711",
+    "label": "College 9/10 - Apartment 2",
+    "value": "College 9/10 - Apartment 2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4712",
+    "label": "College 9/10 - Apartment 3",
+    "value": "College 9/10 - Apartment 3"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4713",
+    "label": "College 9/10 - Apartment 4",
+    "value": "College 9/10 - Apartment 4"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4702",
+    "label": "College 8 - Dorm D-Garden",
+    "value": "College 8 - Dorm D-Garden"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4701",
+    "label": "College 8 - Dorm C-L",
+    "value": "College 8 - Dorm C-L"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4700",
+    "label": "College 8 - Dorm C-Garden",
+    "value": "College 8 - Dorm C-Garden"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4689",
+    "label": "College 8 - Apartment 2",
+    "value": "College 8 - Apartment 2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4690",
+    "label": "College 8 - Apartment 3",
+    "value": "College 8 - Apartment 3"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4691",
+    "label": "College 8 - Apartment 4",
+    "value": "College 8 - Apartment 4"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4693",
+    "label": "College 8 - Apartment 6",
+    "value": "College 8 - Apartment 6"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4694",
+    "label": "College 8 - Café",
+    "value": "College 8 - Café"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4695",
+    "label": "College 8 - Dining Hall",
+    "value": "College 8 - Dining Hall"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4696",
+    "label": "College 8 - Dorm A-Garden",
+    "value": "College 8 - Dorm A-Garden"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4697",
+    "label": "College 8 - Dorm A-L",
+    "value": "College 8 - Dorm A-L"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4698",
+    "label": "College 8 - Dorm B-Garden",
+    "value": "College 8 - Dorm B-Garden"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4699",
+    "label": "College 8 - Dorm B-L",
+    "value": "College 8 - Dorm B-L"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4692",
+    "label": "College 8 - Apartment 5",
+    "value": "College 8 - Apartment 5"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4714",
+    "label": "College 9/10 - Apartment 5",
+    "value": "College 9/10 - Apartment 5"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4729",
+    "label": "Cowell College - Apartment 4",
+    "value": "Cowell College - Apartment 4"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4730",
+    "label": "Cowell College - Beard House",
+    "value": "Cowell College - Beard House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4731",
+    "label": "Cowell College - Classroom Bldg",
+    "value": "Cowell College - Classroom Bldg"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4732",
+    "label": "Cowell College - Cowell Annex",
+    "value": "Cowell College - Cowell Annex"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4733",
+    "label": "Cowell College - Dining Commons",
+    "value": "Cowell College - Dining Commons"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4734",
+    "label": "Cowell College - Eloise Pickard Smith Gallery",
+    "value": "Cowell College - Eloise Pickard Smith Gallery"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4735",
+    "label": "Cowell College - Library",
+    "value": "Cowell College - Library"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4736",
+    "label": "Cowell College - Morison House",
+    "value": "Cowell College - Morison House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4737",
+    "label": "Cowell College - Parkman House",
+    "value": "Cowell College - Parkman House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4738",
+    "label": "Cowell College - Parrington House",
+    "value": "Cowell College - Parrington House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4721",
+    "label": "Cooling Tower 2",
+    "value": "Cooling Tower 2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4728",
+    "label": "Cowell College - Apartment 3",
+    "value": "Cowell College - Apartment 3"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4727",
+    "label": "Cowell College - Apartment 1 ",
+    "value": "Cowell College - Apartment 1 "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4726",
+    "label": "Cowell College - Apartment  2",
+    "value": "Cowell College - Apartment  2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4715",
+    "label": "College 9/10 - Community Room",
+    "value": "College 9/10 - Community Room"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4716",
+    "label": "College 9/10 - Dining Commons",
+    "value": "College 9/10 - Dining Commons"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4717",
+    "label": "Communications Bldg",
+    "value": "Communications Bldg"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4718",
+    "label": "Communications Trailer 2 ",
+    "value": "Communications Trailer 2 "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4719",
+    "label": "Communications Trailer 9 ",
+    "value": "Communications Trailer 9 "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4720",
+    "label": "Cookhouse",
+    "value": "Cookhouse"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4722",
+    "label": "Cooperage",
+    "value": "Cooperage"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4723",
+    "label": "Core West Parking Structure  ",
+    "value": "Core West Parking Structure  "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4724",
+    "label": "Cowell College - Academic Bldg",
+    "value": "Cowell College - Academic Bldg"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4725",
+    "label": "Cowell College - Adams House",
+    "value": "Cowell College - Adams House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4662",
+    "label": "Baskin Visual Arts - Bldg G",
+    "value": "Baskin Visual Arts - Bldg G"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4655",
+    "label": "Baskin Engineering Bldg ",
+    "value": "Baskin Engineering Bldg "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4654",
+    "label": "Baskin Engineering Auditorium",
+    "value": "Baskin Engineering Auditorium"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4653",
+    "label": "Barn Theater",
+    "value": "Barn Theater"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4652",
+    "label": "ATM Wells Fargo",
+    "value": "ATM Wells Fargo"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4656",
+    "label": "Baskin Visual Arts - Bldg A",
+    "value": "Baskin Visual Arts - Bldg A"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4657",
+    "label": "Baskin Visual Arts - Bldg B",
+    "value": "Baskin Visual Arts - Bldg B"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4658",
+    "label": "Baskin Visual Arts - Bldg C",
+    "value": "Baskin Visual Arts - Bldg C"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4659",
+    "label": "Baskin Visual Arts - Bldg D",
+    "value": "Baskin Visual Arts - Bldg D"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4660",
+    "label": "Baskin Visual Arts - Bldg E",
+    "value": "Baskin Visual Arts - Bldg E"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4661",
+    "label": "Baskin Visual Arts - Bldg F",
+    "value": "Baskin Visual Arts - Bldg F"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4651",
+    "label": "ATM Bay Federal/Bank of America",
+    "value": "ATM Bay Federal/Bank of America"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4650",
+    "label": "Arboretum Dome 3",
+    "value": "Arboretum Dome 3"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4639",
+    "label": "Academic Resource Center",
+    "value": "Academic Resource Center"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4640",
+    "label": "Academic Resource Center Press Bldg",
+    "value": "Academic Resource Center Press Bldg"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4641",
+    "label": "Agroecology Modular A1",
+    "value": "Agroecology Modular A1"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4642",
+    "label": "Agroecology Modular A2",
+    "value": "Agroecology Modular A2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4643",
+    "label": "Agroecology Modular A3",
+    "value": "Agroecology Modular A3"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4644",
+    "label": "Arboretum - Gatehouse",
+    "value": "Arboretum - Gatehouse"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4645",
+    "label": "Arboretum - Gift shop",
+    "value": "Arboretum - Gift shop"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4646",
+    "label": "Arboretum - Horticulture 1",
+    "value": "Arboretum - Horticulture 1"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4647",
+    "label": "Arboretum - Horticulture 2",
+    "value": "Arboretum - Horticulture 2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4648",
+    "label": "Arboretum Dome 1",
+    "value": "Arboretum Dome 1"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4649",
+    "label": "Arboretum Dome 2",
+    "value": "Arboretum Dome 2"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4665",
+    "label": "Baskin Visual Arts - Bldg J",
+    "value": "Baskin Visual Arts - Bldg J"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4663",
+    "label": "Baskin Visual Arts - Bldg H",
+    "value": "Baskin Visual Arts - Bldg H"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4664",
+    "label": "Baskin Visual Arts - Bldg I",
+    "value": "Baskin Visual Arts - Bldg I"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4679",
+    "label": "Cardiff House",
+    "value": "Cardiff House"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4680",
+    "label": "Carriage House ",
+    "value": "Carriage House "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4681",
+    "label": "Carriage House Annex",
+    "value": "Carriage House Annex"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4682",
+    "label": "Center for Adaptive Optics",
+    "value": "Center for Adaptive Optics"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4683",
+    "label": "Classroom Unit ",
+    "value": "Classroom Unit "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4684",
+    "label": "College 10 - Res Hall 4",
+    "value": "College 10 - Res Hall 4"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4685",
+    "label": "College 10 - Res Hall 5",
+    "value": "College 10 - Res Hall 5"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4686",
+    "label": "College 10 - Res Hall 6",
+    "value": "College 10 - Res Hall 6"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4687",
+    "label": "College 8 - Academic Building",
+    "value": "College 8 - Academic Building"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4688",
+    "label": "College 8 - Apartment 1",
+    "value": "College 8 - Apartment 1"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4678",
+    "label": "Campus Facilities - Sign Shop",
+    "value": "Campus Facilities - Sign Shop"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4677",
+    "label": "Campus Facilities - Grounds Trailer 1 ",
+    "value": "Campus Facilities - Grounds Trailer 1 "
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4676",
+    "label": "Campus Facilities - Garage",
+    "value": "Campus Facilities - Garage"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4666",
+    "label": "Baskin Visual Arts - Bldg K",
+    "value": "Baskin Visual Arts - Bldg K"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4667",
+    "label": "Baskin Visual Arts - Bldg L",
+    "value": "Baskin Visual Arts - Bldg L"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4668",
+    "label": "Baskin Visual Arts - Bldg M",
+    "value": "Baskin Visual Arts - Bldg M"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4669",
+    "label": "Baskin Visual Arts - Bldg N",
+    "value": "Baskin Visual Arts - Bldg N"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4670",
+    "label": "Baskin Visual Arts - Bldg P",
+    "value": "Baskin Visual Arts - Bldg P"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4671",
+    "label": "Baytree Bookstore",
+    "value": "Baytree Bookstore"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4672",
+    "label": "BioMed",
+    "value": "BioMed"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4673",
+    "label": "Blacksmith Shop",
+    "value": "Blacksmith Shop"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4674",
+    "label": "Camper Park Recreation Building",
+    "value": "Camper Park Recreation Building"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/4675",
+    "label": "Campus Facilities - Bug Shop",
+    "value": "Campus Facilities - Bug Shop"
+  },
+  {
+    "link": "http://building-address.ucsc.edu/node/2874",
+    "label": "test import 8",
+    "value": "test import 8"
+  }
+]

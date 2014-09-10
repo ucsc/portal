@@ -173,6 +173,30 @@
       "src": "typicons"
     },
     {
+      "uid": "524f670504958d3e32ef887b99d8aca2",
+      "css": "down-circle",
+      "code": 59400,
+      "src": "iconic"
+    },
+    {
+      "uid": "a263473d2d406881ea08f991c1b38694",
+      "css": "left-circle",
+      "code": 59414,
+      "src": "iconic"
+    },
+    {
+      "uid": "ccee648b9e12a533f6957967e29ebdef",
+      "css": "right-circle",
+      "code": 59423,
+      "src": "iconic"
+    },
+    {
+      "uid": "55ba7d8f711ce265df7de4ab7f148e65",
+      "css": "up-circle",
+      "code": 59456,
+      "src": "iconic"
+    },
+    {
       "uid": "48050e07077b01021f7fbdbbec8f7de7",
       "css": "sun",
       "code": 59457,

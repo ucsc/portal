@@ -3,7 +3,7 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 body {
@@ -20,8 +20,15 @@ body {
 nav,
 article {
     height: 100%;
-    overflow: auto;
+    //overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto; /* has to be scroll, not auto */
     float: left;
+
+    section {
+      -webkit-overflow-scrolling: touch;
+      //height: 100%;
+    }
 }
 
 nav {
@@ -31,6 +38,7 @@ nav {
 article {
   border-right: 1px $gray-border solid;
   z-index:3;
+  //margin-left: -102%;
 }
 
 article:last-child {
@@ -43,10 +51,14 @@ main {
     z-index:2;
 }
 
-.active a,a.active {
+.active a,a.active, .active2 a,a.active2 {
     color: $light;
 }
 
 .pull-left {
   float: left;
 }
+
+*:focus {outline:0;}
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}

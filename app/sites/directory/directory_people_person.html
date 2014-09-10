@@ -1,0 +1,26 @@
+<article role="detail">
+	<button ui-sref="{{trackback}}" class="left-nav icon-cancel-circled"></button>
+	<header>
+		<span ng-show="person.jpegphoto">
+			<img ng-src="{{person.jpegphoto}}"/>
+		</span>
+		<h1 ng-show="person.cn[0]">{{person.cn[0]}}</h1>
+		<p ng-show="person.title[0]">{{person.title[0]}}</p>
+		
+	</header>
+	<section class="body">
+		<ul>
+			<li class="icon-location" ng-show="person.ucscdirectorypersonmailstop[0]">
+				<span style="white-space: pre;">{{person.ucscdirectorypersonmailstop[0]}}</span>
+			</li>
+			<li class="icon-telephone" ng-show="person.telephonenumber[0]">
+				<a ng-href="tel:{{person.telephonenumber[0]}}">{{person.telephonenumber[0]}}</a>
+			</li>
+			<li class="icon-mail" ng-show="person.mail[0]">
+				<a ng-href="mailto:{{person.mail[0]}}">{{person.mail[0]}}</a>
+			</li>
+		</ul>
+		
+		
+	</section>
+</article>

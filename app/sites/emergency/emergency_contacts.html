@@ -1,11 +1,12 @@
-<article role="list">
+<article role="list" class="slide">
 	<header>
 		<button ui-sref="main.emergency" class="left-nav icon-cancel-circled"></button>
 		<div class="wrapper">
 			<h1><span>Contacts</span></h1>
 		</div>
 	</header>
-	<section class="body">	
+	<section class="body">
+		<div class="wrapper">
 		<ul>
 			<a ng-repeat="contact in contacts" ui-sref-active="active" ui-sref=".contact-detail({url:'{{contact.url}}'})">
 				<li>
@@ -13,6 +14,7 @@
 				</li>
 			</a>
 		</ul>
+		</div>
 	</section>
 </article>
 <ui-view></ui-view>

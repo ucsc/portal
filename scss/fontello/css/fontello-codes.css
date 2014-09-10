@@ -7,6 +7,7 @@
 .icon-ok-circled:before { content: '\e805'; } /* '' */
 .icon-feather:before { content: '\e806'; } /* '' */
 .icon-compass:before { content: '\e807'; } /* '' */
+.icon-down-circle:before { content: '\e808'; } /* '' */
 .icon-user:before { content: '\e809'; } /* '' */
 .icon-user-woman:before { content: '\e80a'; } /* '' */
 .icon-user-pair:before { content: '\e80b'; } /* '' */
@@ -20,6 +21,7 @@
 .icon-rss:before { content: '\e813'; } /* '' */
 .icon-telephone:before { content: '\e814'; } /* '' */
 .icon-mail:before { content: '\e815'; } /* '' */
+.icon-left-circle:before { content: '\e816'; } /* '' */
 .icon-cloudy:before { content: '\e817'; } /* '' */
 .icon-snow:before { content: '\e818'; } /* '' */
 .icon-fog-cloud:before { content: '\e819'; } /* '' */
@@ -28,6 +30,7 @@
 .icon-hail:before { content: '\e81c'; } /* '' */
 .icon-rain:before { content: '\e81d'; } /* '' */
 .icon-cloud-flash:before { content: '\e81e'; } /* '' */
+.icon-right-circle:before { content: '\e81f'; } /* '' */
 .icon-cloudy-moon:before { content: '\e820'; } /* '' */
 .icon-fahrenheit:before { content: '\e821'; } /* '' */
 .icon-celcius:before { content: '\e822'; } /* '' */
@@ -60,5 +63,6 @@
 .icon-restaurant:before { content: '\e83d'; } /* '' */
 .icon-asl:before { content: '\e83e'; } /* '' */
 .icon-extinguisher:before { content: '\e83f'; } /* '' */
+.icon-up-circle:before { content: '\e840'; } /* '' */
 .icon-sun:before { content: '\e841'; } /* '' */
 .icon-moon:before { content: '\e842'; } /* '' */

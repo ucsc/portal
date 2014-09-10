@@ -1,6 +1,18 @@
 nav[role="navigation"] {
-    width: 300px;
-    background-color: #222B2D;
+    width: 274px;
+    //background-color: #222B2D;
+    background: #001129 url('/inc/img/nav_bg.png') no-repeat top left;
+    @media
+      only screen and (-webkit-min-device-pixel-ratio: 2),
+      only screen and (   min--moz-device-pixel-ratio: 2),
+      only screen and (     -o-min-device-pixel-ratio: 2/1),
+      only screen and (        min-device-pixel-ratio: 2),
+      only screen and (                min-resolution: 192dpi),
+      only screen and (                min-resolution: 2dppx) { 
+        background: #001129 url('/inc/img/nav_bg@2x.png') no-repeat top left;
+        background-size: 274px auto;
+    }
+
     float:block;
     position:absolute;
     top:0;
@@ -8,9 +20,32 @@ nav[role="navigation"] {
     bottom:0;
     left:0;
 
+    header {
+      padding: 2em;
+      h1.wordmark {
+        width: 156px; 
+        height: 31px;
+        background: url('/inc/img/ucsc_logo3.png') no-repeat top left;
+        @media
+          only screen and (-webkit-min-device-pixel-ratio: 2),
+          only screen and (   min--moz-device-pixel-ratio: 2),
+          only screen and (     -o-min-device-pixel-ratio: 2/1),
+          only screen and (        min-device-pixel-ratio: 2),
+          only screen and (                min-resolution: 192dpi),
+          only screen and (                min-resolution: 2dppx) { 
+            background: url('/inc/img/ucsc_logo@2x.png') no-repeat top left;
+            background-size: 135px 27px;
+        }
+        text-indent: -9999px;
+        opacity: 0.8; 
+        filter: alpha(opacity=8);
+
+      }
+    }
+
     .page-wrap {
-    	min-height: 100%;
-    	margin-bottom: -145px;
+    	//min-height: 100%;
+    	//margin-bottom: -145px;
     }
     .page-wrap:after {
   		content: "";
@@ -71,12 +106,12 @@ nav[role="navigation"] {
     //display: none;
     //}
     section[role="report"] {
-        background: linear-gradient(0deg, #222b2d, #3f3d28 90%) no-repeat;
+        background: linear-gradient(0deg, #222b2d, #33352A 90%) no-repeat;
         height: 120px;
-        padding-top: 1.2em;
+        padding-top: 1em;
         .left,.right {
             float: left;
-            padding-left: 2.5em;
+            padding-left: 2.1em;
         }
         .temp, .tide {
             color: $light;
@@ -85,7 +120,7 @@ nav[role="navigation"] {
             vertical-align: super;
         }
         .left {
-        	margin-left: 5px;
+        	//margin-left: 5px;
         }
         .weather {
             color: $gray;
@@ -125,22 +160,22 @@ nav[role="navigation"] {
         	font-size: $font-size-small;
         	font-weight: 400;
         	color: $gray;
-        	opacity: 0.25;
+        	opacity: 0.35;
         	text-transform: uppercase;
         	padding-bottom: .75em;
         	margin-top: 0px;
         }
     }
     section[role="nav"] {
-    	margin-top: -40px;
+    	margin-top: -4px;
 
     	h1 {
         	font-size: $font-size-medium;
         	font-weight: 500;
         	color: $gray;
-        	opacity: 0.4;
+        	opacity: 0.35;
         	text-transform: uppercase;
-        	padding-left: 2.75em;
+        	padding-left: 2.5em;
         	padding-bottom: .75em;
     	}
 
@@ -149,14 +184,15 @@ nav[role="navigation"] {
     			color: $gray;
     			text-decoration: none;
     			li {
-    				padding: 15px 0;
+    				padding: 13px 0;
+
     				span {
-    					padding-left: 1.9em;
+    					padding-left: 34px;
     					font-size: 17px;
     					font-weight: 400;
 
     					i {
-    						font-size: 20px;
+    						font-size: 18px;
     						padding-right: 12px;
     						font-weight: 100;
     						color: #727779;
@@ -169,6 +205,11 @@ nav[role="navigation"] {
 
     		a:hover, a.active {
     			color: $light;
+
+          li span {
+            //border-left: 3px $light-gray solid;
+            //padding-left: 31px;
+          }
 
     			i {
     				color: #CCCECE;

@@ -1,0 +1,152 @@
+{
+  "menu": [
+    {
+      "title": "Search",
+      "icon": "icon-search",
+      "teaser": "People, Departments, Email",
+      "url": ".search"
+    },
+    {
+      "title": "Browse",
+      "icon": "icon-user-pair",
+      "teaser": "Browse by divisions",
+      "url": ".browse"
+    }
+  ],
+  "people": [
+    {
+      "title": "Staff",
+      "url": "staff"
+    },
+    {
+      "title": "Faculty",
+      "url": "faculty"
+    }
+  ],
+  "students-undergrad": [
+    {
+      "title": "Cowell College",
+      "url": "cowell"
+    },
+    {
+      "title": "Stevenson College",
+      "url": "stevenson"
+    },
+    {
+      "title": "Crown College",
+      "url": "crown"
+    },
+    {
+      "title": "Merill College",
+      "url": "merrill"
+    },
+    {
+      "title": "Porter College",
+      "url": "porter"
+    },
+    {
+      "title": "Kresge College",
+      "url": "kresge"
+    },
+    {
+      "title": "Oakes College",
+      "url": "oakes"
+    },
+    {
+      "title": "College Eight",
+      "url": "eight"
+    },
+    {
+      "title": "College Nine",
+      "url": "nine"
+    },
+    {
+      "title": "College Ten",
+      "url": "ten"
+    }
+  ],
+  "students": [
+    {
+      "title": "Arts",
+      "url": "arts"
+    },
+    {
+      "title": "Engineering",
+      "url": "engineering"
+    },
+    {
+      "title": "Humanities",
+      "url": "humanities"
+    },
+    {
+      "title": "Physical & Biological Sciences",
+      "url": "bio"
+    },
+    {
+      "title": "Social Sciences",
+      "url": "social"
+    }
+  ],
+  "staff": [
+    {
+      "title": "Arts",
+      "url": "arts"
+    },
+    {
+      "title": "Engineering",
+      "url": "engineering"
+    },
+    {
+      "title": "Humanities",
+      "url": "humanities"
+    },
+    {
+      "title": "Physical & Biological Sciences",
+      "url": "bio"
+    },
+    {
+      "title": "Social Sciences",
+      "url": "social"
+    }
+  ],
+  "faculty": [
+    {
+      "title": "Arts",
+      "url": "arts"
+    },
+    {
+      "title": "Engineering",
+      "url": "engineering"
+    },
+    {
+      "title": "Humanities",
+      "url": "humanities"
+    },
+    {
+      "title": "Physical & Biological Sciences",
+      "url": "bio"
+    },
+    {
+      "title": "Social Sciences",
+      "url": "social"
+    }
+  ],
+  "buildings": [
+    {
+      "title": "Colleges",
+      "url": "colleges"
+    },
+    {
+      "title": "Dorms",
+      "url": "dorms"
+    },
+    {
+      "title": "Offices",
+      "url": "offices"
+    },
+    {
+      "title": "Facilities",
+      "url": "facilities"
+    }
+  ]
+}

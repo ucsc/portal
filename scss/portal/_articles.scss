@@ -1,5 +1,14 @@
 main {
-	margin-left: 300px;
+	margin-left: 0;
+/*
+  -webkit-overflow-scrolling: touch;
+  -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s;
+  -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s;
+  -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s;
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s;
+*/
+  
+  /*
 	@include breakpoint(one-col) { 
     	margin-left: 0;
     }
@@ -8,16 +17,60 @@ main {
     	margin-left: 0;
     	-webkit-transform: none;
     }
+    */
 
 }
-main.close {
-	margin-left: 0;
-	@include breakpoint(two-col) {
-		-webkit-transform: translate3d(300px, 0, 0);
-	}
+
+main.drawer {
+	margin-left: 274px;
+
+  
+  .state-1 &{
+    @include breakpoint(one-col) { 
+      margin-left: 0;
+      -webkit-transform: translate3d(274px, 0, 0);
+    }
+  }
+  .state-2 &{
+    @include breakpoint(one-col) { 
+      margin-left: 0;
+    }
+  }
+  .state-3 &{
+    @include breakpoint(one-col) { 
+      margin-left: 0;
+    }
+    @include breakpoint(two-col) { 
+      margin-left: 0;
+    }
+  }
+  .state-4 &{
+    @include breakpoint(one-col) { 
+      margin-left: 0;
+    }
+    @include breakpoint(two-col) { 
+      margin-left: 0;
+    }
+    @include breakpoint(three-col) { 
+      margin-left: 0;
+    }
+  }
+  .state-5 &{
+    @include breakpoint(one-col) { 
+      margin-left: 0;
+    }
+    @include breakpoint(two-col) { 
+      margin-left: 0;
+    }
+    @include breakpoint(three-col) { 
+      margin-left: 0;
+    }
+  }
+  
+
 }
 
-.toggleOpen, .toggleClose{
+.toggle{
   -webkit-overflow-scrolling: touch;
   -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s;
   -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s;
@@ -50,6 +103,7 @@ article[role="main"] {
   //float: none;
   width: auto;
   background-color: #fff;
+  margin-left:0;
 
   header {
   	.icon-nav {
@@ -73,8 +127,14 @@ article[role="main"] {
   }
 
   section[role="body"] {
-  	color: $light-gray;
-  	padding: 20px 40px;
+    color: $gray;
+    padding: 20px 60px;
+
+    p {
+      padding: 10px 0;
+
+    }
+  	
   }
 }
 
@@ -84,54 +144,96 @@ Site home page (first menu)
 article[role="home"] {
   width: 375px;
   background-color: #fff;
+  margin-left:0;
+
+  
+  .state-2 &{
+    @include breakpoint(one-col) { 
+      float: none;
+      width: auto;
+      border-right: none;
+    }
+    @include breakpoint(two-col) { 
+      float: none;
+      width: auto;
+      border-right: none;
+    }
+  }
+  .state-3 &{
+    @include breakpoint(one-col) { 
+      margin-left: -102%;
+      //width: 50%;
+    }
+    @include breakpoint(two-col) { 
+      //margin-left: -102%;
+      width: 50%;
+    }
+  }
+  .state-4 &{
+    @include breakpoint(one-col) { 
+      margin-left: -152%;
+      //width: 100%;
+    }
+    @include breakpoint(two-col) { 
+      margin-left: -152%;
+      //width: 50%;
+    }
+  }
+  .state-5 &{
+    @include breakpoint(one-col) { 
+      margin-left: -152%;
+      //width: 100%;
+    }
+    @include breakpoint(two-col) { 
+      margin-left: -152%;
+      //width: 50%;
+    }
+  }
+  
+
 
   header {
-  	background-color: $medium-gray;
-  	color: $dark-gray;
-  	height: 64px;
-  	width: 375px;
-  	position: absolute;
-
-  	div.wrapper {
-  		@include vertical-align;
-  		text-align: center;
-  		//margin-top: -2px;
-  	}
-
-  	button {
-  		border: none;
-  		background-color: transparent;
-  		color: #7E7E7E;
-        font-size: 26px;
-        padding: 0 5px;
-        margin: 17px 0 0 0;
-        //float: left;
-        position: absolute;
-        z-index: 2;
-  	}
-  	button:hover {
-  		color: $dark;
-  		cursor: pointer;
-  	}
-  	button.left-nav, button.right-nav {
-  		//display: inline;
-  		//@include vertical-align;
-  		//top: 15px;
-  		//padding: 0 5px;
-  		//margin-top: 10px;
-  		//left: 5px;
-  		//right: 5px;
-  	}
-  	h1 {
-  		font-size: $font-size-large;
-  		span {
-  			font-weight: 200;
-  		}
-  	}
+    @include col-header(375px, $medium-gray, $dark-gray);
+    
+    
+    .state-2 &{
+      @include breakpoint(one-col) {
+        width: 100%;
+      }
+      @include breakpoint(two-col) {
+        width: 100%;
+      }
+    }
+    .state-3 &{
+      @include breakpoint(one-col) {
+        //width: 50%;
+      }
+      @include breakpoint(two-col) {
+        width: 50%;
+      }
+    }
+    
   }
   
   .body {
-  	margin-top: 64px;
+    @include body-wrapper(375px);
+
+    .state-2 &{
+      @include breakpoint(one-col) {
+        width: 100%;
+      }
+      @include breakpoint(two-col) {
+        width: 100%;
+      }
+    }
+    .state-3 &{
+      @include breakpoint(one-col) {
+        //width: 50%;
+      }
+      @include breakpoint(two-col) {
+        width: 50%;
+      }
+    }
 
   	ul {
   		list-style-type: none;
@@ -146,7 +248,6 @@ article[role="home"] {
   			li {
   				border-bottom: 1px $light-gray solid;
   				padding: 25px 15px;
-  				
 
   				span {
   					font-size: 40px;
@@ -212,64 +313,116 @@ article[role="home"] {
   //}
 }
 
+
 /*-----------------------------------------------
 Site list page (list menu)
 -----------------------------------------------*/
 article[role="list"] {
   width: 250px;
-  //background-color: #fff;
+  background-color: #fff;
+  margin-left:0;
+
+  .state-3 &{
+    @include breakpoint(two-col) { 
+      float: none;
+      width: auto;
+      border-right: none;
+    }
+    @include breakpoint(one-col) { 
+      width: 100%;
+    }
+  }
+  .state-4 &{
+    @include breakpoint(one-col) { 
+      margin-left: -102%;
+      //width: 100%;
+    }
+    @include breakpoint(two-col) { 
+      //margin-left: -102%;
+      width: 35%;
+      min-width: 240px;
+    }
+  }
+  .state-5 &{
+    @include breakpoint(one-col) { 
+      margin-left: -102%;
+      //width: 100%;
+    }
+    @include breakpoint(two-col) { 
+      margin-left: -102%;
+      //width: 35%;
+      //min-width: 240px;
+    }
+  }
+  
+  
 
   header {
-  	background-color: $light-gray;
-  	color: $dark-gray;
-  	height: 64px;
-  	width: 250px;
-  	position: fixed;
+  	@include col-header(250px, $light-gray, $dark-gray);
 
-  	div.wrapper {
-  		@include vertical-align;
-  		text-align: center;
-  		//margin-top: -2px;
-  	}
+    
+    .state-3 &{
+      @include breakpoint(two-col) { 
+        width: 50%;
+      }
+      @include breakpoint(one-col) { 
+        width: 100%;
+      }
+    }
+    .state-4 &{
+      @include breakpoint(two-col) { 
+        width: 35%;
+        min-width: 240px;
+      }
+    }
 
-  	button {
-  		border: none;
-  		background-color: transparent;
-  		color: #7E7E7E;
-        font-size: 26px;
-        padding: 0 5px;
-        margin: 17px 0 0 0;
-        //float: left;
-        position: absolute;
-        z-index: 2;
-  	}
-  	button:hover {
-  		color: $dark;
-  		cursor: pointer;
-  	}
-  	button.left-nav, button.right-nav {
-  		//display: inline;
-  		//@include vertical-align;
-  		//top: 15px;
-  		//padding: 0 5px;
-  		//margin-top: 10px;
-  		//left: 5px;
-  		//right: 5px;
-  	}
-  	h1 {
-  		font-size: $font-size-large;
-  		span {
-  			font-weight: 200;
-  		}
-  	}
+    
   }
+  .search {
+    margin: 0 auto;
+    text-align: center;
+    height: 40px;
 
+    input {
+      //border-radius: 10px;
+      font-size: $font-size-large;
+      width: 90%;
+      @include vertical-align;
+      //border: 1px $medium-gray solid;
+    }
+  }
   .body {
-  	margin-top: 64px;
+    @include body-wrapper(250px);
+
+    .state-3 &{
+      @include breakpoint(two-col) { 
+        width: 50%;
+      }
+      @include breakpoint(one-col) { 
+        width: 100%;
+      }
+    }
+    .state-4 &{
+      @include breakpoint(two-col) { 
+        width: 35%;
+        min-width: 240px;
+      }
+    }
+
+
   	ul {
   		list-style-type: none;
-		padding: 0px;
-		margin: 0px;
+      padding: 0;
+		  margin: 0 0 64px 0;
+
+      .tip {
+        padding: 10px 15px;
+        margin: 0;
+        background-color: $light-gray;
+        color: $medium-gray;
+        font-size: $font-size-small;
+        font-weight: 500;
+      }
 
   		a {
   			text-decoration: none;
@@ -298,6 +451,132 @@ article[role="list"] {
 }
 
 
+/*-----------------------------------------------
+Site list page (sublist menu)
+-----------------------------------------------*/
+article[role="sublist"] {
+  width: 250px;
+  background-color: #fff;
+  margin-left:0;
+
+  .state-4 &{
+    @include breakpoint(two-col) { 
+      float: none;
+      width: auto;
+      border-right: none;
+    }
+    @include breakpoint(one-col) { 
+      width: 100%;
+    }
+  }
+  .state-5 &{
+    @include breakpoint(one-col) { 
+      margin-left: -102%;
+      //width: 100%;
+    }
+    @include breakpoint(two-col) { 
+      //margin-left: -102%;
+      width: 35%;
+      min-width: 240px;
+    }
+  }
+  
+  
+
+  header {
+    @include col-header(250px, $light-gray, $dark-gray);
+
+    
+    .state-4 &{
+      @include breakpoint(two-col) { 
+        width: 65%;
+      }
+      @include breakpoint(one-col) { 
+        width: 100%;
+      }
+    }
+    .state-5 &{
+      @include breakpoint(two-col) { 
+        width: 35%;
+        min-width: 240px;
+      }
+    }
+
+    
+  }
+  .search {
+    margin: 0 auto;
+    text-align: center;
+    height: 40px;
+
+    input {
+      //border-radius: 10px;
+      font-size: $font-size-large;
+      width: 90%;
+      @include vertical-align;
+      //border: 1px $medium-gray solid;
+    }
+  }
+  .body {
+    @include body-wrapper(250px);
+
+    .state-4 &{
+      @include breakpoint(two-col) { 
+        width: 65%;
+      }
+      @include breakpoint(one-col) { 
+        width: 100%;
+      }
+    }
+    .state-5 &{
+      @include breakpoint(two-col) { 
+        width: 35%;
+        min-width: 240px;
+      }
+    }
+
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0 0 64px 0;
+
+      .tip {
+        padding: 10px 15px;
+        margin: 0;
+        background-color: $light-gray;
+        color: $medium-gray;
+        font-size: $font-size-small;
+        font-weight: 500;
+      }
+
+      a {
+        text-decoration: none;
+        //cursor: pointer;
+        display: block;
+
+        li {
+          border-bottom: 1px $light-gray solid;
+          padding: 25px 15px;
+          font-size: $font-size-base;
+          font-weight: 400;
+          color: $dark-gray;
+          word-wrap: break-word;
+        }
+      }
+
+      a:hover, a.active {
+        li{
+          background-color: $blue;
+          border-bottom: 1px $blue-border solid;
+          color: $light;
+        }
+      }
+    }
+  }
+}
+
+
 /*---------
 Detail page (far right column)
 ----------*/
@@ -305,6 +584,7 @@ article[role="detail"] {
   float: none;
   width: auto;
   background-color: #fff;
+  margin-left:0;
 
   button {
   		border: none;
@@ -406,59 +686,58 @@ Site news page (list menu)
 -----------------------------------------------*/
 article[role="news"] {
   width: 350px;
-  //background-color: #fff;
+  background-color: #fff;
+  margin-left: 0;
+
+  
+  .state-3 &{
+    @include breakpoint(one-col) { 
+      //margin-left: -102%;
+      width: 100%;
+    }
+    @include breakpoint(two-col) { 
+      float: none;
+      width: auto;
+      border-right: none;
+    }
+  }
+  
 
   header {
-  	background-color: $light-gray;
-  	color: $dark-gray;
-  	height: 64px;
-  	width: 350px;
-  	position: fixed;
+    @include col-header(350px, $light-gray, $dark-gray);
 
-  	div.wrapper {
-  		@include vertical-align;
-  		text-align: center;
-  		//margin-top: -2px;
-  	}
-
-  	button {
-  		border: none;
-  		background-color: transparent;
-  		color: #7E7E7E;
-        font-size: 26px;
-        padding: 0 5px;
-        margin: 17px 0 0 0;
-        //float: left;
-        position: absolute;
-        z-index: 2;
-  	}
-  	button:hover {
-  		color: $dark;
-  		cursor: pointer;
-  	}
-  	button.left-nav, button.right-nav {
-  		//display: inline;
-  		//@include vertical-align;
-  		//top: 15px;
-  		//padding: 0 5px;
-  		//margin-top: 10px;
-  		//left: 5px;
-  		//right: 5px;
-  	}
-  	h1 {
-  		font-size: $font-size-large;
-  		span {
-  			font-weight: 200;
-  		}
-  	}
+    
+    .state-3 &{
+      @include breakpoint(two-col) { 
+        width: 50%;
+      }
+      @include breakpoint(one-col) { 
+        width: 100%;
+      }
+    }
+    
   }
 
   .body {
-  	margin-top: 64px;
+  	//margin-top: 64px;
+    //position: relative;
+
+    @include body-wrapper(350px);
+
+    .state-3 &{
+      @include breakpoint(two-col) { 
+        width: 50%;
+      }
+      @include breakpoint(one-col) { 
+        width: 100%;
+      }
+    }
+
   	ul {
   		list-style-type: none;
-		padding: 0px;
-		margin: 0px;
+		  padding: 0px;
+		  margin: 0px;
+      padding-bottom: 64px;
 
   		div.item {
   			text-decoration: none;
@@ -502,3 +781,33 @@ article[role="news"] {
   	}
   }
 }
+
+
+/* Transitions */
+
+/* Default Enter/Leave */
+/*
+.ng-enter, 
+.ng-leave
+{ 
+    -webkit-transition: 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000) all;
+    -moz-transition: 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000) all;
+    -ms-transition: 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000) all;
+    -o-transition: 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000) all;
+    transition: 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000) all;
+} 
+ 
+.ng-enter {
+    left: -100%;
+}
+.ng-enter.ng-enter-active {
+    left: 0;
+}
+ 
+.ng-leave {
+    left: 0;
+}
+.ng-leave.ng-leave-active{
+    left: 100%;
+}
+*/

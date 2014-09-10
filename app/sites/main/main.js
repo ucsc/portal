@@ -1,4 +1,4 @@
-var app = angular.module('main', ['ui.router', 'ngTouch', 'angular-gestures']);
+var app = angular.module('main', ['ui.router', 'ngTouch', 'ngResource', 'ng-iscroll']);
 
 //app.config(function($stateProvider, $urlRouterProvider) {
 app.config(function($stateProvider) {
@@ -29,39 +29,51 @@ app.config(function($urlRouterProvider, $locationProvider) {
     $locationProvider.html5Mode(true);
 });
 
+app.run(function($rootScope, $state, $stateParams) {
+    $rootScope.$state = $state;
+    $rootScope.$stateParams = $stateParams;
+});
+
+app.run(function($rootScope, $location, $window) {
+  $rootScope.go = function (path, pageAnimationClass) {
+
+    if (typeof(pageAnimationClass) === 'undefined') { // Use a default, your choice
+        $rootScope.pageAnimationClass = 'slideLeft';
+    }
+    
+    else { // Use the specified animation
+        $rootScope.pageAnimationClass = pageAnimationClass;
+    }
+
+    if (path === 'back') { // Allow a 'back' keyword to go to previous page
+        $window.history.back();
+    }
+    
+    else { // Go to the specified path
+        $location.path(path);
+    }
+  };
+});
+
 app.controller('MainController', function($scope, items, weather) {
   //$scope.items = [{id : 1, name : 'Popular items', url : 'main.popular'},{id : 2, name : 'Users', url : 'users'},{id : 3, name : 'Your items', url : 'items'}];
   $scope.items = items;
   $scope.weather = weather.data[0];
 
-  $scope.isClosed = false;
-  $scope.navToggle = function() {
-  	if($scope.isClosed == true) {
-  		$scope.isClosed = false;
-  	} else {
-  		$scope.isClosed = true;
-  	}
+  //$scope.state = $state;
+
+  $scope.drawer = function() {
+    $scope.isOpen = ! $scope.isOpen;
   };
-  $scope.navClose = function() {
-  	if($scope.isClosed == false) {
-  		$scope.isClosed = true;
-  	} else {
-  		//$scope.isClosed = true;
-  	}
-  };
-  $scope.navOpen = function() {
-  	if($scope.isClosed == true) {
-  		$scope.isClosed = false;
-  	} else {
-  		//$scope.isClosed = true;
-  	}
-  };
+  $scope.isOpen = true;
+
+
 });
 
 app.factory('srvMenu', function($http) {
 	var sdo = {
 		getNav: function() {
-			var promise = [{id : 1, name : 'Welcome', icon : 'icon-feather', url : 'main'},{id : 2, name : 'Maps', icon : 'icon-compass', url : 'users'},{id : 3, name : 'Emergency', icon : 'icon-fire', url : 'main.emergency'}];
+			var promise = [{id : 1, name : 'Welcome', icon : 'icon-feather', url : 'main'},{id : 2, name : 'Directory', icon : 'icon-vcard', url : 'main.directory'},{id : 3, name : 'Emergency', icon : 'icon-fire', url : 'main.emergency'}];
 			return promise;
 		},
 		getWeather: function() {
@@ -86,6 +98,21 @@ app.filter('rssDate', function () {
     return function (value) {
         return new Date(value).toLocaleString();
     };
+});
+
+app.filter('addPluses', function() {
+  return function(name) {
+    return name.replace(/\s{1,}/g, '+')
+               .replace(/'/g, '')
+               .replace(/of/g, '')
+               .replace(/\//g, '+');
+  }
+});
+
+app.filter('removePluses', function() {
+  return function(name) {
+    return name.replace(/\u002B/g, ' ');
+  }
 });
 
 app.filter('createAnchors', function ($sce) {

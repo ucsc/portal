@@ -24,8 +24,17 @@ Font license info
    Copyright (C) 2012 by Daniel Bruce
 
    Author:    Daniel Bruce
-   License:   CC BY-SA (http://creativecommons.org/licenses/by-sa/2.0/)
+   License:   SIL (http://scripts.sil.org/OFL)
    Homepage:  http://www.entypo.com
+
+
+## Iconic
+
+   Copyright (C) 2012 by P.J. Onori
+
+   Author:    P.J. Onori
+   License:   SIL (http://scripts.sil.org/OFL)
+   Homepage:  http://somerandomdude.com/work/iconic/
 
 
 ## Modern Pictograms
@@ -60,7 +69,7 @@ Font license info
    (c) Stephen Hutchings 2012
 
    Author:    Stephen Hutchings
-   License:   CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
+   License:   SIL (http://scripts.sil.org/OFL)
    Homepage:  http://typicons.com/
 
 
@@ -80,14 +89,5 @@ Font license info
    Author:    Aristeides Stathopoulos
    License:   SIL (http://scripts.sil.org/OFL)
    Homepage:  http://aristeides.com/
-
-
-## Iconic
-
-   Copyright (C) 2012 by P.J. Onori
-
-   Author:    P.J. Onori
-   License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://somerandomdude.com/work/iconic/
 
 

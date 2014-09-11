@@ -37,11 +37,6 @@ emergency.config(function($stateProvider) {
 			  }
 		  }
 	    })
-
-	    .state("main.emergency.detail", {
-	      url: "/detail",
-	      templateUrl: 'sites/emergency/emergency_detail.html',
-	    })
 });
 
 emergency.controller('EnewsController', function($scope, enews) {

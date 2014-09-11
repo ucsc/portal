@@ -91,21 +91,3 @@ Font license info
    Homepage:  http://aristeides.com/
 
 
-## Zocial
-
-   Copyright (C) 2012 by Sam Collins
-
-   Author:    Sam Collins
-   License:   MIT (http://opensource.org/licenses/mit-license.php)
-   Homepage:  http://zocial.smcllns.com/
-
-
-## Linecons
-
-   Copyright (C) 2013 by Designmodo
-
-   Author:    Designmodo for Smashing Magazine
-   License:   CC BY ()
-   Homepage:  http://designmodo.com/linecons-free/
-
-

@@ -73,7 +73,7 @@ app.controller('MainController', function($scope, items, weather) {
 app.factory('srvMenu', function($http) {
 	var sdo = {
 		getNav: function() {
-			var promise = [{id : 1, name : 'Welcome', icon : 'icon-feather', url : 'main'},{id : 2, name : 'Directory', icon : 'icon-vcard', url : 'main.directory'},{id : 3, name : 'Emergency', icon : 'icon-fire', url : 'main.emergency'},{id : 4, name : 'Support', icon : 'icon-help', url : 'main.support'}];
+			var promise = [{id : 1, name : 'Welcome', icon : 'icon-feather', url : 'main'},{id : 2, name : 'Directory', icon : 'icon-vcard', url : 'main.directory'},{id : 3, name : 'Emergency', icon : 'icon-fire', url : 'main.emergency'},{id : 4, name : 'Support', icon : 'icon-help', url : 'main.support'},{id : 5, name : 'Social', icon : 'icon-asl', url : 'main.social'}];
 			return promise;
 		},
 		getWeather: function() {

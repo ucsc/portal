@@ -19,8 +19,8 @@
       "url": "police"
     },
     {
-      "title": "Fire",
-      "url": "fire"
+      "title": "Emergency Services",
+      "url": "emergency"
     },
     {
       "title": "Health",
@@ -29,10 +29,6 @@
     {
       "title": "Counseling",
       "url": "caps"
-    },
-    {
-      "title": "Emergency Management",
-      "url": "emergency"
     }
   ],
   "police": [
@@ -105,19 +101,18 @@
   ],
   "emergency": [
     {
-      "title": "Emergency Management",
-      "thumbnail": "sites/emergency/img/emergency.png",
+      "title": "Emergency Services",
+      "thumbnail": "sites/emergency/img/emergency2.png",
       "teaser": "Dial 9-1-1 to report",
       "url": "emergency",
       "external_url": "http://emergency.ucsc.edu",
       "external_url_title": "emergency.ucsc.edu",
       "hours": "M-F 8-5PM",
-      "address": "1156 High St \n Santa Cruz, CA 95064",
+      "address": "105 Carriage House Rd \n Santa Cruz, CA 95064",
       "map_url": "https://www.google.com/maps/place/Firehouse/@37.0018464,-122.0556059,17z",
       "phone": "(831) 459-2342",
       "phone_url": "+18314592342",
-      "email": "eoc@ucsc.edu",
-      "fax": "(831) 459-7608"
+      "email": "oes@ucsc.edu"
     }
   ]
 }

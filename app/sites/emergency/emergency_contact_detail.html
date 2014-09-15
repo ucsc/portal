@@ -25,7 +25,7 @@
 			<li class="icon-export">
 				<a ng-href="{{contact.external_url}}" target="_blank">{{contact.external_url_title}}</a>
 			</li>
-			<li class="icon-print">
+			<li class="icon-print" ng-if="{{contact.fax}}">
 				{{contact.fax}}
 			</li>
 		</ul>

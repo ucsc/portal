@@ -7,8 +7,8 @@ social.config(function($stateProvider) {
             templateUrl: 'sites/social/social_menu.html',
             controller : 'SocialController',
             resolve: {
-                snmenu: function(jsonSupport) {
-                    return jsonSupport.getJson();
+                snmenu: function(jsonSocial) {
+                    return jsonSocial.getJson();
                 }
             }
         })
@@ -19,7 +19,7 @@ social.controller('SocialController', function($scope, snmenu) {
     $scope.socialMenu = snmenu.data.menu;
 });
 
-social.factory('jsonSupport', function($http) {
+social.factory('jsonSocial', function($http) {
     var sdo = {
         getJson: function() {
             var promise = $http({ method: 'GET', url: 'sites/social/social.json' }).success(function(data, status, headers, config) {

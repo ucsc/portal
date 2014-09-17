@@ -4,7 +4,7 @@
             "title": "IT Request",
             "icon": "icon-laptop",
             "teaser": "",
-            "url": "IT"
+            "url": "IT+Request"
         },
         {
             "title": "Housing & Dining",
@@ -19,7 +19,7 @@
             "url": "Facilities"
         }
     ],
-    "IT": [
+    "IT+Request": [
         {
             "title": "Submit a ticket",
             "url": "https://ucsc.service-now.com/survey_take.do?sysparm_survey=Guest+Request&sysparm_survey_update=false"

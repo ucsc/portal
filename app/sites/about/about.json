@@ -4,13 +4,13 @@
             "title": "Events on Campus",
             "icon": "icon-calendar-1",
             "teaser": "",
-            "url": "https://events.ucsc.edu/"
+            "url": "http://events.ucsc.edu/"
         },
         {
             "title": "Campus News",
             "icon": "icon-newspaper",
             "teaser": "",
-            "url": "https://news.ucsc.edu/"
+            "url": "http://news.ucsc.edu"
         },
         {
             "title": "About UCSC",

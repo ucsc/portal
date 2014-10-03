@@ -25,3 +25,16 @@
 	</section>
 </article>
 <ui-view></ui-view>
+<div class="emergency-modal" ng-if="showEmergency(true)">
+    <button class="icon-cancel-circled" ng-click="closeEmergency()"></button>
+    <ul>
+        <li ng-repeat="feed in emergency">
+            <div>
+                <span class="time">{{feed.time}}</span>
+                <span class="date">{{feed.date}}</span>
+                <span class="division">{{feed.division}}</span>
+            </div>
+            <div class="text" ng-bind-html='feed.text | createAnchors'></div>
+        </li>
+    </ul>
+</div>

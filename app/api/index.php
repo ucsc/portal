@@ -1,12 +1,20 @@
 <?php
+ini_set('display_errors', 1);
+require_once('vendor/twitter-api-php/TwitterAPIExchange.php');
+/** Set access tokens here - see: https://dev.twitter.com/apps/ **/
+$settings = array(
+    'oauth_access_token' => "2835904524-p8sVyTgumZ6WSfX3njm2l6hdqrFCTIYc6V9l9Yb",
+    'oauth_access_token_secret' => "5ZJ9Tw0n3ixKBnVdhHzEX9nPXvTxyCtPYsleFqDvYzkhS",
+    'consumer_key' => "nYQdNfZRUvLHhpT4hAZSg2sfT",
+    'consumer_secret' => "OabqTmsQNrKxgEJ4LFiDRwd82vZfCxSqtE7Pof2Wg5qEj0eN43"
+);
 
 require 'Slim/Slim.php';
-
 $app = new Slim();
-
 $app->get('/weather', 'getWeather');
 $app->get('/weather/touch', 'touchWeather');
-
+$app->get('/emergency/check', 'checkEmergency');
+$app->get('/emergency', 'getEmergency');
 $app->run();
 
 function touchWeather() {
@@ -99,6 +107,47 @@ function touchWeather() {
 function getWeather() {
 	$json = json_decode(file_get_contents('static/weather.json'));
 	echo json_encode($json);
+}
+
+function checkEmergency() {
+    global $settings;
+    $url = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
+    $getfield = '?screen_name=ucsc_cruzalert';
+    $requestMethod = 'GET';
+
+    $twitter = new TwitterAPIExchange($settings);
+    $response = $twitter->setGetfield($getfield)
+        ->buildOauth($url, $requestMethod)
+        ->performRequest();
+
+    //var_dump(json_decode($response));
+    $json = json_decode($response);
+    $arrayobj = array();
+
+    foreach($json as $tweet) {
+        $date = $tweet->created_at;
+        //$date = "Tue Sept 30 20:14:55 +0000 2014";
+        if (strtotime("$date +1 day") >= time()) {
+            array_push($arrayobj, $tweet);
+        }
+    }
+
+    echo json_encode($arrayobj);
+}
+
+function getEmergency() {
+    global $settings;
+    $url = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
+    $getfield = '?screen_name=ucsc_cruzalert';
+    $requestMethod = 'GET';
+
+    $twitter = new TwitterAPIExchange($settings);
+    $response = $twitter->setGetfield($getfield)
+        ->buildOauth($url, $requestMethod)
+        ->performRequest();
+
+    $json = json_decode($response);
+    echo json_encode($json);
 }
 
 ?>

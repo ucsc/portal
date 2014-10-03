@@ -30,19 +30,21 @@ emergency.config(function($stateProvider) {
 	      templateUrl: 'sites/emergency/emergency_news.html',
 		  controller : 'EnewsController',
 		  resolve: {
-			  enews: function(FeedService) {
-				  //return FeedService.parseFeed('http://news.ucsc.edu/rss/administrative_message.xml');
-				  //return FeedService.parseFeed('http://news.ucsc.edu/rss/emergency.xml');
-				  return FeedService.parseFeed('http://www.rssitfor.me/getrss?name=ucsc_cruzalert');
-			  }
+			  //enews: function(FeedService) {
+               //   return FeedService.parseFeed('http://www.rssitfor.me/getrss?name=ucsc_cruzalert');
+			  //}
+              enews: function(jsonEmergency) {
+                  return jsonEmergency.getEmergencyNews();
+              }
 		  }
 	    })
 });
 
 emergency.controller('EnewsController', function($scope, enews) {
-  $scope.feeds = enews.data.responseData.feed.entries;
+  $scope.feeds = enews.data;
+  //$scope.feeds = enews.data.responseData.feed.entries;
 
-  
+
 });
 
 emergency.controller('EmergencyController', function($scope, emenu) {
@@ -64,7 +66,13 @@ emergency.factory('jsonEmergency', function($http) {
 				return data;
 			});
 			return promise;
-		}
+		},
+        getEmergencyNews: function() {
+            var promise = $http({ method: 'GET', url: 'api/emergency' }).success(function(data, status, headers, config) {
+                return data;
+            });
+            return promise;
+        }
 	}
 	return sdo;
 });

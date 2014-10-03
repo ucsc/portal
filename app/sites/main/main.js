@@ -15,7 +15,10 @@ app.config(function($stateProvider) {
 		  },
 		  weather: function(srvMenu) {
 		  	return srvMenu.getWeather();
-		  }
+		  },
+          emergency: function(srvMenu) {
+              return srvMenu.getEmergency();
+          }
 	  }
 	  
     })
@@ -55,10 +58,58 @@ app.run(function($rootScope, $location, $window) {
   };
 });
 
-app.controller('MainController', function($scope, items, weather) {
+app.controller('MainController', function($scope, $interval, items, weather, emergency, srvMenu) {
   //$scope.items = [{id : 1, name : 'Popular items', url : 'main.popular'},{id : 2, name : 'Users', url : 'users'},{id : 3, name : 'Your items', url : 'items'}];
   $scope.items = items;
   $scope.weather = weather.data[0];
+
+    if(emergency.data.length > 0) {
+        var intervalPromise = $interval(function () {
+            $scope.emergency = emergency.data;
+            //$scope.showMessages = function(item) {
+            //    return item.hasOwnProperty('notify');
+            //};
+            $scope.showEmergency = function(item) {
+                if(item){
+                    return true;
+                }
+                //return item.hasOwnProperty('notify');
+            };
+
+        }, 10000, 10);
+        $scope.closeEmergency = function () {
+            //$scope.$on('destroy', function () {
+                $interval.cancel(intervalPromise);
+                $scope.showEmergency = function(item) {
+                    return false;
+                };
+            //});
+        };
+
+    }
+
+
+
+
+    //function refresh() {
+    //    $scope.emergency = emergency.data;
+    //}
+    //
+    //refresh();
+    //
+    //$interval(function(){
+    //    refresh();
+    //}, 3000);
+    //$interval(function() {
+    //    $scope.emergency = emergency.data
+    //}, 3000, 10);
+
+    //var emergency_data = emergency.data;
+    //$scope.emergency = function(emergency_data){
+    //    if(emergency_data.length>=1){
+    //        return emergency_data;
+    //    }
+    //};
 
   //$scope.state = $state;
 
@@ -76,7 +127,7 @@ app.factory('srvMenu', function($http) {
 			var promise = [
                 {id : 1, name : 'Welcome', icon : 'icon-feather', url : 'main'},
                 {id : 2, name : 'Directory', icon : 'icon-vcard', url : 'main.directory'},
-                {id : 3, name : 'Emergency', icon : 'icon-fire', url : 'main.emergency'},
+                {id : 3, name : 'Emergency', icon : 'icon-fire', url : 'main.emergency', notify: true},
                 {id : 4, name : 'Support', icon : 'icon-help', url : 'main.support'},
                 {id : 5, name : 'Social', icon : 'icon-asl', url : 'main.social'},
                 {id : 6, name : 'About', icon : 'icon-info', url : 'main.about'},
@@ -89,7 +140,14 @@ app.factory('srvMenu', function($http) {
 				return data;
 			});
 			return promise;
-		}
+		},
+        getEmergency: function() {
+            var promise = $http({ method: 'GET', url: 'api/static/emergency.json', cache: false }).success(function(data, status, headers, config) {
+            //var promise = $http({ method: 'GET', url: 'api/emergency/check', cache: false }).success(function(data, status, headers, config) {
+                return data;
+            });
+            return promise;
+        }
 	}
 	return sdo;
 });

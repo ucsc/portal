@@ -7,7 +7,7 @@
 			<h1>Campus</h1>
 			<ul>
 				<a ng-repeat="item in items" ui-sref="{{item.url}}" ng-class="{active: item.url == 'main' && $state.is('{{item.url}}') || item.url != 'main' && $state.includes('{{item.url}}')}">
-					<li><span><i aria-hidden="true" class="{{item.icon}}"></i>{{item.name}}</span></li>
+					<li><span><i aria-hidden="true" ng-class="{warn: showEmergency(item.notify)}" class="{{item.icon}}"><sup ng-if="showEmergency(item.notify)">{{emergency.length}}</sup></i>{{item.name}}</span></li>
 				</a>
 			</uL>
 		</section>

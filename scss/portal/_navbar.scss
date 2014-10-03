@@ -196,7 +196,20 @@ nav[role="navigation"] {
     						padding-right: 12px;
     						font-weight: 100;
     						color: #727779;
+
+                            sup {
+                              font-style: normal;
+                              font-weight: 400;
+                              color: $gray;
+                              font-size: 12px;
+                              vertical-align: super;
+                              margin-left: -3px;
+                            }
     					}
+
+                        i.warn {
+                            color: $assertive;
+                        }
     				}
     				
 

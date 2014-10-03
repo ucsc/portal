@@ -10,8 +10,8 @@
 		<ul>
 			<div class="item" ng-repeat="feed in feeds">
 				<li>
-					<div ng-bind-html='feed.content | createAnchors'></div>
-					<div class="date">{{feed.publishedDate | rssDate}}</div>
+					<div ng-bind-html='feed.text | createAnchors'></div>
+					<div class="date">{{feed.created_at | rssDate}}</div>
 				</li>
 			</div>
 		</ul>

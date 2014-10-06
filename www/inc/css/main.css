@@ -2635,6 +2635,24 @@ article[role="home"] {
             color: #ffffff; }
           article[role="home"] .body ul a:hover li span div, article[role="home"] .body ul a.active li span div {
             color: #ffffff; }
+      article[role="home"] .body ul li.feed {
+        border-bottom: 1px #eeeeee solid;
+        padding: 25px 15px; }
+        article[role="home"] .body ul li.feed span h2 {
+          line-height: 1.5em; }
+        article[role="home"] .body ul li.feed span div.date {
+          color: #959A9B;
+          font-size: 14px;
+          padding: 5px 0; }
+        article[role="home"] .body ul li.feed span div {
+          line-height: 1.25em; }
+          article[role="home"] .body ul li.feed span div span.link {
+            text-align: right;
+            padding-top: 5px; }
+        article[role="home"] .body ul li.feed a {
+          color: #0059B5; }
+      article[role="home"] .body ul li.feed:last-child {
+        padding-bottom: 85px; }
 
 /*-----------------------------------------------
 Site list page (list menu)

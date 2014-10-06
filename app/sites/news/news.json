@@ -1,0 +1,115 @@
+{
+    "menu": [
+        {
+            "title": "All Activities",
+            "icon": "",
+            "teaser": "",
+            "url": "all",
+            "feed": "http://news.ucsc.edu/rss/all_activities.xml"
+        },
+      {
+          "title": "Administration",
+          "icon": "",
+          "teaser": "",
+          "url": ".admin",
+          "feed": "http://news.ucsc.edu/rss/administration.xml"
+      },
+      {
+          "title": "Admissions",
+          "icon": "",
+          "teaser": "",
+          "url": ".admissions",
+          "feed": "http://news.ucsc.edu/rss/admissions.xml"
+      },
+      {
+          "title": "Awards & Honors",
+          "icon": "",
+          "teaser": "",
+          "url": ".awards",
+          "feed": "http://news.ucsc.edu/rss/awards_honors.xml"
+      },
+      {
+          "title": "Events",
+          "icon": "",
+          "teaser": "",
+          "url": ".events",
+          "feed": "http://news.ucsc.edu/rss/events.xml"
+      },
+      {
+          "title": "Gifts & Grants",
+          "icon": "",
+          "teaser": "",
+          "url": ".gifts",
+          "feed": "http://news.ucsc.edu/rss/gifts_grants.xml"
+      },
+      {
+          "title": "Library",
+          "icon": "",
+          "teaser": "",
+          "url": ".library",
+          "feed": "http://news.ucsc.edu/rss/library.xml"
+      },
+      {
+          "title": "Partnerships",
+          "icon": "",
+          "teaser": "",
+          "url": ".partnerships",
+          "feed": "http://news.ucsc.edu/rss/partnerships.xml"
+      },
+      {
+          "title": "Research",
+          "icon": "",
+          "teaser": "",
+          "url": ".research",
+          "feed": "http://news.ucsc.edu/rss/research.xml"
+      },
+      {
+          "title": "Sports",
+          "icon": "",
+          "teaser": "",
+          "url": ".sports",
+          "feed": "http://news.ucsc.edu/rss/sports.xml"
+      },
+      {
+          "title": "Sustainability",
+          "icon": "",
+          "teaser": "",
+          "url": ".sustainability",
+          "feed": "http://news.ucsc.edu/rss/sustainability.xml"
+      },
+      {
+          "title": "Alumni News",
+          "icon": "",
+          "teaser": "",
+          "url": ".alumni",
+          "feed": "http://news.ucsc.edu/rss/alumni_news.xml"
+      },
+      {
+          "title": "Donor News",
+          "icon": "",
+          "teaser": "",
+          "url": ".donor",
+          "feed": "http://news.ucsc.edu/rss/donor_news.xml"
+      },
+      {
+          "title": "Student News",
+          "icon": "",
+          "teaser": "",
+          "url": ".students",
+          "feed": "http://news.ucsc.edu/rss/student_news.xml"
+      },
+      {
+          "title": "Other Campus News",
+          "icon": "",
+          "teaser": "",
+          "url": ".other",
+          "feed": "http://news.ucsc.edu/rss/other_campus_news.xml"
+      }
+  ],
+  "all": [
+    {
+      "title": "All Activities",
+      "feed": "http://news.ucsc.edu/rss/all_activities.xml"
+    }
+  ]
+}

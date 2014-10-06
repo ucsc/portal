@@ -131,7 +131,8 @@ app.factory('srvMenu', function($http) {
                 {id : 4, name : 'Support', icon : 'icon-help', url : 'main.support'},
                 {id : 5, name : 'Social', icon : 'icon-asl', url : 'main.social'},
                 {id : 6, name : 'About', icon : 'icon-info', url : 'main.about'},
-                {id : 7, name : 'Visit', icon : 'icon-direction', url : 'main.visit'}
+                {id : 7, name : 'News', icon : 'icon-newspaper', url : 'main.newscenter'},
+                {id : 8, name : 'Visit', icon : 'icon-direction', url : 'main.visit'}
             ];
 			return promise;
 		},

@@ -1,0 +1,53 @@
+{
+    "menu": [
+        {
+            "title": "All Activities",
+            "icon": "",
+            "teaser": "",
+            "url": ".all",
+            "feed": "http://news.ucsc.edu/rss/all_activities.xml"
+        },
+        {
+            "title": "Administration",
+            "icon": "",
+            "teaser": "",
+            "url": ".admin",
+            "feed": "http://news.ucsc.edu/rss/administration.xml"
+        },
+        {
+            "title": "Admissions",
+            "icon": "",
+            "teaser": "",
+            "url": ".admissions",
+            "feed": "http://news.ucsc.edu/rss/admissions.xml"
+        },
+        {
+            "title": "Awards & Honors",
+            "icon": "",
+            "teaser": "",
+            "url": ".awards",
+            "feed": "http://news.ucsc.edu/rss/awards_honors.xml"
+        },
+        {
+            "title": "Events",
+            "icon": "",
+            "teaser": "",
+            "url": ".events",
+            "feed": "http://news.ucsc.edu/rss/events.xml"
+        },
+        {
+            "title": "Gifts & Grants",
+            "icon": "",
+            "teaser": "",
+            "url": ".gifts",
+            "feed": "http://news.ucsc.edu/rss/gifts_grants.xml"
+        },
+        {
+            "title": "Library",
+            "icon": "",
+            "teaser": "",
+            "url": ".library",
+            "feed": "http://news.ucsc.edu/rss/library.xml"
+        }
+    ]
+}

@@ -303,6 +303,38 @@ article[role="home"] {
   				}
   			}
   		}
+
+      li.feed {
+        border-bottom: 1px $light-gray solid;
+        padding: 25px 15px;
+
+        span {
+          h2 {
+            line-height: 1.5em;
+          }
+          div.date {
+            color: $gray;
+            font-size: 14px;
+            padding: 5px 0;
+          }
+          div {
+            line-height: 1.25em;
+            //margin-top: 10px;
+            span.link {
+              text-align: right;
+              padding-top: 5px;
+            }
+          }
+        }
+
+        a {
+          color: $blue;
+        }
+      }
+
+      li.feed:last-child {
+        padding-bottom: 85px;
+      }
   		
   	}
   	

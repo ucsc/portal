@@ -1,1 +1,1 @@
-angular.module('portal', ['main','main.emergency','main.directory','main.support','main.social','main.about','main.visit']);
+angular.module('portal', ['main','main.emergency','main.directory','main.support','main.social','main.about','main.visit','main.newscenter']);

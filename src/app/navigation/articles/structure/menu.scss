@@ -1,0 +1,76 @@
+main {
+  article.menu {
+    width: 375px;
+    background-color: white;
+
+    .state-1 & {
+      @include breakpoint(two-col) {
+        float: none;
+        width: calc(100% - 274px);;
+        border-right: none;
+      }
+      @include breakpoint(one-col) {
+        float: none;
+        width: auto;
+        border-right: none;
+      }
+    }
+
+    .state-2 & {
+      @include breakpoint(one-col) {
+        margin-left: -102%;
+        //width: 50%;
+      }
+      @include breakpoint(two-col) {
+        //margin-left: -102%;
+        width: 50%;
+      }
+    }
+    .state-3 & {
+      @include breakpoint(one-col) {
+        margin-left: -152%;
+        //width: 100%;
+      }
+      @include breakpoint(two-col) {
+        margin-left: -152%;
+        //width: 50%;
+      }
+    }
+    .state-4 & {
+      @include breakpoint(one-col) {
+        margin-left: -152%;
+        //width: 100%;
+      }
+      @include breakpoint(two-col) {
+        margin-left: -152%;
+        //width: 50%;
+      }
+    }
+
+    header {
+      @include col-header($medium-gray, $dark-gray);
+
+      .state-2 &{
+        @include breakpoint(one-col) {
+          width: 100%;
+        }
+        @include breakpoint(two-col) {
+          width: 100%;
+        }
+      }
+      .state-3 &{
+        @include breakpoint(one-col) {
+          //width: 50%;
+        }
+        @include breakpoint(two-col) {
+          width: 50%;
+        }
+      }
+
+    }
+
+    section {
+      height: calc(100% - 110px);
+    }
+  }
+}

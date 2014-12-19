@@ -1,0 +1,369 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+button {
+  border: none;
+  font-size: x-large;
+  color: $dark-gray;
+  background-color: transparent;
+}
+button:focus {
+  outline:0 !important;
+}
+
+main {
+  height: 100%;
+  overflow: hidden;
+  left: 0px;
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+
+  header {
+    background-color: blue;
+    height: 30px;
+  }
+}
+
+header, section {
+  overflow: hidden;
+  top: 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+section {
+  background-color: white;
+  top: 0px;
+  height: calc(100% - 120px);
+  overflow-y: auto;
+
+  &.body {
+    &::-webkit-scrollbar {
+      width:4px;
+      border-left:0;
+    }
+    &::-webkit-scrollbar-track {
+      background:none;
+    }
+    &::-webkit-scrollbar-thumb {
+      background:rgba(0,0,0,0.3);
+      border-radius:8px;
+    }
+    &::-webkit-scrollbar:hover {
+      background:none;
+    }
+  }
+
+  &.body {
+    ul {
+      list-style-type: none;
+      padding: 0px;
+      margin: 0px;
+
+      a {
+        text-decoration: none;
+        display: block;
+        padding: 5px;
+        border-bottom: 1px $light-gray solid;
+
+        li {
+          background-color: white;
+          border-radius: 5px;
+          padding: 8px;
+        }
+      }
+
+      a:hover, a.active {
+        li {
+          background-color: $light-gray;
+        }
+      }
+    }
+  }
+}
+
+nav, article {
+  float: left;
+  width: 200px;
+  height: 100%;
+}
+
+nav {
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+  width: 274px;
+}
+
+article {
+  border-right: 1px $gray-border solid;
+
+  &.detail {
+    width: auto;
+    float: none;
+  }
+
+  header {
+    background-color: $light-gray;
+    height: 70px;
+    overflow-y: auto;
+  }
+}
+
+article:last-child {
+  border-right: none;
+}
+
+.hide {
+  display: none;
+}
+
+//.rightnav section {
+//  z-index: 1;
+//  /* float: right; */
+//  position: absolute;
+//  top: 0;
+//  right: 0;
+//  width: 200px;
+//  height: 100%;
+//  background-color: purple;
+//}
+//
+header::-webkit-scrollbar, nav section::-webkit-scrollbar, .rightnav section::-webkit-scrollbar {
+  display: none;
+}
+
+.quiet-scroll pre {
+  overflow:auto;
+  white-space:pre;
+  word-wrap:normal;
+  word-break:normal;
+}
+.quiet-scroll pre::-webkit-scrollbar,
+.quiet-scroll::-webkit-scrollbar {
+  width:4px;
+//  height:20%;
+  border-left:0;
+//  background:rgba(0,0,0,0.08);
+}
+.quiet-scroll pre::-webkit-scrollbar-track,
+.quiet-scroll::-webkit-scrollbar-track {
+  background:none;
+}
+.quiet-scroll pre::-webkit-scrollbar-thumb,
+.quiet-scroll::-webkit-scrollbar-thumb {
+  background:rgba(0,0,0,0.1);
+  border-radius:8px;
+}
+//.quiet-scroll pre::-webkit-scrollbar-thumb:hover,
+//.quiet-scroll::-webkit-scrollbar-thumb:hover {
+//  background:rgba(0,0,0,1);
+//  border-radius:0;
+//}
+.quiet-scroll pre::-webkit-scrollbar:hover,
+.quiet-scroll::-webkit-scrollbar:hover {
+//  background:rgba(0,0,0,0.1);
+  background:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//.right-nav {
+//  float: right;
+//}
+
+
+
+
+//html, body {
+//  margin: 0;
+//  padding: 0;
+//  height: 100%;
+//  overflow: hidden;
+//
+//  img {
+//    width: 100px;
+//    overflow: hidden;
+//  }
+//}
+//
+//main {
+////  height: 100%;
+////  overflow: hidden;
+////  left: 200px;
+////  position: absolute;
+////  z-index: 2;
+////  background-color: white;
+//  height: 100%;
+//  overflow: hidden;
+//  left: 0px;
+//  position: absolute;
+//  z-index: 2;
+//  background-color: white;
+//  width: 100%;
+//
+//  header {
+//    background-color: blue;
+//    height: 30px;
+//  }
+//
+//  .rightnav {
+//    z-index: 1;
+//    /* float: right; */
+//    position: absolute;
+//    top: 0;
+//    right: 0;
+//    width: 200px;
+//    height: 100%;
+//    background-color: purple;
+////    z-index: 1;
+////    float: right;
+////    top: 0;
+////    right: 0;
+////    width: 200px;
+////    height: 100%;
+//  }
+//}
+//
+//nav, article {
+//  float: left;
+//  width: 200px;
+//  height: 100%;
+//
+//  header, section {
+//    overflow: hidden;
+//    top: 0;
+//    -webkit-overflow-scrolling: touch;
+//  }
+//
+//  header {
+//    background-color: red;
+//    height: 100px;
+//    overflow-y: auto;
+//  }
+//
+//  section {
+//    background-color: white;
+//    top: 100px;
+//    height: calc(100% - 100px);
+//    overflow-y: auto;
+//  }
+//}
+//
+//nav {
+//  z-index: 1;
+//}
+//
+//article {
+//  &.detail {
+//    width: auto;
+//    float: none;
+//  }
+//
+//  header {
+//    height: 70px;
+//  }
+//}
+//
+//.hide {
+//  display: none;
+//}
+//
+//header::-webkit-scrollbar, section::-webkit-scrollbar {
+//  display: none;
+//}
+//
+//
+//
+//
+//
+////
+////
+////
+////
+////
+////
+////
+////
+////
+////
+////
+////
+////body,
+////html {
+////  margin: 0;
+////  padding: 0;
+////  height: 100%;
+////  overflow: hidden;
+////}
+////
+//////.wrap{
+//////  width:100%;
+//////  height:100%;
+//////}
+////
+////nav,
+////article {
+////  height: 100%;
+////  float: left;
+////  width: 300px;
+////}
+////
+////article {
+////
+////  header, section.body {
+////    overflow-: hidden;
+////    top: 0;
+////    -webkit-overflow-scrolling: touch;
+////  }
+////  header {
+////    background-color: $light-gray;
+////    height: 100px;
+////    overflow-y: auto; /* has to be scroll, not auto */
+////  }
+////  section.body {
+////    top: 100px;
+////    height: calc(100% - 100px);
+////    overflow-y: auto; /* has to be scroll, not auto */
+////  }
+////  header::-webkit-scrollbar {
+////    display: none;
+////  }
+////}
+////
+////nav {
+////  z-index: 1;
+////}
+////
+////article {
+////  border-right: 1px $gray-border solid;
+//////  z-index: 5;
+////}
+////
+////article:last-child {
+////  border-right: none;
+////}
+////
+////main {
+////  height: 100%;
+//////  position: relative;
+////  z-index: 4;
+////}
+////

@@ -1,0 +1,35 @@
+<article class="detail" role="emergency">
+    <header>
+        <button ui-sref="emergency.contacts" class="left-nav icon-cancel-circled"></button>
+		<span>
+			<img ng-src="{{contact.thumbnail}}"/>
+		</span>
+        <h1>{{contact.title}}</h1>
+        <p>{{contact.teaser}}</p>
+
+    </header>
+    <section class="body">
+        <ul>
+            <li class="icon-clock">
+                {{contact.hours}}
+            </li>
+            <li class="icon-location">
+                <a ng-href="{{contact.map_url}}" target="_blank"><span style="white-space: pre;">{{contact.address}}</span></a>
+            </li>
+            <li class="icon-telephone">
+                <a ng-href="tel:{{contact.phone_url}}">{{contact.phone}}</a>
+            </li>
+            <li class="icon-mail">
+                <a ng-href="mailto:{{contact.email}}">{{contact.email}}</a>
+            </li>
+            <li class="icon-export">
+                <a ng-href="{{contact.external_url}}" target="_blank">{{contact.external_url_title}}</a>
+            </li>
+            <!--<li class="icon-print" ng-if="{{contact.fax}}">-->
+                <!--{{contact.fax}}-->
+            <!--</li>-->
+        </ul>
+
+
+    </section>
+</article>

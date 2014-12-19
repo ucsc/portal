@@ -1,0 +1,38 @@
+main header.topnavbar {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 2px 0px, rgba(0, 0, 0, 0.05) 0px 1px 0px 0px;
+  -webkit-font-smoothing: antialiased;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 2px 0px, rgba(0, 0, 0, 0.05) 0px 1px 0px 0px;
+  box-sizing: border-box;
+//  color: rgb(88, 102, 110);
+  display: block;
+  height: 50px;
+  line-height: 20px;
+  padding: 4px 10px;
+  position: relative;
+  z-index: 999;
+
+  span.name {
+  }
+
+
+
+
+//  button {
+//    color: $medium-gray;
+//  }
+//  form {
+//    padding: 0;
+//    margin: 0;
+//
+//    input, span {
+//      display: inline;
+//      float: left;
+//    }
+//  }
+//
+//  input, span {
+//    display: inline;
+//    float: left;
+//  }
+}

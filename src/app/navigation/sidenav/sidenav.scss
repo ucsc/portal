@@ -150,6 +150,9 @@ main {
       &.drawer {
         -webkit-transform: translate3d(274px, 0, 0);
       }
+      button.leftnav {
+        display: inline-block;
+      }
     }
     @include breakpoint(two-col) {
       left: 0;
@@ -163,6 +166,9 @@ main {
       left: 0;
       &.drawer {
         -webkit-transform: translate3d(274px, 0, 0);
+      }
+      button.leftnav {
+        display: inline-block;
       }
     }
     @include breakpoint(two-col) {
@@ -183,6 +189,9 @@ main {
       &.drawer {
         left: 0;
         -webkit-transform: translate3d(274px, 0, 0);
+      }
+      button.leftnav {
+        display: inline-block;
       }
     }
     @include breakpoint(two-col) {

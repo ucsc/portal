@@ -36,10 +36,38 @@
     //margin-top: -2px;
   }
 
-  div.buttonwrap {
+  div.buttonleft {
     position: fixed;
     z-index: 5;
-    margin: 10px 15px;
+    margin: 12px 15px;
+  }
+
+  div.buttonright {
+    position: fixed;
+    z-index: 5;
+    right: 0;
+    margin: -10px 15px;
+    display: none;
+    .state-1 & {
+      @include breakpoint(one-col) {
+        display: block;
+      }
+    }
+    .state-2 & {
+      @include breakpoint(one-col) {
+        display: block;
+      }
+    }
+    .state-3 & {
+      @include breakpoint(one-col) {
+        display: block;
+      }
+    }
+    .state-4 & {
+      @include breakpoint(one-col) {
+        display: block;
+      }
+    }
   }
 
   button {

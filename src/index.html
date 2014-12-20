@@ -22,16 +22,22 @@
         <section role="nav">
             <h1>Campus</h1>
             <ul>
-                <a ng-repeat="item in navigationService" ui-sref="{{item.url}}" ui-sref-active="active">
+                <a ng-repeat="item in navigationService" ui-sref="{{item.url}}" ui-sref-active="active" ng-click="closedrawer()">
                     <li><span><i aria-hidden="true" class="{{item.icon}}"></i>{{item.name}}</span></li>
                 </a>
             </uL>
         </section>
     </nav>
-    <main role="main" class="{{$state.current.name}}" ng-class="{drawer: isOpen}" ng-click="closedrawer()">
-        <header ng-controller="TopNavCtrl" class="topnavbar">
-            <button class="icon-article leftnav" ng-click="drawer()"></button>
-            <span class="name">UCSC Mobile</span>
+    <main role="main" class="{{$state.current.name}}" ng-class="{drawer: isOpen}" ng-click="closedrawer()" ng-swipe-right="opendrawer()">
+        <header ng-controller="TopNavCtrl" class="topnavbar" ng-class="{topbar: isTop}">
+            <div class="left">
+                <button class="icon-article leftnav" ng-click="drawer()"></button>
+            </div>
+            <div class="center">
+                <span class="name">UCSC Mobile</span>
+            </div>
+            <div class="right">
+            </div>
         </header>
         <ui-view/>
     </main>

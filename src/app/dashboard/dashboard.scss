@@ -1,0 +1,6 @@
+article[role="dashboard"] {
+  width: calc(100% - 274px) !important;
+  @include breakpoint(one-col) {
+    width: auto !important;
+  }
+}

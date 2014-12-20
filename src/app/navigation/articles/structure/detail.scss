@@ -1,0 +1,22 @@
+main {
+  article.detail {
+    float: none;
+    width: auto;
+    border-right: none;
+
+    header {
+      @include col-header(white, $dark-gray);
+//      height: auto;
+//      background-color: white;
+
+      @include breakpoint(one-col) {
+        article.menu header .buttonright & {
+          display: none;
+        }
+      }
+
+
+    }
+
+  }
+}

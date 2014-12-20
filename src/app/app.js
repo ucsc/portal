@@ -21,9 +21,13 @@ module.exports = angular.module('app', [
     'ui.router',
     'hj.uiSrefFastclick',
     'ngAnimate',
+    'ngTouch',
     'anim-in-out',
 
     // Add modules/sections as dependencies
+    //require('./home/home').name,
+    //require('./about/about').name,
+    //require('./listings/listings').name
     require('./dashboard/dashboard').name,
     require('./emergency/emergency').name
 

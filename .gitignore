@@ -1,6 +1,4 @@
 build
 dist
-node_modules
-vendor
 .idea
 .sass-cache

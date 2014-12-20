@@ -89,3 +89,8 @@
 .icon-direction:before { content: '\e857'; } /* '' */
 .icon-location-1:before { content: '\e858'; } /* '' */
 .icon-cab:before { content: '\e859'; } /* '' */
+.icon-ellipsis-vert:before { content: '\e85a'; } /* '' */
+.icon-ellipsis:before { content: '\e85b'; } /* '' */
+.icon-colon:before { content: '\e85c'; } /* '' */
+.icon-dot-2:before { content: '\e85d'; } /* '' */
+.icon-dot-3:before { content: '\e85e'; } /* '' */

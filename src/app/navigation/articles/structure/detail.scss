@@ -1,8 +1,18 @@
 main {
   article.detail {
     float: none;
-    width: auto;
+    width: calc(100% - 274px);
     border-right: none;
+
+    @include breakpoint(one-col) {
+      width: auto;
+    }
+    @include breakpoint(two-col) {
+      width: auto;
+    }
+    @include breakpoint(three-col) {
+      width: auto;
+    }
 
     header {
       @include col-header(white, $dark-gray);

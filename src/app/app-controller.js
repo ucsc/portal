@@ -30,14 +30,29 @@ module.exports = function($scope, $location) {
     };
     $scope.topbar = function() {
         if($scope.isTop) {
-            angular.element( document.querySelector( "button.right-nav" ) ).addClass('active');
+            //var classList = document.getElementsByClassName('button.right-nav');
+            //for (var i = 0; i < classList.length; i++) {
+            //    //angular.element(classList[i]).addClass('active');
+            //    angular.element(classList[i]).css("color", "red");
+            //}
+
+            //angular.element(document.querySelector( ".right-nav" )).css("color", "#ccc");
+
+            //angular.element( document.querySelector( "button.right-nav" ) ).addClass('active');
             //angular.forEach(angular.element( document.querySelector( "article header button.right-nav" ) ), function(value, key){
             //    var a = angular.element(value);
             //    a.addClass('active');
             //});
         }
         else {
-            angular.element( document.querySelector( "button.right-nav" ) ).removeClass('active');
+            //var classList = document.getElementsByClassName('button.right-nav');
+            //for (var i = 0; i < classList.length; i++) {
+            //    angular.element(classList[i]).removeClass('active');
+            //}
+
+            //angular.element(document.querySelector( ".right-nav" )).css("color", "#333");
+
+            //angular.element( document.querySelector( "button.right-nav" ) ).removeClass('active');
             //angular.forEach(angular.element( document.querySelector( "article header button.right-nav" ) ), function(value, key){
             //    var a = angular.element(value);
             //    a.removeClass('active');

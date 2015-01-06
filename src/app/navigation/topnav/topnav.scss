@@ -4,18 +4,31 @@ main header.topnavbar {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 2px 0px, rgba(0, 0, 0, 0.05) 0px 1px 0px 0px;
   box-sizing: border-box;
-//  color: rgb(88, 102, 110);
   display: block;
   height: 50px;
   line-height: 20px;
   margin: 0;
   padding: 0;
-//  padding: 4px 10px;
   position: relative;
   z-index: 999;
-  width: calc(100%);
+  width: calc(100% - 274px) !important;
   @include breakpoint(one-col) {
-    width: 100%;
+    width: 100% !important;
+    .state-1 & {
+      width: 100% !important;
+    }
+  }
+  @include breakpoint(two-col) {
+    width: calc(100% - 274px);
+    .state-2 & {
+      width: 100% !important;
+    }
+  }
+  @include breakpoint(three-col) {
+    width: calc(100% - 274px);
+    .state-3 & {
+      width: 100% !important;
+    }
   }
 
   &.topbar {
@@ -42,11 +55,22 @@ main header.topnavbar {
     }
   }
 
+  .brand {
+    text-align: center;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 14px;
+    position: absolute;
+  }
+
   .left {
-    float: left;
     display: block;
+    float: left;
+    position: relative;
+    vertical-align: middle;
     text-align: left;
-    width: 10%;
     padding: 0;
     button {
       padding: 0;
@@ -54,38 +78,12 @@ main header.topnavbar {
       margin-left: 16px;
     }
   }
-  .center {
-    float: left;
-    display: block;
-    text-align: center;
-    width: 80%;
-    padding-top: 14px;
-  }
   .right {
-    float: left;
     display: block;
+    float: right;
+    position: relative;
+    vertical-align: middle;
     text-align: right;
-    width: 10%;
   }
 
-
-
-
-//  button {
-//    color: $medium-gray;
-//  }
-//  form {
-//    padding: 0;
-//    margin: 0;
-//
-//    input, span {
-//      display: inline;
-//      float: left;
-//    }
-//  }
-//
-//  input, span {
-//    display: inline;
-//    float: left;
-//  }
 }

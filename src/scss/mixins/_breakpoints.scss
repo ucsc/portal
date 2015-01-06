@@ -26,49 +26,106 @@
   color: $color;
   height: 60px;
   overflow-y: auto;
+  position: relative;
 
-
-
-  div.wrapper {
-    @include vertical-align;
+  .articletitle {
     text-align: center;
-    padding: 0 30px;
-    //margin-top: -2px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 16px;
+    position: absolute;
   }
 
-  div.buttonleft {
-    position: fixed;
-    z-index: 5;
-    margin: 12px 15px;
+  .buttonleft {
+    display: block;
+    float: left;
+    position: relative;
+    vertical-align: middle;
+    text-align: left;
+    padding: 0;
+    button {
+      padding: 0;
+      margin-top: 9px;
+      margin-left: 16px;
+    }
   }
-
-  div.buttonright {
-    position: fixed;
-    z-index: 5;
-    right: 0;
-    margin: -10px 15px;
+  .buttonright {
     display: none;
+    float: right;
+    position: relative;
+    vertical-align: middle;
+    text-align: right;
+    button {
+      padding: 0;
+      margin-top: 9px;
+      margin-right: 16px;
+    }
     .state-1 & {
-      @include breakpoint(one-col) {
-        display: block;
-      }
-    }
-    .state-2 & {
-      @include breakpoint(one-col) {
-        display: block;
-      }
-    }
-    .state-3 & {
-      @include breakpoint(one-col) {
-        display: block;
-      }
-    }
-    .state-4 & {
-      @include breakpoint(one-col) {
-        display: block;
-      }
-    }
+            @include breakpoint(one-col) {
+              display: block;
+            }
+          }
+          .state-2 & {
+            @include breakpoint(one-col) {
+              display: block;
+            }
+          }
+          .state-3 & {
+            @include breakpoint(one-col) {
+              display: block;
+            }
+          }
+          .state-4 & {
+            @include breakpoint(one-col) {
+              display: block;
+            }
+          }
   }
+
+
+
+//  div.wrapper {
+//    @include vertical-align;
+//    text-align: center;
+//    padding: 0 30px;
+//    //margin-top: -2px;
+//  }
+//
+//  div.buttonleft {
+//    position: fixed;
+//    z-index: 5;
+//    margin: 12px 15px;
+//  }
+//
+//  div.buttonright {
+//    position: fixed;
+//    z-index: 5;
+//    right: 0;
+//    margin: -10px 15px;
+//    display: none;
+//    .state-1 & {
+//      @include breakpoint(one-col) {
+//        display: block;
+//      }
+//    }
+//    .state-2 & {
+//      @include breakpoint(one-col) {
+//        display: block;
+//      }
+//    }
+//    .state-3 & {
+//      @include breakpoint(one-col) {
+//        display: block;
+//      }
+//    }
+//    .state-4 & {
+//      @include breakpoint(one-col) {
+//        display: block;
+//      }
+//    }
+//  }
 
   button {
     position: relative;

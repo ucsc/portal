@@ -30,11 +30,11 @@
     </nav>
     <main role="main" class="{{$state.current.name}}" ng-class="{drawer: isOpen}" ng-click="closedrawer()" ng-swipe-right="opendrawer()">
         <header ng-controller="TopNavCtrl" class="topnavbar" ng-class="{topbar: isTop}">
+            <div class="brand">
+                <span class="name">UCSC Mobile</span>
+            </div>
             <div class="left">
                 <button class="icon-article leftnav" ng-click="drawer()"></button>
-            </div>
-            <div class="center">
-                <span class="name">UCSC Mobile</span>
             </div>
             <div class="right">
             </div>

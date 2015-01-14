@@ -43,4 +43,20 @@ module.exports = angular.module('app', [
     .controller('TopNavCtrl', ['$scope', '$http', TopNavCtrl])
     .factory('navigationService', ['$http', navigationService])
     .factory('siteMenuService', ['$http', siteMenuService])
-    ;
+    .directive("currentTime", function (dateFilter) {
+        return function (scope, element, attrs) {
+            function updateTime() {
+                var dt = dateFilter(new Date(), attrs.currentTime, 'UTC' + 'Z');
+                element.text(dt);
+            }
+            function updateLater() {
+                updateTime(); // load
+                setTimeout(function () {
+                    updateTime(); // update DOM
+                    updateLater(); // schedule another update
+                }, 1000);
+            }
+            updateLater();
+        }
+    })
+;

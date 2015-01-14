@@ -1,6 +1,10 @@
 {
     "name": "ucsc-mobile-portal",
-    "version": "0.3",
+    "version": "0.3.1",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/ucsc/repository.git"
+    },
     "devDependencies": {
         "browserify": "6.1.0",
         "gulp": "3.8.10",

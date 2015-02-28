@@ -2,7 +2,7 @@
     <header>
         <div class="articletitle">
             <h1>
-                <span class="location">Santa Cruz, CA</span>
+                <span class="location">Santa Cruz, California</span>
                 <span class="time" current-time="h:mm a"></span>
                 <span class="date" current-time="EEE, MMMM d, y"></span>
             </h1>
@@ -27,8 +27,12 @@
             </div>
             <div class="mod-address">
                 <ul>
-                    <li>1152 High Street <br />Santa Cruz, CA 95064</li>
-                    <li>(831) 459-0111</li>
+                    <li class="icon-location">
+                        <a ng-href="www.google.com">1152 High Street <br />Santa Cruz, CA 95064</a>
+                    </li>
+                    <li class="icon-telephone">
+                        <a ng-href="tel:+018314590111">(831) 459-0111</a>
+                    </li>
                 </ul>
             </div>
 
@@ -37,54 +41,40 @@
             <div class="mod-label">Weather</div>
             <div class="mod-body">
                 <ul class="temps">
-                    <li>
-                        <span class="temp">76</span>
+                    <li ng-repeat="ct in forecast.current" class="current">
+                        <div class="{{ct.icon}} icon">
+                            <span class="temp">{{ct.temp}}&deg;</span>
+                            <!--<i aria-hidden="true" class="icon-fahrenheit"></i>-->
+                        </div>
                     </li>
-                    <li>
-                        <span class="day">Tue</span>
-                        <span class="temp">76</span>
-                    </li>
-                    <li>
-                        <span class="day">Wed</span>
-                        <span class="temp">76</span>
-                    </li>
-                    <li>
-                        <span class="day">Thu</span>
-                        <span class="temp">76</span>
-                    </li>
-                    <li>
-                        <span class="day">Fri</span>
-                        <span class="temp">76</span>
-                    </li>
-                    <li>
-                        <span class="day">Sat</span>
-                        <span class="temp">76</span>
-                    </li>
-                    <li>
-                        <span class="day">Sun</span>
-                        <span class="temp">76</span>
+                    <li ng-repeat="fc in forecast.forecast" class="forecast">
+                        <span class="day">{{fc.weekday}}</span>
+                        <i aria-hidden="true" class="{{fc.icon}} icon"></i>
+                        <span class="temp">{{fc.high}}&deg;
+                            <!--<i aria-hidden="true" class="icon-fahrenheit"></i>-->
+                        </span>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="module_surf">
-            <div class="mod-label">
-                Surf
-                <span class="low-tide"></span>
-                <span class="high-tide"></span>
-                <span class="source"></span>
-            </div>
-            <div class="mod-body">
-                <div class="swell">
+        <!--<div class="module_surf">-->
+            <!--<div class="mod-label">-->
+                <!--Surf-->
+                <!--<span class="low-tide"></span>-->
+                <!--<span class="high-tide"></span>-->
+                <!--<span class="source"></span>-->
+            <!--</div>-->
+            <!--<div class="mod-body">-->
+                <!--<div class="swell">-->
 
-                </div>
-                <div class="tide">
+                <!--</div>-->
+                <!--<div class="tide">-->
 
-                </div>
-                <div class="wind">
+                <!--</div>-->
+                <!--<div class="wind">-->
 
-                </div>
-            </div>
-        </div>
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
     </section>
 </article>

@@ -3,10 +3,10 @@ ini_set('display_errors', 1);
 require_once('vendor/twitter-api-php/TwitterAPIExchange.php');
 /** Set access tokens here - see: https://dev.twitter.com/apps/ **/
 $settings = array(
-    'oauth_access_token' => "2835904524-p8sVyTgumZ6WSfX3njm2l6hdqrFCTIYc6V9l9Yb",
-    'oauth_access_token_secret' => "5ZJ9Tw0n3ixKBnVdhHzEX9nPXvTxyCtPYsleFqDvYzkhS",
-    'consumer_key' => "nYQdNfZRUvLHhpT4hAZSg2sfT",
-    'consumer_secret' => "OabqTmsQNrKxgEJ4LFiDRwd82vZfCxSqtE7Pof2Wg5qEj0eN43"
+	'oauth_access_token' => "2835904524-p8sVyTgumZ6WSfX3njm2l6hdqrFCTIYc6V9l9Yb",
+	'oauth_access_token_secret' => "5ZJ9Tw0n3ixKBnVdhHzEX9nPXvTxyCtPYsleFqDvYzkhS",
+	'consumer_key' => "nYQdNfZRUvLHhpT4hAZSg2sfT",
+	'consumer_secret' => "OabqTmsQNrKxgEJ4LFiDRwd82vZfCxSqtE7Pof2Wg5qEj0eN43"
 );
 
 require 'Slim/Slim.php';
@@ -15,7 +15,97 @@ $app->get('/weather', 'getWeather');
 $app->get('/weather/touch', 'touchWeather');
 $app->get('/emergency/check', 'checkEmergency');
 $app->get('/emergency', 'getEmergency');
+$app->get('/forecast', 'getForecast');
 $app->run();
+
+function findIcon($currentIcon, $currentTime, $sunrise, $sunset) {
+	if(isset($currentTime)) {
+		if($currentTime < $sunrise || $currentTime > $sunset) {
+			$isNight = true;
+			$isDay = false;
+		} else {
+			$isNight = false;
+			$isDay = true;
+		}
+	}
+	$clear = array('clear', 'sunny', 'unknown', 'hazy', 'mostlysunny');
+	$cloudy = array('cloudy', 'mostlycloudy', 'fog');
+	$partly = array('partlysunny', 'partlycloudy');
+	$snow = array('flurries', 'snow');
+	$rain = array('sleet', 'rain');
+	$storms = array('tstorms');
+	if(in_array($currentIcon, $cloudy)){
+		$currentIcon = 'icon-cloudy';
+	} elseif(in_array($currentIcon, $partly)){
+		if(isset($currentTime) && $isNight){
+			$currentIcon = 'icon-cloudy-moon';
+		} else{
+			$currentIcon = 'icon-cloudy-sun';
+		}
+	} elseif(in_array($currentIcon, $snow)){
+		$currentIcon = 'icon-snow';
+	} elseif(in_array($currentIcon, $rain)){
+		$currentIcon = 'icon-rain';
+	} elseif(in_array($currentIcon, $storms)){
+		$currentIcon = 'icon-cloud-flash';
+	} else{
+		if(isset($currentTime) && $isNight){
+			$currentIcon = 'icon-moon';
+		} else{
+			$currentIcon = 'icon-sun';
+		}
+	}
+
+	return $currentIcon;
+}
+
+function getForecast() {
+	$response = array();
+	$i = 0;
+
+	$weatherFeed = "http://api.wunderground.com/api/be527d7317e1fe1c/conditions/tide/alerts/astronomy/q/CA/Santa_Cruz.json";
+	$weatherReport = json_decode(file_get_contents($weatherFeed), true);
+	$currentTime = floatval($weatherReport["moon_phase"]["current_time"]["hour"].'.'.$weatherReport["moon_phase"]["current_time"]["minute"]);
+	$sunrise = floatval($weatherReport["moon_phase"]["sunrise"]["hour"].'.'.$weatherReport["moon_phase"]["sunrise"]["minute"]);
+	$sunset = floatval($weatherReport["moon_phase"]["sunset"]["hour"].'.'.$weatherReport["moon_phase"]["sunset"]["minute"]);
+	$currentIcon = $weatherReport["current_observation"]["icon"];
+	$currentIcon = findIcon($currentIcon, $currentTime, $sunrise, $sunset);
+	$response['current'][$i] = array(
+		'date'=>$weatherReport["current_observation"]["local_time_rfc822"],
+		'temp'=>round($weatherReport["current_observation"]["temp_f"]),
+//		'icon'=>$weatherReport["current_observation"]["icon"],
+		'icon'=>$currentIcon,
+		'icon_url'=>$weatherReport["current_observation"]["icon_url"],
+		'condition'=>$weatherReport["current_observation"]["weather"]
+//		'is_day'=>$isDay,
+//		'is_night'=>$isNight
+	);
+
+	$forecastFeed = "http://api.wunderground.com/api/be527d7317e1fe1c/forecast10day/q/CA/Santa_Cruz.json";
+	$forecastReport = json_decode(file_get_contents($forecastFeed), true);
+	foreach($forecastReport["forecast"]["simpleforecast"]["forecastday"] as $report) {
+		$i++;
+		if($i<=7 && $i!=1){
+			$currentIcon = $report["icon"];
+			$currentIcon = findIcon($currentIcon, false, false, false);
+			$response['forecast'][$i] = array(
+				'date'=>$report["date"]["pretty"],
+				'high'=>$report["high"]["fahrenheit"],
+				'low'=>$report["low"]["fahrenheit"],
+				'icon'=>$currentIcon,
+				'icon_url'=>$report["icon_url"],
+				'condition'=>$report["conditions"],
+				'weekday'=>$report["date"]["weekday_short"]
+			);
+		}
+	}
+
+	echo json_encode($response);
+	$fp = fopen('static/forecast.json', 'w');
+	fwrite($fp, json_encode($response));
+	fclose($fp);
+
+}
 
 function touchWeather() {
 	//$weatherFeed = "http://api.wunderground.com/api/be527d7317e1fe1c/hourly/q/CA/Santa_Cruz.json";
@@ -55,7 +145,7 @@ function touchWeather() {
 		$isNight = false;
 		$isDay = true;
 	}
-	
+
 	$clear = array('clear', 'sunny', 'unknown', 'hazy', 'mostlysunny');
 	$cloudy = array('cloudy', 'mostlycloudy', 'fog');
 	$partly = array('partlysunny', 'partlycloudy');
@@ -110,44 +200,44 @@ function getWeather() {
 }
 
 function checkEmergency() {
-    global $settings;
-    $url = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
-    $getfield = '?screen_name=ucsc_cruzalert';
-    $requestMethod = 'GET';
+	global $settings;
+	$url = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
+	$getfield = '?screen_name=ucsc_cruzalert';
+	$requestMethod = 'GET';
 
-    $twitter = new TwitterAPIExchange($settings);
-    $response = $twitter->setGetfield($getfield)
-        ->buildOauth($url, $requestMethod)
-        ->performRequest();
+	$twitter = new TwitterAPIExchange($settings);
+	$response = $twitter->setGetfield($getfield)
+		->buildOauth($url, $requestMethod)
+		->performRequest();
 
-    //var_dump(json_decode($response));
-    $json = json_decode($response);
-    $arrayobj = array();
+	//var_dump(json_decode($response));
+	$json = json_decode($response);
+	$arrayobj = array();
 
-    foreach($json as $tweet) {
-        $date = $tweet->created_at;
-        //$date = "Tue Sept 30 20:14:55 +0000 2014";
-        if (strtotime("$date +1 day") >= time()) {
-            array_push($arrayobj, $tweet);
-        }
-    }
+	foreach($json as $tweet) {
+		$date = $tweet->created_at;
+		//$date = "Tue Sept 30 20:14:55 +0000 2014";
+		if (strtotime("$date +1 day") >= time()) {
+			array_push($arrayobj, $tweet);
+		}
+	}
 
-    echo json_encode($arrayobj);
+	echo json_encode($arrayobj);
 }
 
 function getEmergency() {
-    global $settings;
-    $url = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
-    $getfield = '?screen_name=ucsc_cruzalert';
-    $requestMethod = 'GET';
+	global $settings;
+	$url = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
+	$getfield = '?screen_name=ucsc_cruzalert';
+	$requestMethod = 'GET';
 
-    $twitter = new TwitterAPIExchange($settings);
-    $response = $twitter->setGetfield($getfield)
-        ->buildOauth($url, $requestMethod)
-        ->performRequest();
+	$twitter = new TwitterAPIExchange($settings);
+	$response = $twitter->setGetfield($getfield)
+		->buildOauth($url, $requestMethod)
+		->performRequest();
 
-    $json = json_decode($response);
-    echo json_encode($json);
+	$json = json_decode($response);
+	echo json_encode($json);
 }
 
 ?>

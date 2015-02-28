@@ -71,6 +71,51 @@ main {
 
     section {
       height: calc(100% - 110px);
+
+      ul {
+        li {
+
+          span {
+            font-size: 40px;
+            color: $blue;
+
+            i {
+              float: left;
+              padding-right: 30px;
+              //margin-top: -4px;
+              margin-left: 6px;
+              //@include vertical-align;
+            }
+
+            i::before {
+              text-align: center;
+            }
+
+            h2 {
+              //display: inline;
+              font-size: 22px;
+              font-weight: 500;
+              color: $dark-gray;
+              //vertical-align: super;
+            }
+            div {
+              //display: inline;
+              //margin-left: 49px;
+//              margin-top: 5px;
+              font-size: 14px;
+              font-weight: 300;
+              color: $dark-gray;
+
+
+            }
+          }
+
+
+        }
+      }
+
+
+
     }
   }
 }

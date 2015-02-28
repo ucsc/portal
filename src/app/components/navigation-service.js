@@ -4,7 +4,13 @@ module.exports = function navigationService($http) {
         getNav: function() {
             var promise = [
                 //{id : 1, name : 'Dashboard', icon : 'icon-feather', url : 'dashboard'},
-                {id : 1, name : 'Emergency', icon : 'icon-fire', url : 'emergency'}
+                {id : 1, name : 'Emergency', icon : 'icon-fire', url : 'emergency'},
+                {id : 2, name : 'Directory', icon : 'icon-vcard', url : 'directory'},
+                {id : 3, name : 'News', icon : 'icon-newspaper', url : 'news'},
+                {id : 4, name : 'Support', icon : 'icon-help', url : 'support'},
+                {id : 5, name : 'About', icon : 'icon-info', url : 'about'},
+                {id : 6, name : 'Social', icon : 'icon-asl', url : 'social'},
+                {id : 7, name : 'Visit', icon : 'icon-direction', url : 'visit'}
                 //{id : 1, name : 'Welcome', icon : 'icon-feather', url : 'main'},
                 //{id : 2, name : 'Directory', icon : 'icon-vcard', url : 'main.directory'},
                 //{id : 3, name : 'Emergency', icon : 'icon-fire', url : 'main.emergency', notify: true},
@@ -17,12 +23,18 @@ module.exports = function navigationService($http) {
             ];
             return promise;
         },
-        getWeather: function() {
-            var promise = $http({ method: 'GET', url: 'api/static/weather.json' }).success(function(data, status, headers, config) {
+        getForecast: function() {
+            var promise = $http({ method: 'GET', url: 'api/static/forecast.json' }).success(function(data, status, headers, config) {
                 return data;
             });
             return promise;
         },
+        //getWeather: function() {
+        //    var promise = $http({ method: 'GET', url: 'api/static/weather.json' }).success(function(data, status, headers, config) {
+        //        return data;
+        //    });
+        //    return promise;
+        //},
         getEmergency: function() {
             var promise = $http({ method: 'GET', url: 'api/static/emergency.json', cache: false }).success(function(data, status, headers, config) {
                 //var promise = $http({ method: 'GET', url: 'api/emergency/check', cache: false }).success(function(data, status, headers, config) {

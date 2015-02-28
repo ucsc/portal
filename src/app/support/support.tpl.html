@@ -1,0 +1,27 @@
+<article class="menu" role="support">
+    <header>
+        <div class="articletitle">
+            <h1><span>Campus</span> Support</h1>
+        </div>
+        <div class="buttonleft">
+            <button ui-sref="dashboard" class="left-nav icon-cancel-circled"></button>
+        </div>
+        <div class="buttonright">
+            <button class="right-nav icon-colon" ng-click="topbar()" ng-class="{active: !isTop}"></button>
+        </div>
+    </header>
+    <section class="body">
+        <ul>
+            <a ng-repeat="item in supportMenu" ui-sref-active="active" ui-sref=".submenu({url:'{{item.url}}'})">
+                <li>
+					<span>
+						<i aria-hidden="true" class="{{item.icon}}"></i>
+						<h2>{{item.title}}</h2>
+						<div>{{item.teaser}}</div>
+					</span>
+                </li>
+            </a>
+        </ul>
+    </section>
+</article>
+<ui-view></ui-view>

@@ -11,7 +11,14 @@
         </div>
     </header>
     <section class="body">
-            {{testing | json}}
+            <!--{{testing | json}}-->
+            <ul>
+                <li ng-repeat="feed in testing">
+                    <!--{{feed.text | createAnchors}}-->
+                    <div ng-bind-html='feed.text | createAnchors'></div>
+                    <div class="date">{{feed.created_at | rssDate}}</div>
+                </li>
+            </ul>
             <!--<ul>-->
                 <!--<div class="item" ng-repeat="feed in testing">-->
                     <!--<li>-->

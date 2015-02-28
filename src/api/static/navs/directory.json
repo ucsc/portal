@@ -1,0 +1,16 @@
+{
+  "menu": [
+    {
+      "title": "Search",
+      "icon": "icon-user-pair",
+      "teaser": "People, Departments, Email",
+      "url": ".search"
+    },
+    {
+      "title": "Browse",
+      "icon": "icon-article-alt",
+      "teaser": "Browse by divisions",
+      "url": ".browse"
+    }
+  ]
+}

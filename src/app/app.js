@@ -26,7 +26,13 @@ module.exports = angular.module('app', [
 
     // Add modules/sections as dependencies
     require('./dashboard/dashboard').name,
-    require('./emergency/emergency').name
+    require('./emergency/emergency').name,
+    require('./directory/directory').name,
+    require('./news/news').name,
+    require('./support/support').name,
+    require('./about/about').name,
+    require('./social/social').name,
+    require('./visit/visit').name
 
 ])
 
@@ -43,6 +49,13 @@ module.exports = angular.module('app', [
     .controller('TopNavCtrl', ['$scope', '$http', TopNavCtrl])
     .factory('navigationService', ['$http', navigationService])
     .factory('siteMenuService', ['$http', siteMenuService])
+    .factory('FeedService', function($http){
+        return {
+            parseFeed : function(url){
+                return $http.jsonp('//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=50&callback=JSON_CALLBACK&q=' + encodeURIComponent(url));
+            }
+        }
+    })
     .directive("currentTime", function (dateFilter) {
         return function (scope, element, attrs) {
             function updateTime() {
@@ -58,5 +71,22 @@ module.exports = angular.module('app', [
             }
             updateLater();
         }
+    })
+    .filter('createAnchors', function ($sce) {
+        return function (str) {
+        return $sce.trustAsHtml(str.
+                replace(/</g, '&lt;').
+                replace(/>/g, '&gt;').
+                //replace(/(.*)\…/, '').
+                replace(/\u2026/, "").
+                replace(/(http[^\s]+)/, '<a href="$1" target="_blank">link</a>')
+            //replace(/(http[^\s]+)/, '<a href="$1" target="_blank">link</a>')
+        );
+        }
+    })
+    .filter('rssDate', function () {
+        return function (value) {
+        return new Date(value).toLocaleString();
+        };
     })
 ;

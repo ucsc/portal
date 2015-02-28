@@ -20,4 +20,10 @@ module.exports = angular.module('app.dashboard', [
         });
 
     })
-    .controller('DashboardCtrl', ['$scope', DashboardCtrl]);
+    .controller('DashboardCtrl', ['$scope', 'navigationService', DashboardCtrl])
+    .filter('day', function () {
+        return function (value) {
+            return new Date(value);
+        };
+    })
+;

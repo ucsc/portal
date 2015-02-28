@@ -1,0 +1,23 @@
+<article class="list" role="support">
+    <header>
+        <div class="articletitle">
+            <h1><span>{{pagetitle}}</span></h1>
+        </div>
+        <div class="buttonleft">
+            <button ui-sref="support" class="left-nav icon-cancel-circled"></button>
+        </div>
+        <div class="buttonright">
+            <button class="right-nav icon-colon" ng-click="topbar()" ng-class="{active: !isTop}"></button>
+        </div>
+    </header>
+    <section class="body">
+        <!--{{contacts | json}}-->
+        <ul>
+            <a ng-repeat="contact in contacts" ui-sref-active="active" href="{{contact.url}}" target="_blank">
+                <li>
+                    {{contact.title}}
+                </li>
+            </a>
+        </ul>
+    </section>
+</article>

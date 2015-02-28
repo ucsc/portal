@@ -11,26 +11,36 @@
         </div>
     </header>
     <section class="body">
-        <span>
-			<img ng-src="{{contact.thumbnail}}"/>
-		</span>
-        <h1>{{contact.title}}</h1>
-        <p>{{contact.teaser}}</p>
-        <ul>
-            <li class="icon-clock">
-                {{contact.hours}}
+        <!--<span class="titleimg">-->
+			<!--<img ng-src="{{contact.thumbnail}}"/>-->
+		<!--</span>-->
+        <!--<div class="txtwrap">-->
+            <!--<h1>{{contact.title}}</h1>-->
+            <!--<p>{{contact.teaser}}</p>-->
+        <!--</div>-->
+        <div class="title">
+		    <span>
+			    <img ng-src="{{contact.thumbnail}}"/>
+		    </span>
+            <h1>{{contact.title}}</h1>
+            <p>{{contact.teaser}}</p>
+
+        </div>
+        <ul class="icons">
+            <li>
+                <i class="icon icon-clock"></i>{{contact.hours}}
             </li>
-            <li class="icon-location">
-                <a ng-href="{{contact.map_url}}" target="_blank"><span style="white-space: pre;">{{contact.address}}</span></a>
+            <li class="link">
+                <i class="icon icon-location"></i><a ng-href="{{contact.map_url}}" target="_blank"><span style="white-space: pre;">{{contact.address}}</span></a>
             </li>
-            <li class="icon-telephone">
-                <a ng-href="tel:{{contact.phone_url}}">{{contact.phone}}</a>
+            <li class="link">
+                <i class="icon icon-telephone"></i><a ng-href="tel:{{contact.phone_url}}">{{contact.phone}}</a>
             </li>
-            <li class="icon-mail">
-                <a ng-href="mailto:{{contact.email}}">{{contact.email}}</a>
+            <li class="link">
+                <i class="icon icon-mail"></i><a ng-href="mailto:{{contact.email}}">{{contact.email}}</a>
             </li>
-            <li class="icon-export">
-                <a ng-href="{{contact.external_url}}" target="_blank">{{contact.external_url_title}}</a>
+            <li class="link">
+                <i class="icon icon-export"></i><a ng-href="{{contact.external_url}}" target="_blank">{{contact.external_url_title}}</a>
             </li>
             <!--<li class="icon-print" ng-if="{{contact.fax}}">-->
                 <!--{{contact.fax}}-->

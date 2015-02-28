@@ -1,6 +1,305 @@
 article[role="dashboard"] {
   width: calc(100% - 274px) !important;
+  height: calc(100% + 10px);
   @include breakpoint(one-col) {
     width: auto !important;
+    height: calc(100% + 60px);
   }
+
+  header {
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
+    @include breakpoint(two-col) {
+      width: 90%;
+    }
+    @include breakpoint(one-col) {
+      width: 100%
+    }
+
+    .articletitle {
+      text-align: center;
+
+//      background-color: #bebebe;
+
+      .location {
+//        float: left;
+        font-weight: 300;
+        color: $darkish-gray;
+        font-size: 90%;
+        float: left;
+        width: 33%;
+        @include breakpoint(one-col) {
+          display: none;
+        }
+        @include breakpoint(two-col) {
+//          font-size: 80%;
+        }
+      }
+      .time {
+//        float: center;
+        font-weight: 500;
+        font-size: 90%;
+        color: $darkish-gray;
+        float: left;
+        width: 33%;
+        @include breakpoint(one-col) {
+          display: none;
+        }
+        @include breakpoint(two-col) {
+          font-size: 90%;
+        }
+      }
+      .date {
+//        float: right;
+        font-weight: 300;
+        color: $darkish-gray;
+        font-size: 90%;
+        float: left;
+        width: 33%;
+
+        @include breakpoint(two-col) {
+//          font-size: 80%;
+        }
+        @include breakpoint(one-col) {
+          float: center;
+        }
+      }
+
+
+    }
+  }
+
+  section[role="body"]{
+    padding: 0 60px;
+    @include breakpoint(one-col) {
+      padding: 0 20px;
+    }
+    @include breakpoint(two-col) {
+      padding: 0 40px;
+    }
+
+    .module_about, .module_weather, .module_surf {
+      clear: both;
+      .mod-label {
+        border-bottom: 1px solid $gray-border;
+      }
+      padding-bottom: 25px;
+      clear: both;
+      color: $darkish-gray;
+      font-size: $ninety-font-size;
+
+    }
+
+    .mod-label {
+      color: $gray;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .module_about {
+      .mod-body {
+        width: 70%;
+        float: left;
+        padding: 20px 0;
+        border-right: 1px solid $light-gray;
+        padding-right: 5%;
+      }
+      .mod-address {
+        width: 24%;
+        float: right;
+        padding: 10px 0 20px 0;
+//        font-weight: 500;
+        font-size: 90%;
+//        color: $darkish-gray;
+      }
+      @include breakpoint(one-col) {
+        .mod-body {
+          width: 100%;
+          border-right: none;
+          padding-bottom: 0;
+        }
+        .mod-address {
+          width: 100%;
+          padding-top: 0;
+          padding-bottom: 30px;
+          padding-left: 0;
+        }
+      }
+      @include breakpoint(two-col) {
+        .mod-body {
+          width: 100%;
+          border-right: none;
+          padding-bottom: 0;
+        }
+        .mod-address {
+          width: 100%;
+          padding-top: 0;
+          padding-bottom: 30px;
+          padding-left: 0;
+        }
+      }
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0 20px;
+
+      li {
+        color: $dark-gray;
+        font-weight: 300;
+        padding: 15px 0 0 40px;
+        position: relative;
+        line-height: 1.25;
+
+        a {
+          color: $blue;
+          font-weight: 500;
+          text-decoration: none;
+        }
+
+        a:hover, a:active {
+          color: $dark-blue;
+        }
+      }
+      li::before {
+        color: $mediumish-gray;
+        //content: '\e81e';
+        position: absolute;
+        left: 0px;
+        font-size: 22px;
+      }
+    }
+
+
+
+  }
+
+  .module_weather {
+    ul.temps {
+      margin: 20px 0;
+      padding: 0;
+      li {
+        float: left;
+        //        width: 12.5%;
+        margin: 0;
+        padding: 0;
+        border-right: 1px solid $light-gray;
+        margin-left: -1px;
+        height: 100px;
+
+      }
+      li:last-child {
+        border-right: none;
+      }
+      li.current {
+        width: 35%;
+        font-size: 80px;
+        text-align: center;
+
+        .temp {
+          font-size: 75px;
+          font-weight: 600;
+          margin-left: -10px;
+          vertical-align: super;
+        }
+        //        .icon-fahrenheit {
+        //          font-size: 50px;
+        //          margin: -50px 0 0 -20px;
+        ////          vertical-align: super;
+        //        }
+      }
+
+      li.current {
+        .icon-cloudy-moon, icon-moon {
+          color: $blue;
+        }
+        .icon-cloudy-sun, .icon-sun {
+          color: $yellow;
+        }
+        .icon-snow {
+
+        }
+        .icon-rain {
+
+        }
+        .icon-cloud-flash {
+
+        }
+      }
+
+      li.forecast {
+        color: $gray;
+        width: calc(65% / 6);
+        font-size: 26px;
+
+        .day, .icon, .temp {
+          display: block;
+          text-align: center;
+          padding-bottom: 3px;
+        }
+
+        .day {
+          //        margin-top: 0px;
+
+        }
+
+        .temp {
+          font-weight: 500;
+        }
+      }
+
+      @include breakpoint(two-col) {
+        li.current {
+          width: 45%;
+          text-align: center;
+          font-size: 60px;
+          .temp {
+            font-size: 50px;
+          }
+        }
+        li.forecast {
+          width: calc(55% / 3);
+          font-size: 1.2em;
+        }
+        li.forecast:last-child,
+        li.forecast:nth-last-child(2) {
+          display: none;
+        }
+        li.forecast:nth-last-child(3) {
+          display: none;
+        }
+        li.forecast:nth-last-child(4) {
+          border-right: none;
+        }
+      }
+
+      @include breakpoint(one-col) {
+        li.current {
+          width: 45%;
+          text-align: center;
+          font-size: 60px;
+          .temp {
+            font-size: 50px;
+          }
+        }
+        li.forecast {
+          width: calc(55% / 3);
+          font-size: 1.2em;
+        }
+        li.forecast:last-child,
+        li.forecast:nth-last-child(2) {
+          display: none;
+        }
+        li.forecast:nth-last-child(3) {
+          display: none;
+        }
+        li.forecast:nth-last-child(4) {
+          border-right: none;
+        }
+      }
+    }
+  }
+
+
 }

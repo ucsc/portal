@@ -1,0 +1,40 @@
+{
+  "menu": [
+    {
+      "title": "Campus Tours",
+      "icon": "icon-flashlight",
+      "teaser": "",
+      "url": "http://admissions.ucsc.edu/visit/campus-tours.html"
+    },
+    {
+      "title": "Virtual Tours",
+      "icon": "icon-desktop",
+      "teaser": "",
+      "url": "http://www1.ucsc.edu/about/vtour/"
+    },
+    {
+      "title": "Maps & Directions",
+      "icon": "icon-location",
+      "teaser": "",
+      "url": "http://www.ucsc.edu/visit/maps-directions.html"
+    },
+    {
+      "title": "Desinations",
+      "icon": "icon-paper-plane",
+      "teaser": "",
+      "url": "http://www.ucsc.edu/visit/destinations.html"
+    },
+    {
+      "title": "Transportation & Parking",
+      "icon": "icon-cab",
+      "teaser": "",
+      "url": "http://taps.ucsc.edu/"
+    },
+    {
+      "title": "Eat on Campus",
+      "icon": "icon-food",
+      "teaser": "",
+      "url": "http://housing.ucsc.edu/dining/"
+    }
+  ]
+}

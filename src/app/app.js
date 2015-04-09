@@ -89,4 +89,12 @@ module.exports = angular.module('app', [
         return new Date(value).toLocaleString();
         };
     })
+    .filter('addPluses', function() {
+        return function(name) {
+            return name.replace(/\s{1,}/g, '+')
+                .replace(/'/g, '')
+                .replace(/of/g, '')
+                .replace(/\//g, '+');
+        }
+    })
 ;

@@ -15,6 +15,9 @@ main {
     @include breakpoint(three-col) {
       width: auto;
     }
+    @include breakpoint(four-col) {
+      width: auto;
+    }
 
     header {
       @include col-header(white, $dark-gray);
@@ -77,6 +80,8 @@ main {
             padding: 8px 8px 8px 55px;
             position: relative;
 
+
+
           }
 
           i.icon {
@@ -97,6 +102,21 @@ main {
           li {
             background-color: $light-gray;
           }
+        }
+      }
+      ul.directory-icons {
+        li {
+          a, span {
+            display: inline;
+            padding-left: 10px;
+          }
+        }
+        li.icon::before {
+          color: $mediumish-gray;
+          font-size: 22px;
+          position: absolute;
+          left: 0;
+          padding: 0 20px;
         }
       }
     }

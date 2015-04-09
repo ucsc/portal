@@ -42,8 +42,13 @@ main {
 
           a {
             color: $dark-gray;
-            font-style: italic;
+//            font-style: italic;
             border-bottom: none;
+          }
+
+          a:hover, a.active {
+//              background-color: $light-gray;
+
           }
 
           div.date {

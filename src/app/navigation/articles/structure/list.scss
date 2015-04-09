@@ -1,5 +1,5 @@
 main {
-  article.list, article.news {
+  article.list, article.news, article.search, article.sublist {
     width: 250px;
     background-color: white;
 
@@ -18,7 +18,7 @@ main {
     .state-3 & {
       @include breakpoint(one-col) {
         margin-left: -152%;
-        //width: 100%;
+//        width: 100%;
       }
       @include breakpoint(two-col) {
         width: 50%;

@@ -12,6 +12,13 @@
   }
 }
 
+@mixin drawer-translate3d {
+  -webkit-transform: translate3d(274px, 0px, 0px);  /* Chrome, Safari 3.1+ */
+  -moz-transform:    translate3d(274px, 0px, 0px);  /* Firefox 3.5-15 */
+  -ms-transform:     translate3d(274px, 0px, 0px);  /* IE 9 */
+  -o-transform:      translate3d(274px, 0px, 0px);  /* Opera 10.50-12.00 */
+  transform:         translate3d(274px, 0px, 0px);  /* Firefox 16+, IE 10+, Opera 12.10+ */
+}
 
 @mixin vertical-align {
   position: relative;

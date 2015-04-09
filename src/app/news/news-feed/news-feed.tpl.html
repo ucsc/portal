@@ -1,0 +1,34 @@
+<article class="news" role="news">
+    <header>
+        <div class="articletitle">
+            <h1><span>{{feedtitle}}</span></h1>
+        </div>
+        <div class="buttonleft">
+            <button ui-sref="news" class="left-nav icon-cancel-circled"></button>
+        </div>
+        <div class="buttonright">
+            <button class="right-nav icon-colon" ng-click="topbar()"></button>
+        </div>
+    </header>
+    <section class="body">
+        <!--{{articles | json}}-->
+        <!--<ul>-->
+            <!--<li ng-repeat="article in articles">-->
+                <!--&lt;!&ndash;{{feed.text | createAnchors}}&ndash;&gt;-->
+                <!--<div ng-bind-html='article.text | createAnchors'></div>-->
+                <!--<div class="date">{{article.created_at | rssDate}}</div>-->
+            <!--</li>-->
+        <!--</ul>-->
+
+        <ul>
+            <li ng-repeat="article in articles">
+                <a href="{{article.link}}" target="_blank">
+                    <div ng-bind-html='article.title | createAnchors'></div>
+                    <div class="date">{{article.publishedDate | rssDate}}</div>
+                    <div>{{article.contentSnippet}}</div>
+                </a>
+            </li>
+        </ul>
+
+    </section>
+</article>

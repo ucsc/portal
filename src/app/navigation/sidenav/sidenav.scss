@@ -137,7 +137,8 @@ main {
     @include breakpoint(one-col) {
       left: 0;
       &.drawer {
-        -webkit-transform: translate3d(274px, 0, 0);
+//        -webkit-transform: translate3d(274px, 0, 0);
+        @include drawer-translate3d();
       }
       button.leftnav {
         display: inline-block;
@@ -148,7 +149,8 @@ main {
     @include breakpoint(one-col) {
       left: 0;
       &.drawer {
-        -webkit-transform: translate3d(274px, 0, 0);
+//        -webkit-transform: translate3d(274px, 0, 0);
+        @include drawer-translate3d();
       }
       button.leftnav {
         display: inline-block;
@@ -157,7 +159,8 @@ main {
     @include breakpoint(two-col) {
       left: 0;
       &.drawer {
-        -webkit-transform: translate3d(274px, 0, 0);
+//        -webkit-transform: translate3d(274px, 0, 0);
+        @include drawer-translate3d();
       }
     }
   }
@@ -165,7 +168,8 @@ main {
     @include breakpoint(one-col) {
       left: 0;
       &.drawer {
-        -webkit-transform: translate3d(274px, 0, 0);
+//        -webkit-transform: translate3d(274px, 0, 0);
+        @include drawer-translate3d();
       }
       button.leftnav {
         display: inline-block;
@@ -174,13 +178,15 @@ main {
     @include breakpoint(two-col) {
       left: 0;
       &.drawer {
-        -webkit-transform: translate3d(274px, 0, 0);
+//        -webkit-transform: translate3d(274px, 0, 0);
+        @include drawer-translate3d();
       }
     }
     @include breakpoint(three-col) {
       left: 0;
       &.drawer {
-        -webkit-transform: translate3d(274px, 0, 0);
+//        -webkit-transform: translate3d(274px, 0, 0);
+        @include drawer-translate3d();
       }
     }
   }
@@ -188,7 +194,8 @@ main {
     @include breakpoint(one-col) {
       &.drawer {
         left: 0;
-        -webkit-transform: translate3d(274px, 0, 0);
+//        -webkit-transform: translate3d(274px, 0, 0);
+        @include drawer-translate3d();
       }
       button.leftnav {
         display: inline-block;
@@ -197,13 +204,15 @@ main {
     @include breakpoint(two-col) {
       left: 0;
       &.drawer {
-        -webkit-transform: translate3d(274px, 0, 0);
+//        -webkit-transform: translate3d(274px, 0, 0);
+        @include drawer-translate3d();
       }
     }
     @include breakpoint(three-col) {
       left: 0;
       &.drawer {
-        -webkit-transform: translate3d(274px, 0, 0);
+//        -webkit-transform: translate3d(274px, 0, 0);
+        @include drawer-translate3d();
       }
     }
   }

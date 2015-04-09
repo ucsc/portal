@@ -1,20 +1,24 @@
-<article class="search" role="directory">
+<article class="sublist" role="directory">
     <header>
         <div class="articletitle">
-            <h1><span>Search</span></h1>
+            <h1><span>Personnel</span></h1>
         </div>
         <div class="buttonleft">
-            <button ui-sref="directory" class="left-nav icon-cancel-circled"></button>
+            <button ui-sref="directory.browse" class="left-nav icon-cancel-circled"></button>
         </div>
         <div class="buttonright">
             <button class="right-nav icon-colon" ng-click="topbar()" ng-class="{active: !isTop}"></button>
         </div>
     </header>
-    <div class="searchinput">
-        <input autofocus placeholder="Search..." type="search" results=5 ng-model="dquery" ng-model-options="{debounce:750}" ng-change="updateSearch()"/>
-    </div>
     <section class="body">
+        <!--{{people | json}}-->
         <ul>
+            <!--<a ng-repeat="person in people" ui-sref-active="active" ui-sref=".division({url:'{{person}}'})">-->
+                <!--<li>-->
+                    <!--{{person}}-->
+                    <!--{{result.givenname}} <b>{{result.sn}}</b>-->
+                <!--</li>-->
+            <!--</a>-->
             <li class="tip" ng-show="resultscount">{{resultscount}} results</li>
             <a ng-repeat="result in results" ui-sref-active="active"
                ui-sref=".person({uid:'{{result.uid}}'})">

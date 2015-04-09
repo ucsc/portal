@@ -6,7 +6,7 @@ main {
     .state-1 & {
       @include breakpoint(two-col) {
         float: none;
-        width: calc(100% - 274px);;
+        width: calc(100% - 274px);
         border-right: none;
       }
       @include breakpoint(one-col) {

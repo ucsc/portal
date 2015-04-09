@@ -2,12 +2,16 @@
 
 var DirectoryCtrl = require("./directory-controller");
 var DirectoryBrowseCtrl = require("./directory-browse/directory-browse-controller");
+var DirectoryBrowseDivisionCtrl = require("./directory-browse/directory-browse-division-controller");
 var DirectorySearchCtrl = require("./directory-search/directory-search-controller");
+var DirectorySearchPersonCtrl = require("./directory-search/directory-search-person-controller");
 
 module.exports = angular.module('app.directory', [
     'directory/directory.tpl.html',
     'directory/directory-browse/directory-browse.tpl.html',
+    'directory/directory-browse/directory-browse-division.tpl.html',
     'directory/directory-search/directory-search.tpl.html',
+    'directory/directory-search/directory-search-person.tpl.html',
     'ui.router',
     //'ngTouch',
     //'hj.uiSrefFastclick',
@@ -38,6 +42,22 @@ module.exports = angular.module('app.directory', [
                     pageTitle: 'Browse'
                 }
             })
+            .state("directory.browse.division", {
+                url: "/:url",
+                controller: 'DirectoryBrowseDivisionCtrl',
+                templateUrl: 'directory/directory-browse/directory-browse-division.tpl.html',
+                data: {
+                    pageTitle: 'Division'
+                }
+            })
+            .state("directory.browse.division.person", {
+                url: "/:uid",
+                controller: 'DirectorySearchPersonCtrl',
+                templateUrl: 'directory/directory-search/directory-search-person.tpl.html',
+                data: {
+                    pageTitle: 'Detail'
+                }
+            })
 
             .state("directory.search", {
                 url: "/search",
@@ -45,6 +65,15 @@ module.exports = angular.module('app.directory', [
                 templateUrl: 'directory/directory-search/directory-search.tpl.html',
                 data: {
                     pageTitle: 'Directory Search'
+                }
+            })
+
+            .state("directory.search.person", {
+                url: "/:uid",
+                controller: 'DirectorySearchPersonCtrl',
+                templateUrl: 'directory/directory-search/directory-search-person.tpl.html',
+                data: {
+                    pageTitle: 'Detail'
                 }
             })
         ;
@@ -71,6 +100,42 @@ module.exports = angular.module('app.directory', [
                 $scope.resultscount='0';
             }
         };
+    })
+    .controller('DirectorySearchPersonCtrl', function($scope, $stateParams, searchFactory) {
+        $scope.pagename = $stateParams.uid;
+
+        searchFactory.getPerson($stateParams.uid).success(function(data){
+            $scope.person=data;
+            //$scope.resultscount=data.length;
+            console.log(data);
+        }).error(function(data){
+            console.log('ERROR');
+            //$scope.resultscount='0';
+        });
+
+    })
+    .controller('DirectoryBrowseCtrl', function($scope, searchFactory) {
+        searchFactory.getDivisions().success(function(data){
+            $scope.divisions=data.ucscdirectoryelementoptions;
+            $scope.resultscount=data.length;
+            console.log(data);
+        }).error(function(data){
+            console.log('ERROR');
+            $scope.resultscount='0';
+        });
+
+    })
+    .controller('DirectoryBrowseDivisionCtrl', function($scope, $stateParams, searchFactory) {
+        $scope.title = $stateParams.url;
+        searchFactory.browseSearch('Staff+&+Faculty',$stateParams.url).success(function(data){
+            $scope.results=data;
+            $scope.resultscount=data.length;
+            console.log(data);
+        }).error(function(data){
+            console.log('ERROR');
+            $scope.resultscount='0';
+        });
+
     })
     .factory('jsonDirectory', function($http) {
         var sdo = {

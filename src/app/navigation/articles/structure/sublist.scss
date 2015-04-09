@@ -1,0 +1,18 @@
+main {
+  article.sublist {
+    .state-3 & {
+      @include breakpoint(one-col) {
+        float: none;
+        width: auto;
+        margin-left: -152%;
+        width: 100%;
+      }
+      @include breakpoint(two-col) {
+        float: none;
+        width: auto;
+        width: 50%;
+      }
+    }
+
+  }
+}

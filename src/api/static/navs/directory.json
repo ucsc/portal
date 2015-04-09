@@ -3,13 +3,13 @@
     {
       "title": "Search",
       "icon": "icon-user-pair",
-      "teaser": "People, Departments, Email",
+      "teaser": "People, Email",
       "url": ".search"
     },
     {
       "title": "Browse",
       "icon": "icon-article-alt",
-      "teaser": "Browse by divisions",
+      "teaser": "Browse people by divisions",
       "url": ".browse"
     }
   ]

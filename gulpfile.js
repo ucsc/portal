@@ -30,7 +30,7 @@ var env = {
 
 
 /**
- * Helper for use in manipulating paths based on evironment build type
+ * Helper for use in manipulating paths based on environment build type
  */
 String.prototype.format = function() {
     var args = arguments;

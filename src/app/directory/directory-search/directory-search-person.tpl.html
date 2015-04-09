@@ -1,0 +1,37 @@
+<article class="detail" role="directory">
+    <header>
+        <div class="articletitle">
+            <h1><span>{{directory.title}}</span></h1>
+        </div>
+        <div class="buttonleft">
+            <button ui-sref="directory.search" class="left-nav icon-cancel-circled"></button>
+        </div>
+        <div class="buttonright">
+            <button class="right-nav icon-colon" ng-click="topbar()" ng-class="{active: !isTop}"></button>
+        </div>
+    </header>
+    <section class="body">
+        <!--{{person | json}}-->
+        <div class="title">
+            <span ng-show="person.jpegphoto">
+			    <img ng-src="{{person.jpegphoto}}"/>
+            </span>
+            <h1 ng-show="person.cn[0]">{{person.cn[0]}}</h1>
+            <p ng-show="person.title[0]">{{person.title[0]}}</p>
+
+        </div>
+        <ul class="icons directory-icons">
+            <li class="icon-location icon" ng-show="person.ucscpersonpubmailstop[0]">
+                <span style="white-space: pre;">{{person.ucscpersonpubmailstop[0]}}</span>
+            </li>
+            <li class="icon-telephone icon" ng-show="person.telephonenumber[0]">
+                <a ng-href="tel:{{person.telephonenumber[0]}}">{{person.telephonenumber[0]}}</a>
+            </li>
+            <li class="icon-mail icon" ng-show="person.mail[0]">
+                <a ng-href="mailto:{{person.mail[0]}}">{{person.mail[0]}}</a>
+            </li>
+        </ul>
+
+
+    </section>
+</article>

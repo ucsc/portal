@@ -1,0 +1,49 @@
+
+
+.breakpoint(@point,@rules) {
+	& when (@point = one-col) {
+		@media (max-width: 644px) { @rules(); }
+	}
+	& when (@point = two-col) {
+		@media (max-width: 1019px) { @rules(); }
+	}
+	& when (@point = three-col) {
+		@media (max-width: 1334px) { @rules(); }
+	}
+}
+
+.navbar-hide {
+	.navbar-app {
+		margin-top: -52px;
+	}
+
+	.has-navbar-top & .app-body {
+		padding-top: 0px;
+	}
+}
+
+.breakpoint(one-col; {
+	.navbar-hide;
+
+	.navbarshow {
+		.navbar-app {
+			margin-top: 0px;
+		}
+
+		.has-navbar-top & .app-body {
+			padding-top: 52px;
+		}
+	}
+});
+
+#state-1 & {
+	.breakpoint(one-col; {
+		.navbar-app {
+			margin-top: 0px;
+		}
+
+		.app-body {
+			padding-top: 52px;
+		}
+	});
+}

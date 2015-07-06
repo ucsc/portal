@@ -1,0 +1,79 @@
+{
+  "menu": [
+    {
+      "title": "Highlighted",
+      "icon": "",
+      "teaser": "",
+      "url": "featured"
+    },
+    {
+      "title": "Today",
+      "icon": "",
+      "teaser": "",
+      "url": "today"
+    },
+    {
+      "title": "This Week",
+      "icon": "",
+      "teaser": "",
+      "url": "week"
+    },
+    {
+      "title": "This Month",
+      "icon": "",
+      "teaser": "",
+      "url": "month"
+    },
+    {
+      "title": "Next 100",
+      "icon": "",
+      "teaser": "",
+      "url": "all"
+    }
+  ],
+  "featured": [
+    {
+      "title": "Highlighted",
+      "icon": "",
+      "teaser": "",
+      "url": "featured",
+      "feed": "https://events.ucsc.edu/feed/featured.json"
+    }
+  ],
+  "today": [
+    {
+      "title": "Today",
+      "icon": "",
+      "teaser": "",
+      "url": "today",
+      "feed": "https://events.ucsc.edu/feed/today.json"
+    }
+  ],
+  "week": [
+    {
+      "title": "This Week",
+      "icon": "",
+      "teaser": "",
+      "url": "week",
+      "feed": "https://events.ucsc.edu/feed/week.json"
+    }
+  ],
+  "month": [
+    {
+      "title": "This Month",
+      "icon": "",
+      "teaser": "",
+      "url": "month",
+      "feed": "https://events.ucsc.edu/feed/month.json"
+    }
+  ],
+  "all": [
+    {
+      "title": "Next 100",
+      "icon": "",
+      "teaser": "",
+      "url": "all",
+      "feed": "https://events.ucsc.edu/feed/all.json"
+    }
+  ]
+}

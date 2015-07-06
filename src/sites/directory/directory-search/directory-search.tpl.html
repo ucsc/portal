@@ -1,0 +1,39 @@
+<article class="list" ng-class="{current: (trackback | isState)}">
+<div class="scrollable" ui-state="searchBar">
+  <div class="scrollable-header">
+    <div class="articletitle">
+        <h1><span>Search</span></h1>
+    </div>
+    <div class="buttonleft">
+        <button ui-sref="main.directory" class="left-nav icon-cancel-circled"><span class="label">Back</span></button>
+    </div>
+    <div class="buttonright">
+        <button class="right-nav icon-colon" ng-click="navbarshow()" ng-class="{active: !isTop}"><span class="label">Toggle Site Header</span></button>
+    </div>
+    <div class="searchinput">
+        <input autofocus placeholder="Search..." type="search" results=5 ng-model="dquery" ng-model-options="{debounce:750}" ng-change="updateSearch()"/>
+    </div>
+  </div>
+
+
+
+  <div class="scrollable-content">
+  	<div class="list-group">
+      <span class="tip" ng-show="resultscount">{{resultscount}} results</span>
+      <a ng-repeat="result in results" ui-sref-active="selected" ui-sref=".person({uid:'{{result.uid}}'})" class="list-group-item">
+        {{result.givenname}} <b>{{result.sn}}</b>
+      </a>
+    </div>
+    
+  </div>
+
+<!--   <a class="btn btn-block btn-lg btn-primary scrollable-footer" ui-toggle='searchBar'>
+    <i class="fa fa-search"></i> 
+    <span ui-hide="searchBar">Show</span>
+    <span ui-show="searchBar">Hide</span>
+    Search Bar
+  </a> -->
+  <!-- <div class="scrollable-footer">one <br> two<br>three</div> -->
+</div> 
+</article>
+<ui-view/>

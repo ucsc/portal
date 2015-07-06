@@ -1,0 +1,202 @@
+article {
+  float: left;
+  width: 300px;
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+  border-right: 1px #eeeeee solid;
+  -webkit-overflow-scrolling: touch;
+
+  &.menu {
+  	width: 300px;
+
+    #state-1 & {
+      .breakpoint(one-col; {
+        float: none;
+        width: auto;
+      });
+      .breakpoint(two-col; {
+        float: none;
+        width: auto;
+      });
+    }
+    #state-2 & {
+      .breakpoint(one-col; {
+        float: none;
+        width: auto;
+      });
+      .breakpoint(two-col; {
+        float: none;
+        width: auto;
+      });
+    }
+    #state-3 & {
+      .breakpoint(one-col; {
+        margin-left: -102%;
+      });
+      .breakpoint(two-col; {
+        width: 50%;
+      });
+    }
+    #state-4 & {
+      .breakpoint(one-col; {
+        margin-left: -102%;
+      });
+      .breakpoint(two-col; {
+        margin-left: -102%;
+      });
+    }
+    #state-5 & {
+      .breakpoint(one-col; {
+        margin-left: -102%;
+      });
+      .breakpoint(two-col; {
+        margin-left: -102%;
+      });
+      .breakpoint(three-col; {
+        margin-left: -102%;
+      });
+    }
+  }
+  &.detail {
+  	float: none;
+  	width: auto;
+
+    // #state-2 & {
+    //   .breakpoint(one-col; {
+    //     float: none;
+    //     width: auto;
+    //   });
+    //   .breakpoint(two-col; {
+    //     float: none;
+    //     width: auto;
+    //   });
+    // }
+    #state-3 & {
+      .breakpoint(two-col; {
+        width: 50%;
+      });
+      .breakpoint(one-col; {
+        float: none;
+        width: auto;
+      });
+    }
+    #state-4 & {
+      .breakpoint(two-col; {
+        width: 50%;
+      });
+      .breakpoint(one-col; {
+        float: none;
+        width: auto;
+      });
+    }
+    #state-5 & {
+      .breakpoint(two-col; {
+        width: 50%;
+      });
+      .breakpoint(one-col; {
+        float: none;
+        width: auto;
+      });
+    }
+  }
+  &.list {
+  	// width: 250px;
+    #state-3 & {
+      .breakpoint(two-col; {
+        width: 50%;
+      });
+      .breakpoint(one-col; {
+        float: none;
+        width: auto;
+      });
+      
+    }
+    #state-4 & {
+      .breakpoint(two-col; {
+        width: 50%;
+      });
+      .breakpoint(one-col; {
+        margin-left: -102%;
+      });
+    }
+    #state-5 & {
+      .breakpoint(two-col; {
+         // width: 50%;
+        margin-left: -102%;
+      });
+      .breakpoint(one-col; {
+        margin-left: -102%;
+      });
+    }
+  }
+  &.list-4 {
+    width: 250px;
+    #state-4 & {
+      .breakpoint(two-col; {
+        width: 50%;
+      });
+      .breakpoint(one-col; {
+        float: none;
+        width: auto;
+      });
+    }
+    #state-5 & {
+      .breakpoint(two-col; {
+         width: 50%;
+        //margin-left: -102%;
+      });
+      .breakpoint(one-col; {
+        margin-left: -102%;
+      });
+    }
+  }
+  &.news {
+  	width: 400px;
+  }
+
+
+}
+
+.banner {
+  display: none;
+
+  .breakpoint(one-col; {
+    display: inline-block;
+  });
+
+}
+
+// Scrollable
+  .scrollable {
+    position: relative;
+    width: auto;
+    // height: calc(100%-7px);
+    //background-color: #fff;
+  }
+
+  .scrollable-content {
+    // height: calc(100% - 52px);
+
+    a {
+      &.selected {
+        background-color: @brand-primary;
+        color: white;
+      }
+      font-weight: 500;
+    }
+
+  }
+
+  .scrollable-header, .scrollable-footer {
+    width: auto;
+  }
+
+a {
+  color: @brand-primary;
+
+  i.icon-export-1 {
+    color: @brand-primary;
+    font-weight: 200;
+  }
+}

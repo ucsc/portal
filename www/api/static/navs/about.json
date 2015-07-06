@@ -1,0 +1,34 @@
+{
+  "menu": [
+    {
+      "title": "Events on Campus",
+      "icon": "icon-calendar-1",
+      "teaser": "",
+      "url": "http://events.ucsc.edu/"
+    },
+    {
+      "title": "About UCSC",
+      "icon": "icon-info",
+      "teaser": "",
+      "url": "http://www.ucsc.edu/about/index.html"
+    },
+    {
+      "title": "Eat on Campus",
+      "icon": "icon-food",
+      "teaser": "",
+      "url": "http://eat.ucsc.edu/"
+    },
+    {
+      "title": "Give to UCSC",
+      "icon": "icon-money",
+      "teaser": "",
+      "url": "https://securelb.imodules.com/s/1069/index.aspx?sid=1069&gid=1&pgid=761&cid=1722&utm_source=homepage&utm_medium=button&utm_campaign=giving"
+    },
+    {
+      "title": "Employment",
+      "icon": "icon-clock",
+      "teaser": "",
+      "url": "http://jobs.ucsc.edu/"
+    }
+  ]
+}

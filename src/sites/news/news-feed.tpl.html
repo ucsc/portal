@@ -1,0 +1,35 @@
+<article class="list" ng-class="{current: (trackback | isState)}">
+<div class="scrollable">
+  <div class="scrollable-header">
+    <div class="articletitle">
+        <h1><span>{{feedtitle}}</span></h1>
+    </div>
+    <div class="buttonleft">
+        <button ui-sref="main.news" class="left-nav icon-cancel-circled"><span class="label">Back</span></button>
+    </div>
+    <div class="buttonright">
+        <button class="right-nav icon-colon" ng-click="navbarshow()" ng-class="{active: !isTop}"><span class="label">Toggle Site Header</span></button>
+    </div>
+  </div>
+  <div class="scrollable-content">
+    <div class="list-group">
+      <ul>
+          <li ng-repeat="article in articles">
+              <a href="{{article.link}}" target="_blank">
+                  <div class="title" ng-bind-html='article.title | createAnchors'></div>
+                  <!-- <div ng-bind-html-unsafe='article.title | unsafe'></div> -->
+                  <div class="date">{{article.publishedDate | rssDate}}</div>
+                  <div>{{article.contentSnippet | createAnchors}}</div>
+              </a>
+          </li>
+      </ul>
+
+      <!-- <a ng-repeat="item in emergencyMenu" ui-sref="{{item.url}}" ui-sref-active="selected" class="list-group-item">
+        {{ item.title }}
+      </a> -->
+    </div>
+  </div>
+  <!-- <div class="scrollable-footer"></div> -->
+</div> 
+</article>
+<ui-view/>

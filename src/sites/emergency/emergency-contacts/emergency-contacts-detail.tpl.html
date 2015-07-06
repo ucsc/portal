@@ -1,0 +1,49 @@
+<article class="detail" ng-class="{current: (trackback | isState)}">
+<div class="scrollable">
+  <div class="scrollable-header">
+    <div class="articletitle">
+        <h1><span>{{contact.title}}</span></h1>
+    </div>
+    <div class="buttonleft">
+        <button ui-sref="main.emergency.contacts" class="left-nav icon-cancel-circled"><span class="label">Back</span></button>
+    </div>
+    <div class="buttonright">
+        <button class="right-nav icon-colon" ng-click="navbarshow()" ng-class="{active: !isTop}"><span class="label">Toggle Site Header</span></button>
+    </div>
+  </div>
+  <div class="scrollable-content">
+
+      <div class="title">
+        <span>
+          <img ng-src="{{contact.thumbnail}}"/>
+        </span>
+            <h1>{{contact.title}}</h1>
+            <p>{{contact.teaser}}</p>
+
+        </div>
+        <ul class="icons">
+            <li>
+                <i class="icon icon-clock"></i>{{contact.hours}}
+            </li>
+            <li class="link">
+                <i class="icon icon-location"></i><a ng-href="{{contact.map_url}}" target="_blank"><span style="white-space: pre;">{{contact.address}}</span></a>
+            </li>
+            <li class="link">
+                <i class="icon icon-telephone"></i><a ng-href="tel:{{contact.phone_url}}">{{contact.phone}}</a>
+            </li>
+            <li class="link">
+                <i class="icon icon-mail"></i><a ng-href="mailto:{{contact.email}}">{{contact.email}}</a>
+            </li>
+            <li class="link">
+                <i class="icon icon-export"></i><a ng-href="{{contact.external_url}}" target="_blank">{{contact.external_url_title}}</a>
+            </li>
+            <!--<li class="icon-print" ng-if="{{contact.fax}}">-->
+                <!--{{contact.fax}}-->
+            <!--</li>-->
+        </ul>
+
+
+    <!-- </div> -->
+  </div>
+</div> 
+</article>

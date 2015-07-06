@@ -1,0 +1,124 @@
+{
+  "menu": [
+    {
+      "title": "All Recent Articles",
+      "icon": "",
+      "teaser": "",
+      "url": "all"
+    },
+    {
+      "title": "Administrative Messages",
+      "icon": "",
+      "teaser": "",
+      "url": "admin"
+    },
+    {
+      "title": "Emergency Information",
+      "icon": "",
+      "teaser": "",
+      "url": "emergency"
+    },
+    {
+      "title": "Arts Division",
+      "icon": "",
+      "teaser": "",
+      "url": "arts"
+    },
+    {
+      "title": "Engineering",
+      "icon": "",
+      "teaser": "",
+      "url": "engineering"
+    },
+    {
+      "title": "Humanities",
+      "icon": "",
+      "teaser": "",
+      "url": "humanities"
+    },
+    {
+      "title": "PBSci Division",
+      "icon": "",
+      "teaser": "",
+      "url": "sciences"
+    },
+    {
+      "title": "Social Sciences",
+      "icon": "",
+      "teaser": "",
+      "url": "social"
+    }
+  ],
+  "all": [
+    {
+      "title": "All Recent Articles",
+      "icon": "",
+      "teaser": "",
+      "url": "all",
+      "feed": "http://news.ucsc.edu/rss/recent.xml"
+    }
+  ],
+  "admin": [
+    {
+      "title": "Administrative Messages",
+      "icon": "",
+      "teaser": "",
+      "url": "admin",
+      "feed": "http://news.ucsc.edu/rss/administrative_message.xml"
+    }
+  ],
+  "emergency": [
+    {
+      "title": "Emergency Information",
+      "icon": "",
+      "teaser": "",
+      "url": "emergency",
+      "feed": "http://news.ucsc.edu/rss/emergency.xml"
+    }
+  ],
+  "arts": [
+    {
+      "title": "Arts Division",
+      "icon": "",
+      "teaser": "",
+      "url": "arts",
+      "feed": "http://news.ucsc.edu/rss/arts.xml"
+    }
+  ],
+  "engineering": [
+    {
+      "title": "Engineering",
+      "icon": "",
+      "teaser": "",
+      "url": "engineering",
+      "feed": "http://news.ucsc.edu/rss/engineering.xml"
+    }
+  ],
+  "humanities": [
+    {
+      "title": "Humanities",
+      "icon": "",
+      "teaser": "",
+      "url": "gifts",
+      "feed": "http://news.ucsc.edu/rss/humanities.xml"
+    }
+  ],
+  "sciences": [
+    {
+      "title": "PBSci Division",
+      "icon": "",
+      "teaser": "",
+      "url": "sciences",
+      "feed": "http://news.ucsc.edu/rss/physical_biological.xml"
+    }
+  ],
+  "social": [
+    {
+      "title": "Social Sciences",
+      "icon": "",
+      "teaser": "",
+      "url": "social",
+      "feed": "http://news.ucsc.edu/rss/social_sciences.xml"
+    }
+  ]
+}

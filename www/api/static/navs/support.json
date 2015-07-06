@@ -1,0 +1,140 @@
+{
+  "menu": [
+    {
+      "title": "Technology",
+      "icon": "icon-laptop",
+      "teaser": "",
+      "url": "Technology"
+    },
+    {
+      "title": "Housing & Dining",
+      "icon": "icon-food",
+      "teaser": "",
+      "url": "Housing+&+Dining"
+    },
+    {
+      "title": "Facilities",
+      "icon": "icon-commerical-building",
+      "teaser": "",
+      "url": "Facilities"
+    },
+    {
+      "title": "Faculty Toolkit",
+      "icon": "icon-flashlight",
+      "teaser": "",
+      "url": "FacToolkit"
+    },
+    {
+      "title": "Staff Toolkit",
+      "icon": "icon-flashlight",
+      "teaser": "",
+      "url": "Toolkit"
+    }
+  ],
+  "Technology": [
+    {
+      "title": "Guest Ticket",
+      "url": "https://ucsc.service-now.com/survey_take.do?sysparm_survey=Guest+Request&sysparm_survey_update=false"
+    },
+    {
+      "title": "Login to IT Request",
+      "url": "https://ucsc.service-now.com/ess/"
+    }
+  ],
+  "Housing+&+Dining": [
+    {
+      "title": "Login to FixIT",
+      "url": "https://fixit.ucsc.edu/"
+    }
+  ],
+  "Facilities": [
+    {
+      "title": "Submit a ticket",
+      "url": "http://ucscplant.ucsc.edu/ucscplant/index.jsp?page=Submit_Work_Order"
+    },
+    {
+      "title": "Login to FAMIS",
+      "url": "https://portalfamis.ucsc.edu/cas/login?service=https%3A%2F%2Fportalfamis%2Eucsc%2Eedu%2Ffamis%2Ffamis%2Easp"
+    }
+  ],
+  "Toolkit": [
+    {
+      "title": "Login to CruzBuy",
+      "url": "https://solutions.sciquest.com/apps/Router/Login?OrgName=UCSC"
+    },
+    {
+      "title": "Login to CruzPay",
+      "url": "https://time-entry.ucsc.workforcehosting.com/workforce/Logon.do"
+    },
+    {
+      "title": "Login to FAMIS",
+      "url": "https://portalfamis.ucsc.edu/cas/login?service=https%3A%2F%2Fportalfamis%2Eucsc%2Eedu%2Ffamis%2Ffamis%2Easp"
+    },
+    {
+      "title": "Login to IT Request",
+      "url": "https://ucsc.service-now.com/ess/"
+    },
+    {
+      "title": "Login to MyUCSC",
+      "url": "https://my.ucsc.edu/psp/ep9prd/?cmd=login&languageCd=ENG&"
+    },
+    {
+      "title": "Benefits info",
+      "url": "http://shr.ucsc.edu/benefits/index.html"
+    },
+    {
+      "title": "Administrative Org Chart",
+      "url": "http://www.ucsc.edu/about/files/admin-org-chart.pdf"
+    },
+    {
+      "title": "Academic Org Chart",
+      "url": "http://www.ucsc.edu/about/files/academic-org-chart.pdf"
+    },
+    {
+      "title": "ITS Maintenance Calendar",
+      "url": "http://its.ucsc.edu/change-mgmt/calendar.html"
+    },
+    {
+      "title": "Staff HR info",
+      "url": "http://shr.ucsc.edu/"
+    },
+    {
+      "title": "Transit and Parking info",
+      "url": "http://www2.ucsc.edu/taps/"
+    }
+  ],
+  "FacToolkit": [
+    {
+      "title": "Login to eCommons",
+      "url": "https://ecommons.ucsc.edu/portal/login"
+    },
+    {
+      "title": "WordPress for Faculty",
+      "url": "http://sites.ucsc.edu/"
+    },
+    {
+      "title": "Classroom Media",
+      "url": "http://its.ucsc.edu/classrooms/"
+    },
+    {
+      "title": "Faculty Compensation Resources",
+      "url": "http://apo.ucsc.edu/compensation/index.html"
+    },
+    {
+      "title": "Benefits for UCSC Employees",
+      "url": "http://shr.ucsc.edu/benefits/index.html"
+    },
+    {
+      "title": "Academic Calendar",
+      "url": "http://registrar.ucsc.edu/calendar/"
+    },
+    {
+      "title": "Academic Senate",
+      "url": "http://senate.ucsc.edu/"
+    },
+    {
+      "title": "Campus Academic Personnel Manual",
+      "url": "http://apo.ucsc.edu/policy/capm/"
+    }
+  ]
+}

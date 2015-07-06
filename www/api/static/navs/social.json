@@ -1,0 +1,46 @@
+{
+  "menu": [
+    {
+      "title": "Twitter",
+      "icon": "icon-twitter",
+      "teaser": "",
+      "url": "http://twitter.com/ucsc"
+    },
+    {
+      "title": "YouTube",
+      "icon": "icon-youtube",
+      "teaser": "",
+      "url": "http://www.youtube.com/user/UCSantaCruz"
+    },
+    {
+      "title": "Facebook",
+      "icon": "icon-facebook",
+      "teaser": "",
+      "url": "http://www.facebook.com/ucsantacruz"
+    },
+    {
+      "title": "Foursquare",
+      "icon": "icon-foursquare",
+      "teaser": "",
+      "url": "http://foursquare.com/v/university-of-california-santa-cruz/4a92f3b0f964a520421e20e3"
+    },
+    {
+      "title": "Instagram",
+      "icon": "icon-instagram",
+      "teaser": "",
+      "url": "http://instagram.com/ucsc"
+    },
+    {
+      "title": "Reddit",
+      "icon": "icon-reddit",
+      "teaser": "",
+      "url": "http://www.reddit.com/r/ucsc"
+    },
+    {
+      "title": "iTunes University",
+      "icon": "icon-itunes",
+      "teaser": "",
+      "url": "http://itunes.ucsc.edu"
+    }
+  ]
+}

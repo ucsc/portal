@@ -1,0 +1,90 @@
+.sidebar-left {
+
+	background: #001129 url('../images/nav_bg.png') no-repeat top left;
+  	@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  		only screen and (min--moz-device-pixel-ratio: 2),
+  		only screen and (-o-min-device-pixel-ratio: 2/1),
+  		only screen and (min-device-pixel-ratio: 2),
+  		only screen and (min-resolution: 192dpi),
+  		only screen and (min-resolution: 2dppx) {
+    	background: #001129 url('../images/nav_bg@2x.png') no-repeat top left;
+    		background-size: 274px auto;
+  		}
+
+
+  	h1 {
+  		padding: 1.25em 0 0.5em 1.5em;
+  	}
+
+    h1 a {
+      background: url('../images/ucsc_logo.png') no-repeat top left;
+      @media
+      only screen and (-webkit-min-device-pixel-ratio: 2),
+      only screen and (   min--moz-device-pixel-ratio: 2),
+      only screen and (     -o-min-device-pixel-ratio: 2/1),
+      only screen and (        min-device-pixel-ratio: 2),
+      only screen and (                min-resolution: 192dpi),
+      only screen and (                min-resolution: 2dppx) {
+        background: url('../images/ucsc_logo@2x.png') no-repeat top left;
+        background-size: 135px 27px;
+      }
+      width: 156px;
+      height: 31px;
+      display: block;
+      text-indent: -9999px;
+      overflow:hidden;
+      opacity: 0.8;
+      filter: alpha(opacity=8);
+
+    }
+
+    .scrollable-content {
+      padding: 10px 0;
+
+      &::-webkit-scrollbar {
+        width:4px;
+        border-left:0;
+      }
+      &::-webkit-scrollbar-track {
+        background:none;
+      }
+      &::-webkit-scrollbar-thumb {
+        background:rgba(0,0,0,0.3);
+        border-radius:8px;
+      }
+      &::-webkit-scrollbar:hover {
+        background:none;
+      }
+    }
+
+    .list-group {
+    	padding: 0.5em 0;
+
+    	.list-group-item {
+    		margin-left: 1.35em;
+    		background-color: transparent;
+    		border: none;
+        // opacity: 0.9;
+        // filter: alpha(opacity=9);
+        color: #999;
+
+    		font-size: 17px;
+    		text-decoration: none;
+        font-weight: 500;
+    	}
+      a i {
+        padding-right: 5px;
+      }
+      a.list-group-item:hover, a.selected {
+        color: #fff;
+      }
+    }
+
+    .scrollable-footer {
+      padding-left: 1em;
+
+      a {
+        color: #666;
+      }
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "menu": [
+    {
+      "title": "Hours & Locations",
+      "icon": "icon-flashlight",
+      "teaser": "",
+      "url": "http://guides.library.ucsc.edu/libraryhours"
+    },
+    {
+      "title": "Contacts",
+      "icon": "icon-desktop",
+      "teaser": "",
+      "url": "http://library.ucsc.edu/about/library-contacts"
+    },
+    {
+      "title": "WorldCat",
+      "icon": "icon-location",
+      "teaser": "",
+      "url": "http://www.worldcatmobile.org/?site=www"
+    },
+    {
+      "title": "CruzCat",
+      "icon": "icon-paper-plane",
+      "teaser": "",
+      "url": "http://cruzcat.ucsc.edu/"
+    },
+    {
+      "title": "Guides",
+      "icon": "icon-cab",
+      "teaser": "",
+      "url": "http://guides.library.ucsc.edu/"
+    },
+    {
+      "title": "Reserve a Room",
+      "icon": "icon-food",
+      "teaser": "",
+      "url": "http://calendar.library.ucsc.edu/"
+    }
+  ]
+}

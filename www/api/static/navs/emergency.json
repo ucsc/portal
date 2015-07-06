@@ -1,0 +1,118 @@
+{
+    "menu": [
+        {
+            "title": "Contacts",
+            "icon": "icon-user-pair",
+            "teaser": "Police, Fire, Health, Counseling",
+            "url": ".contacts"
+        },
+        {
+            "title": "Cruz Alert",
+            "icon": "icon-article-alt",
+            "teaser": "Emergency Twitter feed",
+            "url": ".news"
+        }
+    ],
+    "contacts": [
+        {
+            "title": "Police",
+            "url": "police"
+        },
+        {
+            "title": "Emergency Services",
+            "url": "emergency"
+        },
+        {
+            "title": "Health",
+            "url": "health"
+        },
+        {
+            "title": "Counseling",
+            "url": "caps"
+        }
+    ],
+    "police": [
+        {
+            "title": "Police",
+            "thumbnail": "inc/sites/emergency/img/police.png",
+            "teaser": "Dial 9-1-1 to report",
+            "url": "police",
+            "external_url": "http://police.ucsc.edu",
+            "external_url_title": "police.ucsc.edu",
+            "hours": "Open 24 hours",
+            "address": "1156 High St \n Santa Cruz, CA 95064",
+            "map_url": "https://www.google.com/maps/place/UCSC+Police",
+            "phone": "(831) 459-2231",
+            "phone_url": "+18314592231",
+            "email": "police@ucsc.edu",
+            "fax": "(831) 459-3041"
+        }
+    ],
+    "fire": [
+        {
+            "title": "Fire",
+            "thumbnail": "inc/sites/emergency/img/fire.png",
+            "teaser": "Dial 9-1-1 to report",
+            "url": "fire",
+            "external_url": "http://fire.ucsc.edu",
+            "external_url_title": "fire.ucsc.edu",
+            "hours": "M-F 8-5PM",
+            "address": "1156 High St \n Santa Cruz, CA 95064",
+            "map_url": "https://www.google.com/maps/place/Firehouse/@37.0018464,-122.0556059,17z",
+            "phone": "(831) 459-3473",
+            "phone_url": "+18314593473",
+            "email": "firedpt@ucsc.edu",
+            "fax": "(831) 459-7608"
+        }
+    ],
+    "health": [
+        {
+            "title": "Health & Safety",
+            "thumbnail": "inc/sites/emergency/img/health.png",
+            "teaser": "Environmental Health & Safety (EHS)",
+            "url": "health",
+            "external_url": "http://ehs.ucsc.edu",
+            "external_url_title": "ehs.ucsc.edu",
+            "hours": "M-F 8-5PM",
+            "address": "1156 High St \n Santa Cruz, CA 95064",
+            "map_url": "https://www.google.com/maps/place/Environmental+Health+and+Safety/@37.0016111,-122.0617463,17z",
+            "phone": "(831) 459-2553",
+            "phone_url": "+18314592553",
+            "email": "ehs@ucsc.edu",
+            "fax": "(831) 459-3209"
+        }
+    ],
+    "caps": [
+        {
+            "title": "Counseling & Psychological Services",
+            "thumbnail": "inc/sites/emergency/img/counseling.png",
+            "teaser": "CAPS",
+            "url": "caps",
+            "external_url": "http://caps.ucsc.edu",
+            "external_url_title": "caps.ucsc.edu",
+            "hours": "M-F 8-5PM",
+            "address": "1156 High St \n Santa Cruz, CA 95064",
+            "map_url": "https://www.google.com/maps/place/Cowell+Health+Center/@37.0000516,-122.0585222,18z",
+            "phone": "(831) 459-2628",
+            "phone_url": "+18314592628",
+            "email": "caps@ucsc.edu",
+            "fax": "(831) 459-5116"
+        }
+    ],
+    "emergency": [
+        {
+            "title": "Emergency Services",
+            "thumbnail": "inc/sites/emergency/img/emergency2.png",
+            "teaser": "Office of Emergency Services",
+            "url": "emergency",
+            "external_url": "http://emergency.ucsc.edu",
+            "external_url_title": "emergency.ucsc.edu",
+            "hours": "M-F 8-5PM",
+            "address": "105 Carriage House Rd \n Santa Cruz, CA 95064",
+            "map_url": "https://www.google.com/maps/place/Carriage+House+Rd,+University+of+California,+Santa+Cruz,+Santa+Cruz,+CA+95064/@36.9799427,-122.0519125,18z",
+            "phone": "(831) 459-2342",
+            "phone_url": "+18314592342",
+            "email": "oes@ucsc.edu"
+        }
+    ]
+}

@@ -1,0 +1,2972 @@
+[
+  {
+    "geometry": {
+      "coordinates": [
+        -122.053,
+        36.9806
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "111 Ox Team Road<br />106",
+      "Zip": 95064,
+      "description": "",
+      "name": "Barn H"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        36.9977
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "504 Steinhart Way",
+      "Zip": 95064,
+      "description": "",
+      "name": "Student Union"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.055,
+        36.9864
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "222 Village Road",
+      "Zip": 95064,
+      "description": "",
+      "name": "The Village"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        36.9954
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "445 Kerr Road<br />J-114",
+      "Zip": 95064,
+      "description": "",
+      "name": "Theater Arts Complex"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.056,
+        36.9968
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "400 Hahn Road<br />190",
+      "Zip": 95064,
+      "description": "",
+      "name": "Hahn"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.054,
+        36.9963
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "521 Cowell Service Road",
+      "Zip": 95064,
+      "description": "",
+      "name": "Cowell College - Cowell Annex"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.06,
+        36.9986
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "550 Red Hill Road<br />260",
+      "Zip": 95064,
+      "description": "",
+      "name": "Interdisciplinary Science"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.057,
+        37.0012
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "615 College Nine Road<br />204",
+      "Zip": 95064,
+      "description": "",
+      "name": "College 9 Dining Commons"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -121.972,
+        37.3835
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Clara",
+      "State": "California",
+      "Street": "2505 Augistine Drve",
+      "Zip": 95054,
+      "description": "",
+      "name": "University Extension"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9795
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "114 Carriage House Road<br />119",
+      "Zip": 95064,
+      "description": "",
+      "name": "Emergency Response Center"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.05,
+        36.955
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "2155 Delaware Ave<br />Suite 200",
+      "Zip": 95064,
+      "description": "",
+      "name": "University Relations"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.064,
+        36.953
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "",
+      "Zip": 95064,
+      "description": "",
+      "name": "USGS Pacific Science Center"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.026,
+        36.9651
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "1101 Pacific Avenue<br />400",
+      "Zip": 95060,
+      "description": "",
+      "name": "University Town Center"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.065,
+        36.9921
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "355 College Eight Road<br />1101",
+      "Zip": 95064,
+      "description": "",
+      "name": "College Eight"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "506 Cowell-Stevenson Road<br />209",
+      "Zip": 95064,
+      "description": "",
+      "name": "Humanities 1"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.059,
+        37.0004
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "710 College Ten Road<br />56",
+      "Zip": 95064,
+      "description": "",
+      "name": "Social Sciences 2"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.065,
+        36.99
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "231 Oakes Road<br />123",
+      "Zip": 95064,
+      "description": "",
+      "name": "Oakes College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        36.9977
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "552 Steinhart Way<br />A316",
+      "Zip": 95064,
+      "description": "",
+      "name": "Earth and Marience Sciences"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        36.9954
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "500 Kerr Road<br />112",
+      "Zip": 95064,
+      "description": "",
+      "name": "Kerr Hall"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9795
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "105 Carriage House Road",
+      "Zip": 95064,
+      "description": "",
+      "name": "Carriage House"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        36.9954
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "500 Kerr Road<br />279",
+      "Zip": 95064,
+      "description": "",
+      "name": "Kerr Hall"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        36.9954
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "500 Kerr Road<br />461",
+      "Zip": 95064,
+      "description": "",
+      "name": "Kerr Hall"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.053,
+        36.995
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "451 East Field Service Road",
+      "Zip": 95064,
+      "description": "",
+      "name": "OPERS"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.064,
+        36.9939
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "544 Porter-Kresge Road<br />201",
+      "Zip": 95064,
+      "description": "",
+      "name": "Kresge College - Owl&#039;s Nest"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        36.9977
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "590 Steinhart Way<br />511",
+      "Zip": 95064,
+      "description": "",
+      "name": "Physical &amp;Biological Sciences"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        36.9984
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "570 Red Hill Road<br />204",
+      "Zip": 95064,
+      "description": "",
+      "name": "Natural Science 2 Annex"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        36.9984
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "570 Red Hill Road<br />201",
+      "Zip": 95064,
+      "description": "",
+      "name": "Natural Science 2 Annex"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        36.9977
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "590 Steinhart Way<br />207",
+      "Zip": 95064,
+      "description": "",
+      "name": "Physical &amp;Biological Sciences"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        36.9977
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "568 Steinhart Way<br />23",
+      "Zip": 95064,
+      "description": "",
+      "name": "Thimann Labs"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        37.0018
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "637 Red Hill Road",
+      "Zip": 95064,
+      "description": "",
+      "name": "Woodshop"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "518 Cowell-Stevenson Road<br />220",
+      "Zip": 95064,
+      "description": "",
+      "name": "Cowell College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.053,
+        36.9806
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "101 Ox Team Road<br />151",
+      "Zip": 95064,
+      "description": "",
+      "name": "Tack House"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.053,
+        36.9806
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "101 Ox Team Road<br />207",
+      "Zip": 95064,
+      "description": "",
+      "name": "Barn G"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.06,
+        36.9986
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "550 Red Hill Road<br />232",
+      "Zip": 95064,
+      "description": "",
+      "name": "Interdisciplinary Science"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.064,
+        36.9939
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "410 Porter-Kresge Road<br />714E",
+      "Zip": 95064,
+      "description": "",
+      "name": "Porter College - Apartment E"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.064,
+        36.9939
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "405 Porter-Kresge Road<br />D104",
+      "Zip": 95064,
+      "description": "",
+      "name": "Porter College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.064,
+        36.9939
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "405 Porter-Kresge Road<br />D163",
+      "Zip": 95064,
+      "description": "",
+      "name": "Porter College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.064,
+        36.9939
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "411 Porter-Kresge Road<br />17",
+      "Zip": 95064,
+      "description": "",
+      "name": "Porter College Dining Commons"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.06,
+        36.9949
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "410 McHenry Road",
+      "Zip": 95064,
+      "description": "",
+      "name": "Academic Resource Center"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.059,
+        36.9563
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "2300 Delaware Ave.<br />A208",
+      "Zip": 95064,
+      "description": "",
+      "name": "2300 Delaware"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.059,
+        37.0004
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "710 College Ten Road<br />227",
+      "Zip": 95064,
+      "description": "",
+      "name": "Social Sciences 2"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.053,
+        36.9806
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "101 Ox Team Road<br />103",
+      "Zip": 95064,
+      "description": "",
+      "name": "Barn H"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.056,
+        36.9968
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "400 Hahn Road<br />190",
+      "Zip": 95064,
+      "description": "",
+      "name": "Hahn"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.059,
+        36.9563
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "2300 Delaware Ave.<br />Suite A108",
+      "Zip": 95064,
+      "description": "",
+      "name": "2300 Delaware"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.053,
+        36.9806
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "101 Ox Team Road<br />2",
+      "Zip": 95064,
+      "description": "",
+      "name": "Barn H"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        36.9991
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "580 Red Hill Road",
+      "Zip": 95064,
+      "description": "",
+      "name": "Science and Engineering Library"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.064,
+        36.9939
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "516 Porter-Kresge Road<br />10H",
+      "Zip": 95064,
+      "description": "",
+      "name": "Kresge College - Literature Grad Group Annex B"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        36.9984
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "570 Red Hill Road<br />337",
+      "Zip": 95064,
+      "description": "",
+      "name": "Natural Science 2 Annex"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.064,
+        36.9586
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "1201 Shaffer Road<br />153",
+      "Zip": 95064,
+      "description": "",
+      "name": "1201 Shaffer Rd."
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        36.9977
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "502 Steinhart Way<br />201",
+      "Zip": 95064,
+      "description": "",
+      "name": "Bay Tree Complex"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.057,
+        37.0012
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "702 College Nine Road<br />318",
+      "Zip": 95064,
+      "description": "",
+      "name": "Social Sciences 1"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        37.0009
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "606 Engineering Loop<br />335",
+      "Zip": 95064,
+      "description": "",
+      "name": "Baskin Engineering"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.063,
+        37.0009
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "612 Engineering Loop<br />298",
+      "Zip": 95064,
+      "description": "",
+      "name": "Engineering 2"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.063,
+        37.0009
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "612 Engineering Loop<br />298",
+      "Zip": 95064,
+      "description": "",
+      "name": "Engineering 2"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.063,
+        37.0009
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "612 Engineering Loop<br />298",
+      "Zip": 95064,
+      "description": "",
+      "name": "Engineering 2"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.064,
+        36.9586
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "1201 Shaffer Road<br />180",
+      "Zip": 95064,
+      "description": "",
+      "name": "1201 Shaffer Rd."
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.064,
+        36.9939
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "500 Porter-Kresge Road<br />178",
+      "Zip": 95064,
+      "description": "",
+      "name": "Kresge College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "530 Cowell-Stevenson Road<br />203",
+      "Zip": 95064,
+      "description": "",
+      "name": "Stevenson College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "530 Cowell-Stevenson Road<br />111",
+      "Zip": 95064,
+      "description": "",
+      "name": "Stevenson College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.056,
+        36.9968
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "400 Hahn Road<br />203",
+      "Zip": 95064,
+      "description": "",
+      "name": "Hahn"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.056,
+        36.9998
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "525 McLaughlin Drive<br />1307",
+      "Zip": 95064,
+      "description": "",
+      "name": "Student Health Center"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.056,
+        36.9968
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "400 Hahn Road<br />104K",
+      "Zip": 95064,
+      "description": "",
+      "name": "Hahn"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.056,
+        36.9968
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "400 Hahn Road<br />245",
+      "Zip": 95064,
+      "description": "",
+      "name": "Hahn"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.056,
+        36.9968
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "400 Hahn Road<br />140",
+      "Zip": 95064,
+      "description": "",
+      "name": "Hahn"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9795
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "105 Carriage House Road",
+      "Zip": 95064,
+      "description": "",
+      "name": "Carriage House"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.064,
+        36.9586
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "1201 Shaffer Road<br />170",
+      "Zip": 95064,
+      "description": "",
+      "name": "1201 Shaffer Rd."
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        37.0009
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "606 Engineering Loop<br />335",
+      "Zip": 95064,
+      "description": "",
+      "name": "Baskin Engineering"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        37.0014
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "634 RedHill Road",
+      "Zip": 95064,
+      "description": "",
+      "name": "Environmental Health and Safety"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.06,
+        36.9986
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "550 Red Hill Road<br />410",
+      "Zip": 95064,
+      "description": "",
+      "name": "Interdisciplinary Science"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.065,
+        36.99
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "231 Oakes Road<br />229",
+      "Zip": 95064,
+      "description": "",
+      "name": "Oakes College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        36.9977
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "500 Steinhart Way<br />339",
+      "Zip": 95064,
+      "description": "",
+      "name": "Bay Tree Complex"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.05,
+        36.9812
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "122 Hagar Court",
+      "Zip": 95064,
+      "description": "",
+      "name": "Faculty Housing Office"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.066,
+        36.9895
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "500 Koshland Way<br />599",
+      "Zip": 95064,
+      "description": "",
+      "name": "Family Student Housing"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.059,
+        36.9563
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "2300 Delaware Ave.<br />Suite A208",
+      "Zip": 95064,
+      "description": "",
+      "name": "2300 Delaware"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "506 Cowell-Stevenson Road<br />416",
+      "Zip": 95064,
+      "description": "",
+      "name": "Humanities 1"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "506 Cowell-Stevenson Road<br />101",
+      "Zip": 95064,
+      "description": "",
+      "name": "Humanities 1"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.056,
+        36.9968
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "",
+      "Zip": 95064,
+      "description": "",
+      "name": "Hahn"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.053,
+        36.9806
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "111 Ox Team Road<br />101",
+      "Zip": 95064,
+      "description": "",
+      "name": "Barn H"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        36.9954
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "500 Kerr Road<br />286",
+      "Zip": 95064,
+      "description": "",
+      "name": "Kerr Hall"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.064,
+        36.953
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "<br />201",
+      "Zip": 95064,
+      "description": "",
+      "name": "Graduate Student Commons"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.066,
+        36.9907
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "525 Heller Drive<br />401",
+      "Zip": 95064,
+      "description": "",
+      "name": "Redwood Grove"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "506 Cowell-Stevenson Road<br />201",
+      "Zip": 95064,
+      "description": "",
+      "name": "Humanities 1"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "506 Cowell-Stevenson Road<br />415",
+      "Zip": 95064,
+      "description": "",
+      "name": "Humanities 1"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.057,
+        36.9575
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "250 Natural Bridges Drive",
+      "Zip": 95064,
+      "description": "",
+      "name": "250 Natural Bridges Dr."
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "506 Cowell-Stevenson Road<br />215",
+      "Zip": 95064,
+      "description": "",
+      "name": "Humanities 1"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "506 Cowell-Stevenson Road<br />403",
+      "Zip": 95064,
+      "description": "",
+      "name": "Humanities 1"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "506 Cowell-Stevenson Road<br />503",
+      "Zip": 95064,
+      "description": "",
+      "name": "Humanities 1"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        36.9977
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "520 Steinhart Way<br />107",
+      "Zip": 95064,
+      "description": "",
+      "name": "Classroom Unit 1"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        37.0008
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "620 Baskin Circle<br />42",
+      "Zip": 95064,
+      "description": "",
+      "name": "Communications Building"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "506 Cowell-Stevenson Road<br />515",
+      "Zip": 95064,
+      "description": "",
+      "name": "Humanities 1"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "506 Cowell-Stevenson Road<br />415",
+      "Zip": 95064,
+      "description": "",
+      "name": "Humanities 1"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9795
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "105 Carriage House Road",
+      "Zip": 95064,
+      "description": "",
+      "name": "Carriage House"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.059,
+        36.9563
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "2300 Delaware Ave.<br />Suite A108",
+      "Zip": 95064,
+      "description": "",
+      "name": "2300 Delaware"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "504 Cowell-Stevenson Road<br />165",
+      "Zip": 95064,
+      "description": "",
+      "name": "Humanities 2"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.06,
+        36.9949
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "414 McHenry Road<br />1330A",
+      "Zip": 95064,
+      "description": "",
+      "name": "McHenry"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        36.9954
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "500 Kerr Road<br />54",
+      "Zip": 95064,
+      "description": "",
+      "name": "Kerr Hall"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.065,
+        36.9921
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "355 College Eight Road<br />258",
+      "Zip": 95064,
+      "description": "",
+      "name": "College Eight"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.055,
+        36.9996
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "625 Crown Service Road<br />124",
+      "Zip": 95064,
+      "description": "",
+      "name": "Crown College - Harvey House"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.064,
+        36.9939
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "510 Porter-Kresge Road<br />152",
+      "Zip": 95064,
+      "description": "",
+      "name": "Kresge College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.054,
+        37.0004
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "631 Crown Road<br />163-2",
+      "Zip": 95064,
+      "description": "",
+      "name": "Crown College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "518 Cowell-Stevenson Road<br />218",
+      "Zip": 95064,
+      "description": "",
+      "name": "Cowell College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.06,
+        36.9949
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "408 McHenry Road<br />221",
+      "Zip": 95064,
+      "description": "",
+      "name": "Academic Resource Center"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        36.9954
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "500 Kerr Road<br />149",
+      "Zip": 95064,
+      "description": "",
+      "name": "Kerr Hall"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.064,
+        36.953
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "<br />245",
+      "Zip": 95064,
+      "description": "",
+      "name": "Stevenson College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "506 Cowell-Stevenson Road<br />303",
+      "Zip": 95064,
+      "description": "",
+      "name": "Humanities 1"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.064,
+        36.953
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "",
+      "Zip": 95064,
+      "description": "",
+      "name": "100 Shaffer Road"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.06,
+        36.9949
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "414 McHenry Road<br />411",
+      "Zip": 95064,
+      "description": "",
+      "name": "McHenry"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        36.9977
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "582 Steinhart Way<br />225C",
+      "Zip": 95064,
+      "description": "",
+      "name": "Sinsheimer Lab"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.06,
+        36.9949
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "408 McHenry Road",
+      "Zip": 95064,
+      "description": "",
+      "name": "McHenry"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.053,
+        36.9992
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "641 Merrill Road",
+      "Zip": 95064,
+      "description": "",
+      "name": "Merrill College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.053,
+        36.9992
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "635 Merrill Road<br />5",
+      "Zip": 95064,
+      "description": "",
+      "name": "Merrill College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        36.9977
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "590 Steinhart Way",
+      "Zip": 95064,
+      "description": "",
+      "name": "Physical &amp;Biological Sciences"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.06,
+        36.9949
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "402 McHenry Road<br />244",
+      "Zip": 95064,
+      "description": "",
+      "name": "Music Center"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        36.9552
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "110 Shaffer Road<br />179",
+      "Zip": 95064,
+      "description": "",
+      "name": "110 Shaffer Road"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.065,
+        36.99
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "249 Oakes Road<br />419",
+      "Zip": 95064,
+      "description": "",
+      "name": "Oakes College - Oakes Café"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        36.9954
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "500 Kerr Road<br />499",
+      "Zip": 95064,
+      "description": "",
+      "name": "Kerr Hall"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        36.9954
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "500 Kerr Road<br />125",
+      "Zip": 95064,
+      "description": "",
+      "name": "Kerr Hall"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.059,
+        36.9563
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "2300 Delaware Ave.<br />Suite A208, A212",
+      "Zip": 95064,
+      "description": "",
+      "name": "2300 Delaware"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.063,
+        37.0002
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "606 Engineering Loop<br />199",
+      "Zip": 95064,
+      "description": "",
+      "name": "Baskin Engineering"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.054,
+        36.979
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "109 Collidge Drive",
+      "Zip": 95064,
+      "description": "",
+      "name": "Cook House"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.056,
+        36.9968
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "400 Hahn Road<br />150",
+      "Zip": 95064,
+      "description": "",
+      "name": "Hahn"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        36.9835
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "120 Arboretum Road<br />101",
+      "Zip": 95064,
+      "description": "",
+      "name": "Arboretum"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        36.9947
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "424 Baskin Arts Service Road<br />E104 A",
+      "Zip": 95064,
+      "description": "",
+      "name": "Baskin Arts"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.057,
+        36.9575
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "250 Natural Bridges Drive",
+      "Zip": 95064,
+      "description": "",
+      "name": "250 Natural Bridges Dr."
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        36.9954
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "500 Kerr Road<br />433",
+      "Zip": 95064,
+      "description": "",
+      "name": "Kerr Hall"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        36.9977
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "500 Steinhart Way<br />220",
+      "Zip": 95064,
+      "description": "",
+      "name": "Bay Tree Complex"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.064,
+        36.9586
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "1201 Shaffer Road<br />182",
+      "Zip": 95064,
+      "description": "",
+      "name": "1201 Shaffer Rd."
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9795
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "105 Carriage House Road<br />261",
+      "Zip": 95064,
+      "description": "",
+      "name": "Carriage House"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.057,
+        36.9575
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "250 Natural Bridges Drive",
+      "Zip": 95064,
+      "description": "",
+      "name": "250 Natural Bridges Dr."
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.056,
+        36.9998
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "525 McLaughlin Drive<br />East Wing 2440",
+      "Zip": 95064,
+      "description": "",
+      "name": "Student Health Center"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        36.9977
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "500 Steinhart Way<br />305",
+      "Zip": 95064,
+      "description": "",
+      "name": "Bay Tree Complex"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.054,
+        36.9834
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "160 Farm Road<br />775",
+      "Zip": 95064,
+      "description": "",
+      "name": "CASFS"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.056,
+        36.9968
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "400 Hahn Road<br />102A",
+      "Zip": 95064,
+      "description": "",
+      "name": "Hahn"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "520 Cowell-Stevenson Road",
+      "Zip": 95064,
+      "description": "",
+      "name": "Cowell"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.063,
+        37.0009
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "612 Engineering Loop<br />501",
+      "Zip": 95064,
+      "description": "",
+      "name": "Engineering 2"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.057,
+        37.0012
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "610 College Nine Road<br />2231",
+      "Zip": 95064,
+      "description": "",
+      "name": "College 9 - Res Hall 2"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        37.001
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "608 Red Hill Road",
+      "Zip": 95064,
+      "description": "",
+      "name": "Heat Plant 1"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.065,
+        36.99
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "231 Oakes Road<br />221",
+      "Zip": 95064,
+      "description": "",
+      "name": "Oakes College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.061,
+        36.9954
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "500 Kerr Road<br />165",
+      "Zip": 95064,
+      "description": "",
+      "name": "Kerr Hall"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        36.9977
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "590 Steinhart Way<br />230",
+      "Zip": 95064,
+      "description": "",
+      "name": "Physical &amp;Biological Sciences"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.057,
+        36.9575
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "250 Natural Bridges Drive",
+      "Zip": 95064,
+      "description": "",
+      "name": "250 Natural Bridges Dr."
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        122.063,
+        37.0009
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "612 Engineering Loop<br />595",
+      "Zip": 95064,
+      "description": "",
+      "name": "Engineering 2"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.065,
+        36.9921
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "356 College Eight Road<br />118",
+      "Zip": 95064,
+      "description": "",
+      "name": "College Eight Dining Hall"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.065,
+        36.9921
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "355 College Eight Road<br />114H",
+      "Zip": 95064,
+      "description": "",
+      "name": "College Eight"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.065,
+        36.9921
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "355 College Eight Road<br />235",
+      "Zip": 95064,
+      "description": "",
+      "name": "College Eight"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.057,
+        37.0012
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "702 College Nine Road<br />217",
+      "Zip": 95064,
+      "description": "",
+      "name": "Social Sciences 1"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.057,
+        37.0012
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "615 College Nine Road<br />126",
+      "Zip": 95064,
+      "description": "",
+      "name": "College 9 Dining Commons"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.057,
+        36.9575
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "250 Natural Bridges Drive",
+      "Zip": 95064,
+      "description": "",
+      "name": "250 Natural Bridges Dr."
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "518 Cowell-Stevenson Road<br />220",
+      "Zip": 95064,
+      "description": "",
+      "name": "Cowell College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "518 Cowell-Stevenson Road<br />118",
+      "Zip": 95064,
+      "description": "",
+      "name": "Cowell College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "520 Cowell-Stevenson Road",
+      "Zip": 95064,
+      "description": "",
+      "name": "Cowell College Dining Commons"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.054,
+        37.0004
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "630 Crown Road<br />151-1",
+      "Zip": 95064,
+      "description": "",
+      "name": "Crown College Dining Commons"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.054,
+        37.0004
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "620 Crown Road<br />109",
+      "Zip": 95064,
+      "description": "",
+      "name": "Crown College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.053,
+        36.9992
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "637 Merrill Road<br />5",
+      "Zip": 95064,
+      "description": "",
+      "name": "Merrill College"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "506 Cowell-Stevenson Road<br />327",
+      "Zip": 95064,
+      "description": "",
+      "name": "Humanities 1"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.06,
+        36.9949
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "407 McHenry Road<br />204",
+      "Zip": 95064,
+      "description": "",
+      "name": "Digital Arts Research Center"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.056,
+        36.9968
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "400 Hahn Road<br />146",
+      "Zip": 95064,
+      "description": "",
+      "name": "Hahn"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "504 Cowell-Stevenson Road<br />460",
+      "Zip": 95064,
+      "description": "",
+      "name": "Humanities 2"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        36.9977
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "552 Steinhart Way<br />A234",
+      "Zip": 95064,
+      "description": "",
+      "name": "Earth and Marience Sciences"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.052,
+        36.9982
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "508 Cowell-Stevenson Road",
+      "Zip": 95064,
+      "description": "",
+      "name": "Cowell College - Apartment Bldg 4"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.063,
+        37.0009
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "612 Engineering Loop<br />401",
+      "Zip": 95064,
+      "description": "",
+      "name": "Engineering 2"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.06,
+        36.9949
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "414 McHenry Road",
+      "Zip": 95064,
+      "description": "",
+      "name": "McHenry"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.06,
+        36.9949
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "408 McHenry Road<br />121",
+      "Zip": 95064,
+      "description": "",
+      "name": "Academic Resource Center"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.062,
+        36.9977
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "552 Steinhart Way<br />A316",
+      "Zip": 95064,
+      "description": "",
+      "name": "Earth and Marience Sciences"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        -122.065,
+        36.9896
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "City": "Santa Cruz",
+      "State": "California",
+      "Street": "540 Koshland Way<br />599",
+      "Zip": 95064,
+      "description": "",
+      "name": "Family Student Housing"
+    },
+    "type": "Feature"
+  }
+]

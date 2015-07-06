@@ -1,0 +1,83 @@
+<div class="app-content" ui-view>
+<article class="detail dashboard">
+<div class="scrollable">
+  <div class="scrollable-header">
+    <div class="articletitle">
+        <h1>
+            <!-- <span class="location">Santa Cruz, California</span> -->
+            <span class="time" current-time="h:mm a EEE, MMMM d, y"></span>
+            <!-- <span class="date" current-time="EEE, MMMM d, y"></span> -->
+        </h1>
+    </div>
+    <div class="buttonleft">
+        <button ui-sref="main" class="left-nav icon-cancel-circled"><span class="label">Back</span></button>
+    </div>
+    <div class="buttonright">
+        <button class="right-nav icon-colon" ng-click="navbarshow()" ng-class="{active: !isTop}"><span class="label">Toggle Site Header</span></button>
+    </div>
+  </div>
+  <div class="scrollable-content">
+
+    <div class="module_about">
+            <div class="mod-label">UC Santa Cruz</div>
+            <div class="mod-body">
+                <p>
+                    Thanks for visiting the UCSC Mobile Portal. We’re just getting started, but our goal is to build a one-stop tool for accessing all the information you’re looking for about UCSC.
+                </p>
+                <p>
+                    We’ll be “soft-launching” this application, posting new modules as soon as they’re ready. Please play around and <a href="https://ucscforms.wufoo.com/forms/mobile-app-feedback-form/" target="_blank">let us know</a> what you think.
+                </p>
+            </div>
+            <div class="mod-address">
+                <ul>
+                    <li class="icon-location">
+                        <a ng-href="https://www.google.com/maps/place/University+of+California,+Santa+Cruz/@36.9911461,-122.0589837,15z/data=!4m7!1m4!3m3!1s0x808e41a2ff8cbf4f:0x3a8e3b7c928320d5!2sUniversity+of+California,+Santa+Cruz!3b1!3m1!1s0x808e41a2ff8cbf4f:0x3a8e3b7c928320d5">1152 High Street <br />Santa Cruz, CA 95064</a>
+                    </li>
+                    <li class="icon-telephone">
+                        <a ng-href="tel:+018314590111">(831) 459-0111</a>
+                    </li>
+                    <li class="icon-location">
+                        <a ng-href="http://www.ucsc.edu">Campus Website</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="module_weather">
+            <div class="mod-label">Weather</div>
+            <div class="mod-body">
+                <ul class="temps">
+                    <li ng-repeat="ct in forecast.current" class="current">
+                        <div class="{{ct.icon}} icon">
+                            <span class="temp">{{ct.temp}}&deg;</span>
+                            
+                        </div>
+                    </li>
+                    <li ng-repeat="fc in forecast.forecast" class="forecast">
+                        <span class="day">{{fc.weekday}}</span>
+                        <i aria-hidden="true" class="{{fc.icon}} icon"></i>
+                        <span class="temp">{{fc.high}}&deg;
+                         
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    <!-- <div class="list-group">
+      <a ng-repeat="item in scrollItems" ui-sref="main.directory" class="list-group-item">
+        {{ item }} <i class="fa fa-chevron-right pull-right"></i>
+      </a>
+    </div> -->
+    
+  </div>
+  <!-- <div class="scrollable-footer">Footer <br> 2<br>3</div> -->
+</div> 
+</article>
+</div>

@@ -17,6 +17,10 @@ map.config(function($stateProvider) {
 map.controller('MapCtrl', function($scope, $state, $http, leafletData) {
   	$scope.trackback="main.map";
 
+  	$http.get("inc/sites/map/json/route-markers.json").success(function(data, status) {
+	    $scope.routeMarkers = data;
+	});
+
   	leafletData.getGeoJSON().then(function(lObjs){
         window.leafletDataGeoJSON = lObjs;
     });
@@ -137,33 +141,6 @@ map.controller('MapCtrl', function($scope, $state, $http, leafletData) {
 			        }
 			    });
 			});
-
-			//set markers for route
-			angular.extend($scope, {
-                markers: {
-                	route2: {
-	                    1: {
-	                        lat: 36.97753818,
-	                        lng: -121.0534438,
-	                        compileMessage: false,
-	                        message: "I'm a static marker"
-	                    },
-	                    2: {
-	                        lat: 36.97731841,
-	                        lng: -121.0545006,
-	                        focus: true,
-	                        message: "<div ng-include src=\"'views/template.html'\"></div>",
-	                        draggable: true
-	                    },
-	                    3: {
-	                        lat: 36.994669573079065,
-	                        lng: -121.05557346343994,
-	                        message: "<p>Hi</p>",
-	                        compileMessage: true
-	                    }
-                	}
-                }
-            });
 	   	}
 	   	else {
 	   		angular.extend($scope.geojson, {
@@ -171,11 +148,6 @@ map.controller('MapCtrl', function($scope, $state, $http, leafletData) {
 		            // data: data,
 		        }
 			});
-			angular.extend($scope, {
-                markers: {
-                	route2: {}
-                }
-            });
 	   	}
 	};
 
@@ -192,7 +164,7 @@ map.controller('MapCtrl', function($scope, $state, $http, leafletData) {
 			                weight: 5,
 			                opacity: .8,
 			                color: 'yellow',
-			                message: "<h3>Route from London to Rome</h3><p>Distance: 1862km</p>",
+			                // message: "<h3>Route from London to Rome</h3><p>Distance: 1862km</p>",
 			                // dashArray: '3',
 			                // fillOpacity: 0.7
 			            }

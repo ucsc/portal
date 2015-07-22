@@ -240,7 +240,7 @@ gulp.task('watch', function () {
     gulp.watch([config.dest + '/images/*'], ['livereload']);
     gulp.watch([config.dest + '/js/*'], ['livereload']);
   }
-  gulp.watch(['./src/html/**/*'], ['html']);
+  gulp.watch(['./src/**/*'], ['html','json']);
   gulp.watch(['./src/less/**/*'], ['less']);
   // gulp.watch(['./src/js/**/*', './src/sites/**/*', config.vendor.js], ['js']);
   gulp.watch(['./src/js/**/*', './src/sites/**/*'], ['js']);

@@ -1,53 +1,53 @@
 <!-- Legend -->
-<article class="list">
-<div class="scrollable">
-  <div class="scrollable-header">
-    <div class="articletitle">
-        <h1><span>Campus Map</span></h1>
+<article class="list map-key">
+    <div class="scrollable">
+        <div class="scrollable-header">
+            <div class="articletitle">
+                <h1><span>Campus Map</span></h1>
+            </div>
+            <div class="buttonleft">
+                <button ui-sref="main" class="left-nav icon-cancel-circled"><span class="label">Back</span></button>
+            </div>
+            <div class="buttonright">
+                <button class="right-nav icon-colon" ng-click="navbarshow()" ng-class="{active: !isTop}"><span class="label">Toggle Site Header</span></button>
+            </div>
+        </div>
+        <div class="scrollable-content" ng-include="'map-key.html'">
+            
+        </div>
+        <!-- <div class="scrollable-footer"></div> -->
     </div>
-    <div class="buttonleft">
-        <button ui-sref="main" class="left-nav icon-cancel-circled"><span class="label">Back</span></button>
-    </div>
-    <div class="buttonright">
-        <button class="right-nav icon-colon" ng-click="navbarshow()" ng-class="{active: !isTop}"><span class="label">Toggle Site Header</span></button>
-    </div>
-  </div>
-  <div class="scrollable-content">
-    <h3>Search</h3>
-    <div class="list-group">
-    </div>
-    <h3>Shuttle Routes</h3>
-    <div class="checkbox">
-        <input id="routecheck1" type="checkbox" ng-model="route1" ng-change="r1StateChanged(route1)">
-        <label for="routecheck1">
-            Loop <span class="bg-warning text-warning">Yellow</span>
-        </label>
-    </div>
-    <div class="checkbox">
-        <input id="routecheck2" type="checkbox" ng-model="route2" ng-change="r2StateChanged(route2)">
-        <label for="routecheck2">
-            Upper Campus <span class="bg-danger text-danger">Red</span>
-        </label>
-    </div>
-    <div class="checkbox">
-        <input id="routecheck3" type="checkbox" ng-model="route3" ng-change="r3StateChanged(route3)">
-        <label for="routecheck3">
-            East Night Core <span class="bg-primary text-primary">Blue</span>
-        </label>
-    </div>
-    <div class="checkbox">
-        <input id="routecheck4" type="checkbox" ng-model="route4" ng-change="r4StateChanged(route4)">
-        <label for="routecheck4">
-            West Night Core <span class="bg-success text-success">Green</span>
-        </label>
-    </div>
-  </div>
-  <!-- <div class="scrollable-footer"></div> -->
-</div> 
 </article>
-
-
 <!-- Map -->
 <article class="detail map">
-  <leaflet center="ucsc" geojson="geojson" geojson-nested="true" layers="layers" markers="markers" markers-nested="true" defaults="defaults" width="100%" height="100%"></leaflet>
+    <div class="scrollable">
+        <div class="scrollable-header">
+            <div class="articletitle">
+                <h1><span>Campus Map</span> <a href=""
+                ui-turn-on="modal1"
+            class="btn btn-default">Filters</a></h1>
+            
+        </div>
+        <div class="buttonleft">
+            <button ui-sref="main" class="left-nav icon-cancel-circled"><span class="label">Back</span></button>
+        </div>
+        <div class="buttonright">
+            <button class="right-nav icon-colon" ng-click="navbarshow()" ng-class="{active: !isTop}"><span class="label">Toggle Map Key</span></button>
+        </div>
+    </div>
+    <leaflet center="ucsc"
+    geojson="geojson"
+    geojson-nested="true"
+    layers="layers"
+    markers="markers"
+    markers-nested="true"
+    defaults="defaults"
+    width="100%"
+    height="100%">
+    </leaflet>
+</div>
+
 </article>
+<div ui-content-for="modals">
+<div ng-include="'model1.html'"></div>
+</div>

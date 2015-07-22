@@ -1,0 +1,105 @@
+<!-- <h3>Search</h3>
+<div class="list-group">
+</div> -->
+<!-- <h3>Shuttle Routes</h3>
+<div class="checkbox">
+    <input id="routecheck1" type="checkbox" ng-model="route1" ng-change="r1StateChanged(route1)">
+    <label for="routecheck1">
+        Loop <span class="bg-warning text-warning">Yellow</span>
+    </label>
+</div>
+<div class="checkbox">
+    <input id="routecheck2" type="checkbox" ng-model="route2" ng-change="r2StateChanged(route2)">
+    <label for="routecheck2">
+        Upper Campus <span class="bg-danger text-danger">Red</span>
+    </label>
+</div>
+<div class="checkbox">
+    <input id="routecheck3" type="checkbox" ng-model="route3" ng-change="r3StateChanged(route3)">
+    <label for="routecheck3">
+        East Night Core <span class="bg-primary text-primary">Blue</span>
+    </label>
+</div>
+<div class="checkbox">
+    <input id="routecheck4" type="checkbox" ng-model="route4" ng-change="r4StateChanged(route4)">
+    <label for="routecheck4">
+        West Night Core <span class="bg-success text-success">Green</span>
+    </label>
+</div> -->
+
+
+<div class="section">
+      <div class="panel-group" 
+        
+        ui-state='filters' 
+        ui-default='1'>
+
+        <div class="panel panel-default">
+          <div class="panel-heading" ui-set="{'filters': 1}">
+        
+            <h4 class="panel-title">
+                Shuttle Routes
+            </h4>
+          </div>
+
+          <div ui-if="filters == 1">
+            <div class="panel-body">
+                <div class="checkbox">
+                    <input id="routecheck1" type="checkbox" ng-model="route1" ng-change="r1StateChanged(route1)">
+                    <label for="routecheck1">
+                        Loop <span class="bg-warning text-warning">Yellow</span>
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <input id="routecheck2" type="checkbox" ng-model="route2" ng-change="r2StateChanged(route2)">
+                    <label for="routecheck2">
+                        Upper Campus <span class="bg-danger text-danger">Red</span>
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <input id="routecheck3" type="checkbox" ng-model="route3" ng-change="r3StateChanged(route3)">
+                    <label for="routecheck3">
+                        East Night Core <span class="bg-primary text-primary">Blue</span>
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <input id="routecheck4" type="checkbox" ng-model="route4" ng-change="r4StateChanged(route4)">
+                    <label for="routecheck4">
+                        West Night Core <span class="bg-success text-success">Green</span>
+                    </label>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading" ui-set="{'filters': 2}">
+        
+            <h4 class="panel-title">
+                Restrooms
+            </h4>
+          </div>
+
+          <div ui-if="filters == 2">
+            <div class="panel-body">
+              {{lorem}}
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading" ui-set="{'filters': 3}">
+        
+            <h4 class="panel-title">
+                Parking Lots
+            </h4>
+          </div>
+
+          <div ui-if="filters == 3">
+            <div class="panel-body">
+              {{lorem}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

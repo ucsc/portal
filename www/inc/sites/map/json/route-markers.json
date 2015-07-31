@@ -1,0 +1,33 @@
+{
+  "route1": [
+    {
+      "overlay": [
+        {
+          "name": "route1",
+          "type": "group",
+          "visible": false
+        }
+      ],
+      "markers": [
+        {
+          "r1": [
+            {
+              "layer": "route1",
+              "lat": 36.97753818,
+              "lng": -122.0534438,
+              "message": "I'm a stop"
+            }
+          ],
+          "r2": [
+            {
+              "layer": "route1",
+              "lat": 36.87753818,
+              "lng": -122.0534438,
+              "message": "I'm a stop"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

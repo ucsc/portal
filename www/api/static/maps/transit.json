@@ -1,0 +1,490 @@
+{
+  "transit": {
+    "markers": {
+      "ts0": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.98133,
+        "layer": "transit",
+        "lng": -122.05199,
+        "message": "Barn G Bus Stop"
+      },
+      "ts1": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 37.00001,
+        "layer": "transit",
+        "lng": -122.06228,
+        "message": "Baskin Engineering Bus Stop"
+      },
+      "ts10": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.97731841,
+        "layer": "transit",
+        "lng": -122.0545006,
+        "message": "Transit Stop - Bay and High"
+      },
+      "ts11": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.99061942,
+        "layer": "transit",
+        "lng": -122.0661092,
+        "message": "Transit Stop - College 8/Oakes"
+      },
+      "ts12": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.99279604,
+        "layer": "transit",
+        "lng": -122.0647895,
+        "message": "Transit Stop - College 8/Porter"
+      },
+      "ts13": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.99299588,
+        "layer": "transit",
+        "lng": -122.0652133,
+        "message": "Transit Stop - College 8/Porter"
+      },
+      "ts14": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.99979678,
+        "layer": "transit",
+        "lng": -122.0582664,
+        "message": "Transit Stop - College 9/10"
+      },
+      "ts15": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.99991674,
+        "layer": "transit",
+        "lng": -122.0583522,
+        "message": "Transit Stop - College 9/10"
+      },
+      "ts16": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.99748394,
+        "layer": "transit",
+        "lng": -122.0550478,
+        "message": "Transit Stop - Cowell/Stevenson"
+      },
+      "ts17": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.99903299,
+        "layer": "transit",
+        "lng": -122.0551658,
+        "message": "Transit Stop - Crown/Merrill"
+      },
+      "ts18": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.99133618,
+        "layer": "transit",
+        "lng": -122.0546508,
+        "message": "Transit Stop - East Remote Parking Lot"
+      },
+      "ts19": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.98362706,
+        "layer": "transit",
+        "lng": -122.0648968,
+        "message": "Transit Stop - Empire Grade"
+      },
+      "ts2": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.99075,
+        "layer": "transit",
+        "lng": -122.05209,
+        "message": "East Remote Shuttle Stop"
+      },
+      "ts20": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.97975803,
+        "layer": "transit",
+        "lng": -122.0594788,
+        "message": "Transit Stop - Empire Grade and Tosca Terrace"
+      },
+      "ts21": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.99179651,
+        "layer": "transit",
+        "lng": -122.0667744,
+        "message": "Transit Stop - Family Student Housing"
+      },
+      "ts22": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.97880226,
+        "layer": "transit",
+        "lng": -122.0576871,
+        "message": "Transit Stop - High and Western"
+      },
+      "ts23": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.97868426,
+        "layer": "transit",
+        "lng": -122.0579982,
+        "message": "Transit Stop - High and Western"
+      },
+      "ts24": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.99677206,
+        "layer": "transit",
+        "lng": -122.0635557,
+        "message": "Transit Stop - Kerr Hall"
+      },
+      "ts25": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.9991658,
+        "layer": "transit",
+        "lng": -122.064414,
+        "message": "Transit Stop - Kresge"
+      },
+      "ts26": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.99928267,
+        "layer": "transit",
+        "lng": -122.0645535,
+        "message": "Transit Stop - Kresge"
+      },
+      "ts27": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.98155733,
+        "layer": "transit",
+        "lng": -122.0521081,
+        "message": "Transit Stop - Lower Campus"
+      },
+      "ts28": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.98139809,
+        "layer": "transit",
+        "lng": -122.0519257,
+        "message": "Transit Stop - Lower Campus"
+      },
+      "ts29": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.98995541,
+        "layer": "transit",
+        "lng": -122.0672035,
+        "message": "Transit Stop - Oakes"
+      },
+      "ts3": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.99745,
+        "layer": "transit",
+        "lng": -122.05501,
+        "message": "Hagar Steinhart Way Bus Stop"
+      },
+      "ts30": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.99993663,
+        "layer": "transit",
+        "lng": -122.0619947,
+        "message": "Transit Stop - Science Hill"
+      },
+      "ts31": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.99999828,
+        "layer": "transit",
+        "lng": -122.0622254,
+        "message": "Transit Stop - Science Hill"
+      },
+      "ts32": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.98553601,
+        "layer": "transit",
+        "lng": -122.0535618,
+        "message": "Transit Stop - UCSC Farm/Village"
+      },
+      "ts33": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.98592765,
+        "layer": "transit",
+        "lng": -122.0535029,
+        "message": "Transit Stop - UCSC Farm/Village"
+      },
+      "ts4": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 37.00008,
+        "layer": "transit",
+        "lng": -122.06235,
+        "message": "Jack Baskin Engineering Bus Stop"
+      },
+      "ts5": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.99936,
+        "layer": "transit",
+        "lng": -122.06459,
+        "message": "Kresge Bus Stop"
+      },
+      "ts6": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.99063,
+        "layer": "transit",
+        "lng": -122.0661,
+        "message": "Oakes College Bus Stop"
+      },
+      "ts7": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.98266102,
+        "layer": "transit",
+        "lng": -122.0623112,
+        "message": "Transit Stop - Arboretum"
+      },
+      "ts8": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.99649481,
+        "layer": "transit",
+        "lng": -122.0554098,
+        "message": "Transit Stop - Bay Tree Bookstore"
+      },
+      "ts9": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-bus",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "circle",
+          "type": "extraMarker"
+        },
+        "lat": 36.97753818,
+        "layer": "transit",
+        "lng": -122.0534438,
+        "message": "Transit Stop - Bay and High"
+      }
+    },
+    "overlay": {
+      "layerParams": {
+        "showOnSelector": false
+      },
+      "name": "Transit",
+      "type": "group",
+      "visible": false
+    }
+  }
+}

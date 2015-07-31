@@ -68,6 +68,13 @@
                         West Night Core <span class="bg-success text-success">Green</span>
                     </label>
                 </div>
+                <div class="checkbox">
+                    <input id="transit" type="checkbox" ng-model="transit" ng-checked="layers.overlays['transit'].visible" ng-click="toggleLayer('transit')">
+                    <label for="transit">
+                        All transit
+                    </label>
+                </div>
+            </div>
             </div>
           </div>
         </div>
@@ -79,10 +86,15 @@
                 Restrooms
             </h4>
           </div>
-
+                                                        
           <div ui-if="filters == 2">
             <div class="panel-body">
-              {{lorem}}
+                <div class="checkbox">
+                    <input id="restrooms" type="checkbox" ng-model="restrooms" ng-checked="layers.overlays['restrooms'].visible" ng-click="toggleLayer('restrooms')">
+                    <label for="restrooms">
+                        All restrooms
+                    </label>
+                </div>
             </div>
           </div>
         </div>
@@ -97,7 +109,19 @@
 
           <div ui-if="filters == 3">
             <div class="panel-body">
-              {{lorem}}
+                <!-- <div class="checkbox">
+                    <input id="parking" type="checkbox" ng-model="parking" ng-checked="layers.overlays['parking'].visible" ng-click="toggleLayer('parking')">
+                    <label for="parking">
+                        All parking lots
+                    </label>
+                </div> -->
+                <div class="checkbox">
+                    <input id="parking" type="checkbox" ng-model="parking" ng-checked="layers.overlays['parking'].visible" ng-click="toggleLayer('parking')">
+                    <label for="parking">
+                        All parking
+                    </label>
+                </div>
+            </div>
             </div>
           </div>
         </div>

@@ -61,6 +61,24 @@ app.factory('siteMenuService', function($http) {
                 return data;
             });
             return promise;
+        },
+        mapTransit: function() {
+            var promise = $http({ method: 'GET', url: 'api/static/maps/transit.json' }).success(function(data, status, headers, config) {
+                return data;
+            });
+            return promise;
+        },
+        mapRestrooms: function() {
+            var promise = $http({ method: 'GET', url: 'api/static/maps/restrooms.json' }).success(function(data, status, headers, config) {
+                return data;
+            });
+            return promise;
+        },
+        mapParking: function() {
+            var promise = $http({ method: 'GET', url: 'api/static/maps/parking.json' }).success(function(data, status, headers, config) {
+                return data;
+            });
+            return promise;
         }
     }
     return sdo;
@@ -220,4 +238,16 @@ app.directive("currentTime", function (dateFilter) {
         }
         updateLater();
     }
+});
+
+app.factory('httpq', function($http, $q) {
+  return {
+    get: function() {
+      var deferred = $q.defer();
+      $http.get.apply(null, arguments)
+      .success(deferred.resolve)
+      .error(deferred.resolve);
+      return deferred.promise;
+    }
+  }
 });

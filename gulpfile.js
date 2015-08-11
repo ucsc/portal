@@ -19,6 +19,7 @@ var config = {
       './bower_components/leaflet/dist/leaflet-src.js',
       './bower_components/Leaflet.label/dist/leaflet.label-src.js',
       './bower_components/leaflet-plugins/layer/tile/Google.js',
+      './bower_components/Leaflet.extra-markers/src/leaflet.extra-markers.js',
       './bower_components/angular-leaflet-directive/dist/angular-leaflet-directive_dev_mapped.js'
     ],
 
@@ -240,11 +241,11 @@ gulp.task('watch', function () {
     gulp.watch([config.dest + '/images/*'], ['livereload']);
     gulp.watch([config.dest + '/js/*'], ['livereload']);
   }
-  gulp.watch(['./src/html/**/*'], ['html']);
+  gulp.watch(['./src/**/*'], ['html']);
   gulp.watch(['./src/less/**/*'], ['less']);
   // gulp.watch(['./src/js/**/*', './src/sites/**/*', config.vendor.js], ['js']);
   gulp.watch(['./src/js/**/*', './src/sites/**/*'], ['js']);
-  gulp.watch(['./src/images/**/*'], ['images']);
+  gulp.watch(['./src/images/**/*', './src/css/images/**/*'], ['images']);
 });
 
 

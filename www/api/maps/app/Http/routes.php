@@ -35,8 +35,131 @@ $app->group(['prefix' => 'v1/properties'], function ($app) {
 // });
 
 // $app->get('/properties/parking', function() use ($app) {
-//     return Property::where('item_type', 'like', '%parking%')->orderBy('name')->get();
+//     // return Property::where('item_type', 'like', '%parking%')->orderBy('name')->get();
+
+//     $lots = Property::where('item_type', 'like', '%parking%')->orderBy('name')->get();
+
+//     $pljson['parking']['overlay'] = array('name' => 'Parking', 'type' => 'group', 'visible' => false);
+
+//     $pljson['parking']['overlay']['layerParams'] = array('showOnSelector' => false);
+
+//     $i = 0;
+
+//     foreach($lots as $lot) {
+//     	$pljson['makers']['pl'.$i] = array(
+//     		'layer' => 'parking',
+//     		'lat' => $lot->lat,
+//     		'lng' => $lot->long,
+//     		'message' => $lot->name
+//     		);
+
+//     	$i++;
+//     }
+
+//     return $pljson;
 // });
+
+$app->get('/properties/parking', function() use ($app) {
+    // return Property::where('item_type', 'like', '%parking%')->orderBy('name')->get();
+
+    $lots = Property::where('item_type', 'like', '%parking%')->orderBy('name')->get();
+
+    $pljson['parking']['overlay'] = array('name' => 'Parking', 'type' => 'group', 'visible' => false);
+
+    $pljson['parking']['overlay']['layerParams'] = array('showOnSelector' => false);
+
+    $i = 0;
+
+    foreach($lots as $lot) {
+    	$pljson['parking']['markers']['pl'.$i] = array(
+    		'layer' => 'parking',
+    		'lat' => $lot->lat,
+    		'lng' => $lot->long,
+    		'message' => $lot->name,
+            'focus' => false,
+            'icon' => array(
+                  'type' => 'extraMarker',
+                  'icon' => 'fa-car',
+                  'markerColor' => 'blue',
+                  'prefix' => 'fa',
+                  'shape' => 'square'
+                )
+    		);
+
+    	$i++;
+    }
+
+    $rjson = json_encode($pljson, JSON_NUMERIC_CHECK);
+    return $rjson;
+});
+
+$app->get('/properties/restrooms', function() use ($app) {
+    // return Property::where('item_type', 'like', '%restroom%')->orderBy('name')->get();
+
+    $lots = Property::where('item_type', 'like', '%restroom%')->orderBy('name')->get();
+
+    $pljson['restrooms']['overlay'] = array('name' => 'Restrooms', 'type' => 'group', 'visible' => false);
+
+    $pljson['restrooms']['overlay']['layerParams'] = array('showOnSelector' => false);
+
+    $i = 0;
+
+    foreach($lots as $lot) {
+    	$pljson['restrooms']['markers']['rr'.$i] = array(
+    		'layer' => 'restrooms',
+    		'lat' => $lot->lat,
+    		'lng' => $lot->long,
+    		'message' => $lot->name,
+            'focus' => false,
+            'icon' => array(
+                  'type' => 'extraMarker',
+                  'icon' => 'fa-genderless',
+                  'markerColor' => 'blue',
+                  'prefix' => 'fa',
+                  'shape' => 'star'
+                )
+            );
+
+    	$i++;
+    }
+
+    $rjson = json_encode($pljson, JSON_NUMERIC_CHECK);
+    return $rjson;
+});
+
+$app->get('/properties/transit', function() use ($app) {
+    // return Property::where('item_type', 'like', '%restroom%')->orderBy('name')->get();
+
+    $lots = Property::where('item_type', 'like', '%transit%')->orderBy('name')->get();
+
+    $pljson['transit']['overlay'] = array('name' => 'Transit', 'type' => 'group', 'visible' => false);
+
+    $pljson['transit']['overlay']['layerParams'] = array('showOnSelector' => false);
+
+    $i = 0;
+
+    foreach($lots as $lot) {
+    	$pljson['transit']['markers']['ts'.$i] = array(
+    		'layer' => 'transit',
+    		'lat' => $lot->lat,
+    		'lng' => $lot->long,
+    		'message' => $lot->name,
+            'focus' => false,
+            'icon' => array(
+                  'type' => 'extraMarker',
+                  'icon' => 'fa-bus',
+                  'markerColor' => 'blue',
+                  'prefix' => 'fa',
+                  'shape' => 'circle'
+                )
+            );
+
+    	$i++;
+    }
+
+    $rjson = json_encode($pljson, JSON_NUMERIC_CHECK);
+    return $rjson;
+});
 
 // $app->get('/properties/transit', function() use ($app) {
 //     return Property::where('item_type', 'like', '%transit%')->orderBy('name')->get();

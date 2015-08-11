@@ -1,0 +1,2604 @@
+{
+  "parking": {
+    "markers": {
+      "pl0": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99661472,
+        "layer": "parking",
+        "lng": -122.0622897,
+        "message": "ADA Accessible Parking - Kerr Hall"
+      },
+      "pl1": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99666613,
+        "layer": "parking",
+        "lng": -122.0617372,
+        "message": "ADA Accessible Parking - Kerr Hall 2"
+      },
+      "pl10": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00076834,
+        "layer": "parking",
+        "lng": -122.0619196,
+        "message": "Baskin DP1"
+      },
+      "pl100": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99086054,
+        "layer": "parking",
+        "lng": -122.0683569,
+        "message": "Lot 132:  Family Student Housing"
+      },
+      "pl101": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99119904,
+        "layer": "parking",
+        "lng": -122.0684159,
+        "message": "Lot 133:  Family Student Housing"
+      },
+      "pl102": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99053919,
+        "layer": "parking",
+        "lng": -122.0687699,
+        "message": "Lot 134:  Family Student Housing"
+      },
+      "pl103": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99191458,
+        "layer": "parking",
+        "lng": -122.0676219,
+        "message": "Lot 135:  Family Student Housing"
+      },
+      "pl104": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99260441,
+        "layer": "parking",
+        "lng": -122.0675308,
+        "message": "Lot 136:  Family Student Housing"
+      },
+      "pl105": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.98020367,
+        "layer": "parking",
+        "lng": -122.0530736,
+        "message": "Lot 137:  Central Garage"
+      },
+      "pl106": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.999971542573,
+        "layer": "parking",
+        "lng": -122.06401705742,
+        "message": "Lot 138: Baskin Engineering"
+      },
+      "pl107": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00135312,
+        "layer": "parking",
+        "lng": -122.0625472,
+        "message": "Lot 139A:  Engineering"
+      },
+      "pl108": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.000635593204,
+        "layer": "parking",
+        "lng": -122.06200003624,
+        "message": "Lot 139B: Communications"
+      },
+      "pl109": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99575783,
+        "layer": "parking",
+        "lng": -122.0616567,
+        "message": "Lot 140:  Theater Arts"
+      },
+      "pl11": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.0007105,
+        "layer": "parking",
+        "lng": -122.0618954,
+        "message": "Baskin DP2"
+      },
+      "pl110": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99637479,
+        "layer": "parking",
+        "lng": -122.0621717,
+        "message": "Lot 141:  Clark Kerr Hall"
+      },
+      "pl111": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99919389,
+        "layer": "parking",
+        "lng": -122.0665491,
+        "message": "Lot 142:  Kresge Town Hall"
+      },
+      "pl112": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99700888,
+        "layer": "parking",
+        "lng": -122.0671284,
+        "message": "Lot 143:  Kresge College"
+      },
+      "pl113": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99053062,
+        "layer": "parking",
+        "lng": -122.0634806,
+        "message": "Lot 144:  Oakes College"
+      },
+      "pl114": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.997284153447,
+        "layer": "parking",
+        "lng": -122.06718742847,
+        "message": "Lot 145: Kresge College"
+      },
+      "pl115": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99228735,
+        "layer": "parking",
+        "lng": -122.0644677,
+        "message": "Lot 146:  College 8"
+      },
+      "pl116": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99679252,
+        "layer": "parking",
+        "lng": -122.0651677,
+        "message": "Lot 147 Kresge College"
+      },
+      "pl117": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.98065792,
+        "layer": "parking",
+        "lng": -122.0487124,
+        "message": "Lot 148:  Hagar Court"
+      },
+      "pl118": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00054342,
+        "layer": "parking",
+        "lng": -122.0642638,
+        "message": "Lot 149:  Heller Drive"
+      },
+      "pl119": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.97941946,
+        "layer": "parking",
+        "lng": -122.0516896,
+        "message": "Lot 151:  Cardiff House (Women's Center)"
+      },
+      "pl12": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00064624,
+        "layer": "parking",
+        "lng": -122.061882,
+        "message": "Baskin DP3"
+      },
+      "pl120": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00213283,
+        "layer": "parking",
+        "lng": -122.0534921,
+        "message": "Lot 152:  Crown Merrill Apts."
+      },
+      "pl121": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.0021157,
+        "layer": "parking",
+        "lng": -122.0541894,
+        "message": "Lot 153:  Crown Merrill Apts."
+      },
+      "pl122": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.0021414,
+        "layer": "parking",
+        "lng": -122.0548975,
+        "message": "Lot 154 Crown Merrill Apts."
+      },
+      "pl123": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.002262425803,
+        "layer": "parking",
+        "lng": -122.05406606197,
+        "message": "Lot 155:  Crown Merrill Apts."
+      },
+      "pl124": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00220566,
+        "layer": "parking",
+        "lng": -122.0554233,
+        "message": "Lot 156:  Fire House"
+      },
+      "pl125": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99993934,
+        "layer": "parking",
+        "lng": -122.0646393,
+        "message": "Lot 157:  Graduate Student Housing"
+      },
+      "pl126": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99828562,
+        "layer": "parking",
+        "lng": -122.0643818,
+        "message": "Lot 158:  Redwood Grove Apts."
+      },
+      "pl127": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99727023,
+        "layer": "parking",
+        "lng": -122.0639956,
+        "message": "Lot 159:  Redwood Grove Apts."
+      },
+      "pl128": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99014928,
+        "layer": "parking",
+        "lng": -122.0648807,
+        "message": "Lot 160:  College 8/Oakes"
+      },
+      "pl129": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.9898879,
+        "layer": "parking",
+        "lng": -122.0650578,
+        "message": "Lot 161:  College 8/Oakes"
+      },
+      "pl13": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00059697,
+        "layer": "parking",
+        "lng": -122.0618847,
+        "message": "Baskin DP4"
+      },
+      "pl130": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99009786,
+        "layer": "parking",
+        "lng": -122.0657712,
+        "message": "Lot 162: Oakes/College Eight"
+      },
+      "pl131": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99612629,
+        "layer": "parking",
+        "lng": -122.0547366,
+        "message": "Lot 163:  Cowell College"
+      },
+      "pl132": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00086473,
+        "layer": "parking",
+        "lng": -122.0592749,
+        "message": "Lot 164:  College Nine and Ten"
+      },
+      "pl133": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00203001,
+        "layer": "parking",
+        "lng": -122.0592642,
+        "message": "Lot 165: College Nine and Ten"
+      },
+      "pl134": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00324669,
+        "layer": "parking",
+        "lng": -122.058894,
+        "message": "Lot 167:  College 9/10 Apartments"
+      },
+      "pl135": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.9853459,
+        "layer": "parking",
+        "lng": -122.0554769,
+        "message": "Lot 168:  Farm"
+      },
+      "pl136": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.98682851,
+        "layer": "parking",
+        "lng": -122.0553911,
+        "message": "Lot 169:  Village"
+      },
+      "pl137": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.94947166,
+        "layer": "parking",
+        "lng": -122.0650578,
+        "message": "Lot 201:  Long Marine Labs"
+      },
+      "pl138": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.94881145,
+        "layer": "parking",
+        "lng": -122.0654011,
+        "message": "Lot 202:  Long Marine Labs Staff"
+      },
+      "pl139": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.94983177,
+        "layer": "parking",
+        "lng": -122.0656371,
+        "message": "Lot 203:  Long Marine Labs"
+      },
+      "pl14": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00001218,
+        "layer": "parking",
+        "lng": -122.0630997,
+        "message": "Baskin DP6"
+      },
+      "pl140": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.95513037,
+        "layer": "parking",
+        "lng": -122.0577192,
+        "message": "Lot 301:  2300 Delaware Ave."
+      },
+      "pl141": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99627625,
+        "layer": "parking",
+        "lng": -122.058835,
+        "message": "McHenry DP1"
+      },
+      "pl142": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99615414,
+        "layer": "parking",
+        "lng": -122.0586392,
+        "message": "McHenry DP2"
+      },
+      "pl143": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99529725,
+        "layer": "parking",
+        "lng": -122.0602915,
+        "message": "McHenry DP3"
+      },
+      "pl144": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.9997337,
+        "layer": "parking",
+        "lng": -122.0513436,
+        "message": "Merrill DP1"
+      },
+      "pl145": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99961803,
+        "layer": "parking",
+        "lng": -122.0522743,
+        "message": "Merrill DP2"
+      },
+      "pl146": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99894326,
+        "layer": "parking",
+        "lng": -122.0602834,
+        "message": "Nat Sci II DP1"
+      },
+      "pl147": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00241558,
+        "layer": "parking",
+        "lng": -122.0657873,
+        "message": "North Remote Parking Lot"
+      },
+      "pl148": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99510231,
+        "layer": "parking",
+        "lng": -122.0537281,
+        "message": "OPERS DP1"
+      },
+      "pl149": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99510981,
+        "layer": "parking",
+        "lng": -122.0536865,
+        "message": "OPERS DP2"
+      },
+      "pl15": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00134884,
+        "layer": "parking",
+        "lng": -122.0627752,
+        "message": "Baskin DP7"
+      },
+      "pl150": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99367984,
+        "layer": "parking",
+        "lng": -122.054168,
+        "message": "OPERS DP3"
+      },
+      "pl151": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99360915,
+        "layer": "parking",
+        "lng": -122.0541787,
+        "message": "OPERS DP4"
+      },
+      "pl152": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.9944682,
+        "layer": "parking",
+        "lng": -122.0554903,
+        "message": "OPERS shuttle DP1"
+      },
+      "pl153": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99029817,
+        "layer": "parking",
+        "lng": -122.0633304,
+        "message": "Oakes College DP1"
+      },
+      "pl154": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.990416,
+        "layer": "parking",
+        "lng": -122.0641646,
+        "message": "Oakes College DP2"
+      },
+      "pl155": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.9897915,
+        "layer": "parking",
+        "lng": -122.0644288,
+        "message": "Oakes College DP3"
+      },
+      "pl156": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.98856604,
+        "layer": "parking",
+        "lng": -122.0651074,
+        "message": "Oakes College DP4"
+      },
+      "pl157": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99365842,
+        "layer": "parking",
+        "lng": -122.0620751,
+        "message": "Performing Arts Parking"
+      },
+      "pl158": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.97936482,
+        "layer": "parking",
+        "lng": -122.0523253,
+        "message": "Police DP1"
+      },
+      "pl159": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99391978,
+        "layer": "parking",
+        "lng": -122.0649049,
+        "message": "Porter College DP1"
+      },
+      "pl16": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00137454,
+        "layer": "parking",
+        "lng": -122.0627806,
+        "message": "Baskin DP8"
+      },
+      "pl160": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99418328,
+        "layer": "parking",
+        "lng": -122.0648351,
+        "message": "Porter College DP2"
+      },
+      "pl161": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99526405,
+        "layer": "parking",
+        "lng": -122.0657136,
+        "message": "Porter College DP3"
+      },
+      "pl162": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99526512,
+        "layer": "parking",
+        "lng": -122.0657484,
+        "message": "Porter College DP4"
+      },
+      "pl163": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99543221,
+        "layer": "parking",
+        "lng": -122.0653555,
+        "message": "Porter College DP5"
+      },
+      "pl164": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99759798,
+        "layer": "parking",
+        "lng": -122.0556298,
+        "message": "Quarry Plaza DP1"
+      },
+      "pl165": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99759049,
+        "layer": "parking",
+        "lng": -122.055662,
+        "message": "Quarry Plaza DP2"
+      },
+      "pl166": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99757763,
+        "layer": "parking",
+        "lng": -122.0557022,
+        "message": "Quarry Plaza DP3"
+      },
+      "pl167": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99907178,
+        "layer": "parking",
+        "lng": -122.0618767,
+        "message": "Sinsheimer DP1"
+      },
+      "pl168": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99911463,
+        "layer": "parking",
+        "lng": -122.0619035,
+        "message": "Sinsheimer DP2"
+      },
+      "pl169": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99772437,
+        "layer": "parking",
+        "lng": -122.052615,
+        "message": "Stevenson DP1"
+      },
+      "pl17": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00174298,
+        "layer": "parking",
+        "lng": -122.0622092,
+        "message": "Baskin DP9"
+      },
+      "pl170": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99670469,
+        "layer": "parking",
+        "lng": -122.052623,
+        "message": "Stevenson DP2"
+      },
+      "pl171": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99712456,
+        "layer": "parking",
+        "lng": -122.0509949,
+        "message": "Stevenson DP3"
+      },
+      "pl172": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.97966586,
+        "layer": "parking",
+        "lng": -122.0536155,
+        "message": "TAPS Sales Office"
+      },
+      "pl173": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99472313,
+        "layer": "parking",
+        "lng": -122.0615548,
+        "message": "Theater Arts DP1"
+      },
+      "pl174": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99475633,
+        "layer": "parking",
+        "lng": -122.0615521,
+        "message": "Theater Arts DP2"
+      },
+      "pl175": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99520942,
+        "layer": "parking",
+        "lng": -122.061359,
+        "message": "Theater Arts DP3"
+      },
+      "pl176": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99525548,
+        "layer": "parking",
+        "lng": -122.061355,
+        "message": "Theater Arts DP4"
+      },
+      "pl177": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99520085,
+        "layer": "parking",
+        "lng": -122.0621261,
+        "message": "Theater Arts DP5"
+      },
+      "pl178": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99819565,
+        "layer": "parking",
+        "lng": -122.062633,
+        "message": "Thimann DP1"
+      },
+      "pl179": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99282292,
+        "layer": "parking",
+        "lng": -122.0621985,
+        "message": "University House DP1"
+      },
+      "pl18": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99952806,
+        "layer": "parking",
+        "lng": -122.060671,
+        "message": "BioMed DP1"
+      },
+      "pl180": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.98531162,
+        "layer": "parking",
+        "lng": -122.0553777,
+        "message": "Village DP1"
+      },
+      "pl181": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.98674281,
+        "layer": "parking",
+        "lng": -122.0553535,
+        "message": "Village DP2"
+      },
+      "pl182": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.98855104,
+        "layer": "parking",
+        "lng": -122.0552999,
+        "message": "Village DP3"
+      },
+      "pl183": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.988466413438,
+        "layer": "parking",
+        "lng": -122.06576049328,
+        "message": "West Remote Parking Lot"
+      },
+      "pl184": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.97947624,
+        "layer": "parking",
+        "lng": -122.0516145,
+        "message": "Women's Center DP1"
+      },
+      "pl19": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99953127,
+        "layer": "parking",
+        "lng": -122.0606723,
+        "message": "BioMed DP2"
+      },
+      "pl2": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99442964,
+        "layer": "parking",
+        "lng": -122.0592964,
+        "message": "ARC DP1"
+      },
+      "pl20": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.98042223,
+        "layer": "parking",
+        "lng": -122.0520329,
+        "message": "Carriage House DP1"
+      },
+      "pl21": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99806283,
+        "layer": "parking",
+        "lng": -122.0570862,
+        "message": "Classroom DP1"
+      },
+      "pl22": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.990446,
+        "layer": "parking",
+        "lng": -122.0641364,
+        "message": "College Eight DP1"
+      },
+      "pl23": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99045349,
+        "layer": "parking",
+        "lng": -122.0641096,
+        "message": "College Eight DP2"
+      },
+      "pl24": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99132972,
+        "layer": "parking",
+        "lng": -122.063954,
+        "message": "College Eight DP3"
+      },
+      "pl25": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.992237,
+        "layer": "parking",
+        "lng": -122.0649585,
+        "message": "College Eight DP4"
+      },
+      "pl26": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99223057,
+        "layer": "parking",
+        "lng": -122.0649625,
+        "message": "College Eight DP5"
+      },
+      "pl27": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99253693,
+        "layer": "parking",
+        "lng": -122.0642343,
+        "message": "College Eight DP6"
+      },
+      "pl28": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00038811,
+        "layer": "parking",
+        "lng": -122.0587049,
+        "message": "College Nine and Ten DP1"
+      },
+      "pl29": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00254839,
+        "layer": "parking",
+        "lng": -122.0583415,
+        "message": "College Nine and Ten DP10"
+      },
+      "pl3": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99437823,
+        "layer": "parking",
+        "lng": -122.0590067,
+        "message": "ARCenter Parking Lot"
+      },
+      "pl30": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00312459,
+        "layer": "parking",
+        "lng": -122.0584863,
+        "message": "College Nine and Ten DP11"
+      },
+      "pl31": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00038811,
+        "layer": "parking",
+        "lng": -122.0587318,
+        "message": "College Nine and Ten DP2"
+      },
+      "pl32": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.000914,
+        "layer": "parking",
+        "lng": -122.0575516,
+        "message": "College Nine and Ten DP3"
+      },
+      "pl33": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00102324,
+        "layer": "parking",
+        "lng": -122.0582852,
+        "message": "College Nine and Ten DP4"
+      },
+      "pl34": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00170442,
+        "layer": "parking",
+        "lng": -122.0575261,
+        "message": "College Nine and Ten DP5"
+      },
+      "pl35": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00179653,
+        "layer": "parking",
+        "lng": -122.0579982,
+        "message": "College Nine and Ten DP6"
+      },
+      "pl36": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00177297,
+        "layer": "parking",
+        "lng": -122.0580196,
+        "message": "College Nine and Ten DP7"
+      },
+      "pl37": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00188864,
+        "layer": "parking",
+        "lng": -122.0590094,
+        "message": "College Nine and Ten DP8"
+      },
+      "pl38": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00219709,
+        "layer": "parking",
+        "lng": -122.0593393,
+        "message": "College Nine and Ten DP9"
+      },
+      "pl39": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00313316,
+        "layer": "parking",
+        "lng": -122.0584702,
+        "message": "College Nine-Ten DP1"
+      },
+      "pl4": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.98262699,
+        "layer": "parking",
+        "lng": -122.0613644,
+        "message": "Arboretum DP1"
+      },
+      "pl40": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00239845,
+        "layer": "parking",
+        "lng": -122.0589986,
+        "message": "College Nine-Ten DP2"
+      },
+      "pl41": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00253982,
+        "layer": "parking",
+        "lng": -122.058312,
+        "message": "College Nine-Ten DP3"
+      },
+      "pl42": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00213712,
+        "layer": "parking",
+        "lng": -122.0592186,
+        "message": "College Nine-Ten DP4"
+      },
+      "pl43": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.97855702,
+        "layer": "parking",
+        "lng": -122.054349,
+        "message": "Cookhouse DP1"
+      },
+      "pl44": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99917675,
+        "layer": "parking",
+        "lng": -122.0636201,
+        "message": "Core West Parking Structure"
+      },
+      "pl45": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99779506,
+        "layer": "parking",
+        "lng": -122.0533928,
+        "message": "Cowell DP1"
+      },
+      "pl46": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99760869,
+        "layer": "parking",
+        "lng": -122.0533311,
+        "message": "Cowell DP2"
+      },
+      "pl47": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99609845,
+        "layer": "parking",
+        "lng": -122.0549056,
+        "message": "Cowell Provost DP1"
+      },
+      "pl48": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00064838,
+        "layer": "parking",
+        "lng": -122.0546132,
+        "message": "Crown DP1"
+      },
+      "pl49": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00063981,
+        "layer": "parking",
+        "lng": -122.0542726,
+        "message": "Crown DP2"
+      },
+      "pl5": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.98377113,
+        "layer": "parking",
+        "lng": -122.0610881,
+        "message": "Arboretum DP2"
+      },
+      "pl50": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00208785,
+        "layer": "parking",
+        "lng": -122.0535859,
+        "message": "Crown/Merrill Apts DP1"
+      },
+      "pl51": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99074807,
+        "layer": "parking",
+        "lng": -122.0520236,
+        "message": "East Remote DP1"
+      },
+      "pl52": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.991127196365,
+        "layer": "parking",
+        "lng": -122.05347061157,
+        "message": "East Remote Parking Lot"
+      },
+      "pl53": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.98356544,
+        "layer": "parking",
+        "lng": -122.0550612,
+        "message": "Farm DP1"
+      },
+      "pl54": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99830704,
+        "layer": "parking",
+        "lng": -122.0645334,
+        "message": "Graduate Student Housing Redwood Grove DP1"
+      },
+      "pl55": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00004645,
+        "layer": "parking",
+        "lng": -122.064575,
+        "message": "Graduate Student Housing Redwood Grove DP2"
+      },
+      "pl56": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99575248,
+        "layer": "parking",
+        "lng": -122.0567872,
+        "message": "Hahn DP1"
+      },
+      "pl57": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99571177,
+        "layer": "parking",
+        "lng": -122.0568234,
+        "message": "Hahn DP2"
+      },
+      "pl58": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99567107,
+        "layer": "parking",
+        "lng": -122.0568542,
+        "message": "Hahn DP3"
+      },
+      "pl59": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99561,
+        "layer": "parking",
+        "lng": -122.05694,
+        "message": "Hahn Parking Lot 1"
+      },
+      "pl6": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.98075005,
+        "layer": "parking",
+        "lng": -122.052387,
+        "message": "Barn G DP1"
+      },
+      "pl60": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99533,
+        "layer": "parking",
+        "lng": -122.05716,
+        "message": "Hahn Parking Lot 2"
+      },
+      "pl61": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99483,
+        "layer": "parking",
+        "lng": -122.05726,
+        "message": "Hahn Parking Lot 3"
+      },
+      "pl62": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99837773,
+        "layer": "parking",
+        "lng": -122.0598489,
+        "message": "ISB DP1"
+      },
+      "pl63": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99831989,
+        "layer": "parking",
+        "lng": -122.0595565,
+        "message": "ISB DP2"
+      },
+      "pl64": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.978670511098,
+        "layer": "parking",
+        "lng": -122.05409288406,
+        "message": "Information Kiosk"
+      },
+      "pl65": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.97874451,
+        "layer": "parking",
+        "lng": -122.0539762,
+        "message": "Kiosk DP1"
+      },
+      "pl66": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99740947,
+        "layer": "parking",
+        "lng": -122.067064,
+        "message": "Kresge College DP1"
+      },
+      "pl67": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99723703,
+        "layer": "parking",
+        "lng": -122.0669608,
+        "message": "Kresge College DP2"
+      },
+      "pl68": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99875903,
+        "layer": "parking",
+        "lng": -122.0665598,
+        "message": "Kresge College DP3"
+      },
+      "pl69": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99905893,
+        "layer": "parking",
+        "lng": -122.0663962,
+        "message": "Kresge College DP4"
+      },
+      "pl7": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.98072434,
+        "layer": "parking",
+        "lng": -122.0523307,
+        "message": "Barn G DP2"
+      },
+      "pl70": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99502519,
+        "layer": "parking",
+        "lng": -122.0572418,
+        "message": "Lot 101: Hahn Student Services"
+      },
+      "pl71": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99743304,
+        "layer": "parking",
+        "lng": -122.055611,
+        "message": "Lot 102:  Bay Tree Bookstore"
+      },
+      "pl72": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99508089,
+        "layer": "parking",
+        "lng": -122.0553723,
+        "message": "Lot 103A:  East Field House"
+      },
+      "pl73": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.97951802,
+        "layer": "parking",
+        "lng": -122.05199,
+        "message": "Lot 105:  Police Station"
+      },
+      "pl74": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99834988,
+        "layer": "parking",
+        "lng": -122.0540231,
+        "message": "Lot 106:  Cowell College"
+      },
+      "pl75": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99784005,
+        "layer": "parking",
+        "lng": -122.0533043,
+        "message": "Lot 107:  Cowell College"
+      },
+      "pl76": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99746731,
+        "layer": "parking",
+        "lng": -122.0529342,
+        "message": "Lot 108:  Cowell College"
+      },
+      "pl77": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99755728,
+        "layer": "parking",
+        "lng": -122.0507777,
+        "message": "Lot 109 Service Road:  Stevenson College"
+      },
+      "pl78": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99831989,
+        "layer": "parking",
+        "lng": -122.0526659,
+        "message": "Lot 109: Stevenson College"
+      },
+      "pl79": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99827705,
+        "layer": "parking",
+        "lng": -122.0514214,
+        "message": "Lot 110:  Stevenson College"
+      },
+      "pl8": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.97972907,
+        "layer": "parking",
+        "lng": -122.053484,
+        "message": "Barn H DP1"
+      },
+      "pl80": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00110464,
+        "layer": "parking",
+        "lng": -122.054565,
+        "message": "Lot 111:  Crown College"
+      },
+      "pl81": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99942524,
+        "layer": "parking",
+        "lng": -122.0626116,
+        "message": "Lot 113: Science Hill"
+      },
+      "pl82": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00020497,
+        "layer": "parking",
+        "lng": -122.0589423,
+        "message": "Lot 114:  College Nine and Ten"
+      },
+      "pl83": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.98026367,
+        "layer": "parking",
+        "lng": -122.0520222,
+        "message": "Lot 115:  Carriage House"
+      },
+      "pl84": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.98096646,
+        "layer": "parking",
+        "lng": -122.0520812,
+        "message": "Lot 116:  Campus Facilities"
+      },
+      "pl85": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.97935517,
+        "layer": "parking",
+        "lng": -122.0544577,
+        "message": "Lot 117A:  Admissions"
+      },
+      "pl86": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.978581727024,
+        "layer": "parking",
+        "lng": -122.05433428288,
+        "message": "Lot 117B: Cook House"
+      },
+      "pl87": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.9774353,
+        "layer": "parking",
+        "lng": -122.0525694,
+        "message": "Lot 118:  Granary"
+      },
+      "pl88": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.9995709,
+        "layer": "parking",
+        "lng": -122.0518076,
+        "message": "Lot 119:  Merrill College"
+      },
+      "pl89": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99538937,
+        "layer": "parking",
+        "lng": -122.0602083,
+        "message": "Lot 120A:  McHenry Library"
+      },
+      "pl9": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.0000593,
+        "layer": "parking",
+        "lng": -122.0631266,
+        "message": "Baskin DP 5"
+      },
+      "pl90": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99838844,
+        "layer": "parking",
+        "lng": -122.0596075,
+        "message": "Lot 121:  Science Hill"
+      },
+      "pl91": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.97792813,
+        "layer": "parking",
+        "lng": -122.0541412,
+        "message": "Lot 122:  Barn Theater"
+      },
+      "pl92": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 37.00126316,
+        "layer": "parking",
+        "lng": -122.0610827,
+        "message": "Lot 123:  Heat Plant"
+      },
+      "pl93": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99449819,
+        "layer": "parking",
+        "lng": -122.0641351,
+        "message": "Lot 124:  Porter College"
+      },
+      "pl94": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99381267,
+        "layer": "parking",
+        "lng": -122.0647466,
+        "message": "Lot 125: Porter College"
+      },
+      "pl95": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.98853818,
+        "layer": "parking",
+        "lng": -122.0660502,
+        "message": "Lot 127:  West Remote"
+      },
+      "pl96": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99938668,
+        "layer": "parking",
+        "lng": -122.0579392,
+        "message": "Lot 128: Health Center"
+      },
+      "pl97": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99101908,
+        "layer": "parking",
+        "lng": -122.0670453,
+        "message": "Lot 129: Family Student Housing"
+      },
+      "pl98": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99081341,
+        "layer": "parking",
+        "lng": -122.0675898,
+        "message": "Lot 130:  Family Student Housing"
+      },
+      "pl99": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-car",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "square",
+          "type": "extraMarker"
+        },
+        "lat": 36.99117333,
+        "layer": "parking",
+        "lng": -122.0676649,
+        "message": "Lot 131: Family Student Housing"
+      }
+    },
+    "overlay": {
+      "layerParams": {
+        "showOnSelector": false
+      },
+      "name": "Parking",
+      "type": "group",
+      "visible": false
+    }
+  }
+}

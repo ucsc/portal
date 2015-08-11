@@ -1,0 +1,51 @@
+{
+                route1: {
+                    overlay: {
+                        name: 'Route1',
+                        type: 'group',
+                        visible: false,
+                        layerParams: {
+                            showOnSelector: false
+                        }
+                    },
+                    markers: {
+                        a1: {
+                            layer: 'route1',
+                            lat: 36.97753818,
+                      lng: -122.0534438,
+                      message: "I'm a stop"
+                        },
+                        a2: {
+                            layer: 'route1',
+                            lat: 36.87753818,
+                      lng: -122.0534438,
+                      message: "I'm a stop"
+                        }
+                    }
+                },
+                route2: {
+                    overlay: {
+                        name: 'Route2',
+                        type: 'group',
+                        visible: false,
+                        layerParams: {
+                            showOnSelector: false
+                        }
+                    },
+                    markers: {
+                        b1: {
+                            layer: 'route2',
+                            lat: 36.96753818,
+                      lng: -122.0534438,
+                            message: "I'm a bike"
+                        },
+                        b2: {
+                            layer: 'route2',
+                            lat: 36.95753818,
+                      lng: -122.0534438,
+                            message: "I'm a bike"
+                        }
+                    }
+                },
+
+            }

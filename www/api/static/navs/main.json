@@ -1,0 +1,64 @@
+{
+  "menu": [
+    {
+      "title": "Directory",
+      "icon": "icon-vcard",
+      "teaser": "",
+      "url": "main.directory"
+    },
+    {
+      "title": "Emergency",
+      "icon": "icon-fire",
+      "teaser": "",
+      "url": "main.emergency"
+    },
+    {
+      "title": "News",
+      "icon": "icon-newspaper",
+      "teaser": "",
+      "url": "main.news"
+    },
+    {
+      "title": "Social",
+      "icon": "icon-asl",
+      "teaser": "",
+      "url": "main.social"
+    },
+    {
+      "title": "Support",
+      "icon": "icon-help",
+      "teaser": "",
+      "url": "main.support"
+    },
+    {
+      "title": "Visit",
+      "icon": "icon-direction",
+      "teaser": "",
+      "url": "main.visit"
+    },
+    {
+      "title": "About",
+      "icon": "icon-info",
+      "teaser": "",
+      "url": "main.about"
+    },
+    {
+      "title": "Events",
+      "icon": "icon-calendar-1",
+      "teaser": "",
+      "url": "main.events"
+    },
+    {
+      "title": "Library",
+      "icon": "icon-book-open",
+      "teaser": "",
+      "url": "main.library"
+    },
+    {
+      "title": "Map",
+      "icon": "icon-map",
+      "teaser": "",
+      "url": "main.map"
+    }
+  ]
+}

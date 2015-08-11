@@ -31,10 +31,10 @@
       "url": "http://taps.ucsc.edu/"
     },
     {
-      "title": "Eat on Campus",
+      "title": "Dining",
       "icon": "icon-food",
       "teaser": "",
-      "url": "http://housing.ucsc.edu/dining/"
+      "url": "http://eat.ucsc.edu/"
     }
   ]
 }

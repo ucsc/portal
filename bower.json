@@ -12,6 +12,7 @@
     "leaflet": "0.7.x",
     "angular-leaflet-directive": "0.8.x",
     "Leaflet.label": "*",
-    "leaflet-plugins": "*"
+    "leaflet-plugins": "*",
+    "Leaflet.extra-markers": "*"
   }
 }

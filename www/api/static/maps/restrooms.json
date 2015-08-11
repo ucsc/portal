@@ -1,0 +1,532 @@
+{
+  "restrooms": {
+    "markers": {
+      "rr0": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.9833319,
+        "layer": "restrooms",
+        "lng": -122.0550343,
+        "message": "Agroecology Lab all-gender restroom"
+      },
+      "rr1": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.9838504,
+        "layer": "restrooms",
+        "lng": -122.0608118,
+        "message": "Arboretum Hort II all-gender restroom"
+      },
+      "rr10": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.99162751,
+        "layer": "restrooms",
+        "lng": -122.0644006,
+        "message": "College Eight Cafe all-gender restroom"
+      },
+      "rr11": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.9911519,
+        "layer": "restrooms",
+        "lng": -122.0646608,
+        "message": "College Eight Student Commons all-gender restroom"
+      },
+      "rr12": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 37.00220994,
+        "layer": "restrooms",
+        "lng": -122.0593205,
+        "message": "Colleges 9 & 10 Community Room all-gender restroom"
+      },
+      "rr13": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 37.00079618,
+        "layer": "restrooms",
+        "lng": -122.0572284,
+        "message": "Colleges 9 & 10 Namaste Lounge all-gender restroom"
+      },
+      "rr14": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 37.00051343,
+        "layer": "restrooms",
+        "lng": -122.0576709,
+        "message": "Colleges 9 & 10 Recreation Room all-gender restroom"
+      },
+      "rr15": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 37.00078333,
+        "layer": "restrooms",
+        "lng": -122.0613751,
+        "message": "Communications Building all-gender restroom"
+      },
+      "rr16": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.97894806,
+        "layer": "restrooms",
+        "lng": -122.0544228,
+        "message": "Cookhouse all-gender restroom"
+      },
+      "rr17": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.99617342,
+        "layer": "restrooms",
+        "lng": -122.0544174,
+        "message": "Cowell Apartments Community Room all-gender restroom"
+      },
+      "rr18": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.99715883,
+        "layer": "restrooms",
+        "lng": -122.0531005,
+        "message": "Cowell College Commons Building all-gender restroom"
+      },
+      "rr19": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.99673896,
+        "layer": "restrooms",
+        "lng": -122.0534974,
+        "message": "Cowell Faculty Annex all-gender restroom"
+      },
+      "rr2": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.98367471,
+        "layer": "restrooms",
+        "lng": -122.0608145,
+        "message": "Arboretum all-gender restroom"
+      },
+      "rr20": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.99802856,
+        "layer": "restrooms",
+        "lng": -122.059578,
+        "message": "Earth & Marine Sciences all-gender restroom"
+      },
+      "rr21": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.98397467,
+        "layer": "restrooms",
+        "lng": -122.0553723,
+        "message": "Farm Center all-gender restrooms"
+      },
+      "rr22": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.98323763,
+        "layer": "restrooms",
+        "lng": -122.054227,
+        "message": "Farm Gatehouse all-gender restroom"
+      },
+      "rr23": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.98328905,
+        "layer": "restrooms",
+        "lng": -122.0544791,
+        "message": "Farm office all-gender restroom"
+      },
+      "rr24": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.98325477,
+        "layer": "restrooms",
+        "lng": -122.0542189,
+        "message": "Gatehouse all-gender restroom"
+      },
+      "rr25": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.9995152,
+        "layer": "restrooms",
+        "lng": -122.0576441,
+        "message": "Health Center all-gender restroom"
+      },
+      "rr26": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.99735163,
+        "layer": "restrooms",
+        "lng": -122.0667797,
+        "message": "Kresge Admin West Wing all-gender restroom"
+      },
+      "rr27": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.9971417,
+        "layer": "restrooms",
+        "lng": -122.0664552,
+        "message": "Kresge Provost House all-gender restroom"
+      },
+      "rr28": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.99788289,
+        "layer": "restrooms",
+        "lng": -122.0667368,
+        "message": "Kresge Recreation Room all-gender restroom"
+      },
+      "rr29": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.99585209,
+        "layer": "restrooms",
+        "lng": -122.058658,
+        "message": "McHenry Library all-gender restroom"
+      },
+      "rr3": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 37.00011928,
+        "layer": "restrooms",
+        "lng": -122.062389,
+        "message": "Baskin Auditorium all-gender restroom"
+      },
+      "rr30": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.9997337,
+        "layer": "restrooms",
+        "lng": -122.0525104,
+        "message": "Ming Ong all-gender restroom"
+      },
+      "rr31": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.99501233,
+        "layer": "restrooms",
+        "lng": -122.0540473,
+        "message": "OPERS Administrative Building all-gender restroom"
+      },
+      "rr32": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.99649475,
+        "layer": "restrooms",
+        "lng": -122.0652562,
+        "message": "Porter/Kresge I Lounge all-gender restroom"
+      },
+      "rr33": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.99749301,
+        "layer": "restrooms",
+        "lng": -122.0560482,
+        "message": "Redwood Building all-gender restroom"
+      },
+      "rr34": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 37.00039775,
+        "layer": "restrooms",
+        "lng": -122.057974,
+        "message": "Terry Freitas Cafe all-gender restroom"
+      },
+      "rr35": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.99484524,
+        "layer": "restrooms",
+        "lng": -122.0623407,
+        "message": "Theater Arts Mainstage Building all-gender restroom"
+      },
+      "rr36": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.993637,
+        "layer": "restrooms",
+        "lng": -122.054632,
+        "message": "Wellness Center all-gender restroom"
+      },
+      "rr4": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 37.00049629,
+        "layer": "restrooms",
+        "lng": -122.0539212,
+        "message": "Cantu Queer Center all-gender restroom"
+      },
+      "rr5": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.9794066,
+        "layer": "restrooms",
+        "lng": -122.051416,
+        "message": "Cardiff House all-gender restroom"
+      },
+      "rr6": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.97995941,
+        "layer": "restrooms",
+        "lng": -122.0520195,
+        "message": "Carriage House all-gender restroom"
+      },
+      "rr7": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.99925386,
+        "layer": "restrooms",
+        "lng": -122.053712,
+        "message": "Casa Latina all-gender restroom"
+      },
+      "rr8": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 36.99822135,
+        "layer": "restrooms",
+        "lng": -122.0604685,
+        "message": "Center for Adaptive Optics all-gender restroom"
+      },
+      "rr9": {
+        "focus": false,
+        "icon": {
+          "icon": "fa-genderless",
+          "markerColor": "blue",
+          "prefix": "fa",
+          "shape": "star",
+          "type": "extraMarker"
+        },
+        "lat": 37.00107037,
+        "layer": "restrooms",
+        "lng": -122.0609191,
+        "message": "Cogeneration Plant all-gender restroom"
+      }
+    },
+    "overlay": {
+      "layerParams": {
+        "showOnSelector": false
+      },
+      "name": "Restrooms",
+      "type": "group",
+      "visible": false
+    }
+  }
+}

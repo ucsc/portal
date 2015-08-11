@@ -1,7 +1,31 @@
 var app = angular.module('UCSCMobile', ['main','main.test','main.directory','main.emergency','main.news','main.social','main.support','main.visit','main.about','main.events','main.library','main.map']);
 
+// app.config(function($stateProvider, $locationProvider) {
+//   $stateProvider.state('app', {
+//     abstract: true,
+//     controller : 'AppController',
+//     resolve: {
+//         mainMenu: function (siteMenuService) {
+//             return siteMenuService.mainMenu();
+//         }
+//     }
+//   })
+//   ;
+
+// });
+
+// app.controller('AppController', function($scope, mainMenu) {
+//   $scope.mainMenu = mainMenu.data.menu;
+// });
+
 app.factory('siteMenuService', function($http) {
 	var sdo = {
+        mainMenu: function() {
+            var promise = $http({ method: 'GET', url: '/api/static/navs/main.json' }).success(function(data, status, headers, config) {
+                return data;
+            });
+            return promise;
+        },
         emergencyMenu: function() {
             var promise = $http({ method: 'GET', url: '/api/static/navs/emergency.json' }).success(function(data, status, headers, config) {
                 return data;
@@ -58,6 +82,24 @@ app.factory('siteMenuService', function($http) {
         },
         libraryMenu: function() {
             var promise = $http({ method: 'GET', url: '/api/static/navs/library.json' }).success(function(data, status, headers, config) {
+                return data;
+            });
+            return promise;
+        },
+        mapTransit: function() {
+            var promise = $http({ method: 'GET', url: 'api/static/maps/transit.json' }).success(function(data, status, headers, config) {
+                return data;
+            });
+            return promise;
+        },
+        mapRestrooms: function() {
+            var promise = $http({ method: 'GET', url: 'api/static/maps/restrooms.json' }).success(function(data, status, headers, config) {
+                return data;
+            });
+            return promise;
+        },
+        mapParking: function() {
+            var promise = $http({ method: 'GET', url: 'api/static/maps/parking.json' }).success(function(data, status, headers, config) {
                 return data;
             });
             return promise;

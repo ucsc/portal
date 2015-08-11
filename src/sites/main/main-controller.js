@@ -42,7 +42,15 @@ main.run(function($rootScope, $state, $stateParams) {
     $rootScope.isTop = true;
 });
 
-main.controller('MainController', function($scope, navigationService) {
+main.controller('MainController', function($scope, navigationService, siteMenuService) {
+  siteMenuService.mainMenu().success(function(data){
+        $scope.mainMenu=data.menu;
+        console.log(data);
+    }).error(function(data){
+        console.log('ERROR');
+    });
+
+
    navigationService.getForecast().success(function(data){
         $scope.forecast=data;
         console.log(data);

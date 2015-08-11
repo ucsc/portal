@@ -1,7 +1,31 @@
 var app = angular.module('UCSCMobile', ['main','main.test','main.directory','main.emergency','main.news','main.social','main.support','main.visit','main.about','main.events','main.library','main.map']);
 
+// app.config(function($stateProvider, $locationProvider) {
+//   $stateProvider.state('app', {
+//     abstract: true,
+//     controller : 'AppController',
+//     resolve: {
+//         mainMenu: function (siteMenuService) {
+//             return siteMenuService.mainMenu();
+//         }
+//     }
+//   })
+//   ;
+
+// });
+
+// app.controller('AppController', function($scope, mainMenu) {
+//   $scope.mainMenu = mainMenu.data.menu;
+// });
+
 app.factory('siteMenuService', function($http) {
 	var sdo = {
+        mainMenu: function() {
+            var promise = $http({ method: 'GET', url: '/api/static/navs/main.json' }).success(function(data, status, headers, config) {
+                return data;
+            });
+            return promise;
+        },
         emergencyMenu: function() {
             var promise = $http({ method: 'GET', url: '/api/static/navs/emergency.json' }).success(function(data, status, headers, config) {
                 return data;
@@ -238,16 +262,4 @@ app.directive("currentTime", function (dateFilter) {
         }
         updateLater();
     }
-});
-
-app.factory('httpq', function($http, $q) {
-  return {
-    get: function() {
-      var deferred = $q.defer();
-      $http.get.apply(null, arguments)
-      .success(deferred.resolve)
-      .error(deferred.resolve);
-      return deferred.promise;
-    }
-  }
 });

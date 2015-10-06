@@ -23,7 +23,7 @@ main.config(function($stateProvider, $locationProvider) {
 
 main.config(function($urlRouterProvider, $locationProvider) {
     $urlRouterProvider.otherwise('/');
-    // $locationProvider.html5Mode(true);
+    $locationProvider.html5Mode(true);
 });
 
 main.config(function( $compileProvider ) { 

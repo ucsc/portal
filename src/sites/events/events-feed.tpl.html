@@ -16,9 +16,10 @@
     <!-- {{events | json}} -->
       <ul>
           <li ng-repeat="article in events">
-              <a href="{{article.event.link}}" target="_blank">
-                  <div class="date">{{article.event.event_date}}</div>
+              <a href="{{article.event.link}}">
                   <div class="title" ng-bind-html='article.event.title | createAnchors'></div>
+                  <div class="date">{{article.event.event_date}}</div>
+                  <div class="location"><i ng-if="article.event.location" class="icon-location"></i> {{article.event.location}}</div>
                   <!-- <div ng-bind-html-unsafe='article.title | unsafe'></div> -->
                   
                   <div>{{article.event.teaser | stripAnchors}}</div>

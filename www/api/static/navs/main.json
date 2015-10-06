@@ -1,16 +1,16 @@
 {
   "menu": [
     {
+      "title": "Map",
+      "icon": "icon-map",
+      "teaser": "",
+      "url": "main.map"
+    },
+    {
       "title": "Directory",
       "icon": "icon-vcard",
       "teaser": "",
       "url": "main.directory"
-    },
-    {
-      "title": "Emergency",
-      "icon": "icon-fire",
-      "teaser": "",
-      "url": "main.emergency"
     },
     {
       "title": "News",
@@ -19,16 +19,34 @@
       "url": "main.news"
     },
     {
-      "title": "Social",
-      "icon": "icon-asl",
+      "title": "Events",
+      "icon": "icon-calendar-1",
       "teaser": "",
-      "url": "main.social"
+      "url": "main.events"
     },
     {
       "title": "Support",
       "icon": "icon-help",
       "teaser": "",
       "url": "main.support"
+    },
+    {
+      "title": "Social",
+      "icon": "icon-asl",
+      "teaser": "",
+      "url": "main.social"
+    },
+    {
+      "title": "Library",
+      "icon": "icon-book-open",
+      "teaser": "",
+      "url": "main.library"
+    },
+    {
+      "title": "Emergency",
+      "icon": "icon-fire",
+      "teaser": "",
+      "url": "main.emergency"
     },
     {
       "title": "Visit",
@@ -41,24 +59,6 @@
       "icon": "icon-info",
       "teaser": "",
       "url": "main.about"
-    },
-    {
-      "title": "Events",
-      "icon": "icon-calendar-1",
-      "teaser": "",
-      "url": "main.events"
-    },
-    {
-      "title": "Library",
-      "icon": "icon-book-open",
-      "teaser": "",
-      "url": "main.library"
-    },
-    {
-      "title": "Map",
-      "icon": "icon-map",
-      "teaser": "",
-      "url": "main.map"
     }
   ]
 }

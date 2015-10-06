@@ -1,18 +1,86 @@
 <div class="scrollable" ng-controller="MainController">
-  <h1 class="scrollable-header app-name"><a ui-sref="main" ui-turn-off='uiSidebarLeft' class="wordmark">UCSC Mobile</a></h1>  
-  <div class="scrollable-content">
-    <div class="list-group" ui-turn-off='uiSidebarLeft'>
-      <a class="list-group-item" ng-repeat="item in mainMenu" ui-sref="{{item.url}}" ui-sref-active="selected"><i class="{{item.icon}}"></i> {{item.title}}</a>
-      <!-- <a class="list-group-item" ui-sref="main.emergency" ui-sref-active="selected"><i class="icon-fire"></i> Emergency</a>
-      <a class="list-group-item" ui-sref="main.news" ui-sref-active="selected"><i class="icon-newspaper"></i> News</a>
-      <a class="list-group-item" ui-sref="main.social" ui-sref-active="selected"><i class="icon-asl"></i> Social</a>
-      <a class="list-group-item" ui-sref="main.support" ui-sref-active="selected"><i class="icon-help"></i> Support</a>
-      <a class="list-group-item" ui-sref="main.visit" ui-sref-active="selected"><i class="icon-direction"></i> Visit</a>
-      <a class="list-group-item" ui-sref="main.about" ui-sref-active="selected"><i class="icon-info"></i> About</a>
-      <a class="list-group-item" ui-sref="main.events" ui-sref-active="selected"><i class="icon-calendar-1"></i> Events</a>
-      <a class="list-group-item" ui-sref="main.library" ui-sref-active="selected"><i class="icon-book-open"></i> Library</a>
-      <a class="list-group-item" ui-sref="main.map" ui-sref-active="selected"><i class="icon-map"></i> Map</a> -->
+  <div class="scrollable-header">
+    <div class="ucsc-logo">
+      <h1 class="app-name"><a ui-sref="main" ui-turn-off='uiSidebarLeft' class="wordmark">UCSC Mobile</a></h1>
+    </div>
+    <div class="sidebar-tabs">
+      <ui-state id='activeTab' default='1'></ui-state>
+      <div class="btn-group nav-tabs">
+          <a ui-set="{'activeTab': 1}" 
+              ui-class="{'active': activeTab == 1}" class="btn btn-default"><i class="fa fa-th-list"></i></a>
+
+          <a ui-set="{'activeTab': 2}" 
+              ui-class="{'active': activeTab == 2}" class="btn btn-default"><i class="fa fa-th-large"></i></a>
+
+          <a ui-set="{'activeTab': 3}" 
+              ui-class="{'active': activeTab == 3}" class="btn btn-default"><i class="fa fa-info-circle"></i></a>
+        </div>
     </div>
   </div>
-  <h6 class="scrollable-footer"><i class="icon-desktop"></i> <a href="http://www.ucsc.edu" target="_blank">UCSC Website</a></h6>
+  <div class="scrollable-content">
+    <!-- <div class="btn-group justified">
+      <a href="#/page1">Page 1</a>
+      <a href="#/page2">Page 2</a>
+      <a href="#/page3">Page 3</a>
+    </div> -->
+
+    <!-- <div ui-state="activeTab" default="1"> -->
+
+      <!-- <ul class="nav nav-tabs">
+        <li ui-class="{'active': activeTab == 1}">
+          <a ui-set="{'activeTab': 1}">Tab 1</a>
+        </li>
+        <li ui-class="{'active': activeTab == 2}">
+          <a ui-set="{'activeTab': 2}">Tab 2</a>
+        </li>
+        <li ui-class="{'active': activeTab == 3}">
+          <a ui-set="{'activeTab': 3}">Tab 3</a>
+        </li>
+      </ul> -->
+
+      
+
+      <div ui-if="activeTab == 1">
+        <div class="list-group" ui-turn-off='uiSidebarLeft'>
+          <a class="list-group-item" ng-repeat="item in mainMenu" ui-sref="{{item.url}}" ui-sref-active="selected"><i class="{{item.icon}}"></i> {{item.title}}</a>
+        </div>
+      </div>
+
+      <div ui-if="activeTab == 2">
+        <ul class="icon-grid" ui-turn-off='uiSidebarLeft'>
+            <a ng-repeat="item in mainMenu" ui-sref="{{item.url}}" ui-sref-active="selected">
+                <li><i class="{{item.icon}}"></i> {{item.title}}</li>
+            </a>
+        </ul>
+      </div>
+
+      <div ui-if="activeTab == 3" class="info">
+        <p>
+            Thanks for visiting the UCSC Mobile Portal. Our goal is to provide a one-stop tool for accessing all the information you’re looking for about UCSC.
+        </p>
+        <p>
+            We launched UCSC Mobile in August 2015, and we plan to build new features every year. Let us know what you think: What's missing? What do you like most?
+        </p>
+        <p><a class="feedback" href="https://ucscforms.wufoo.com/forms/mobile-app-feedback-form/">Send us feedback</a></p>
+        <ul>
+                    <li class="icon-location">
+                        <a ng-href="https://www.google.com/maps/place/University+of+California,+Santa+Cruz/@36.9911461,-122.0589837,15z/data=!4m7!1m4!3m3!1s0x808e41a2ff8cbf4f:0x3a8e3b7c928320d5!2sUniversity+of+California,+Santa+Cruz!3b1!3m1!1s0x808e41a2ff8cbf4f:0x3a8e3b7c928320d5" href="https://www.google.com/maps/place/University+of+California,+Santa+Cruz/@36.9911461,-122.0589837,15z/data=!4m7!1m4!3m3!1s0x808e41a2ff8cbf4f:0x3a8e3b7c928320d5!2sUniversity+of+California,+Santa+Cruz!3b1!3m1!1s0x808e41a2ff8cbf4f:0x3a8e3b7c928320d5">1152 High Street <br>Santa Cruz, CA 95064</a>
+                    </li>
+                    <li class="icon-telephone">
+                        <a ng-href="tel:+018314590111" href="tel:+018314590111">(831) 459-0111</a>
+                    </li>
+                </ul>
+      </div>
+    <!-- </div> -->
+
+      <div class="side-footer">
+        <p>© 2015 UC Regents
+          <br>
+          <a href="http://www.ucsc.edu">Visit UCSC.edu Homepage</a>
+        </p>
+      </div>
+
+
+  </div>
+  <!-- <h6 class="scrollable-footer"><i class="icon-desktop"></i> <a href="http://www.ucsc.edu" target="_blank">UCSC Website</a></h6> -->
 </div>

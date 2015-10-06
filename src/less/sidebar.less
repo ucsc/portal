@@ -1,15 +1,17 @@
 .sidebar-left {
 
-	background: #001129 url('../images/nav_bg.png') no-repeat top left;
-  	@media only screen and (-webkit-min-device-pixel-ratio: 2),
-  		only screen and (min--moz-device-pixel-ratio: 2),
-  		only screen and (-o-min-device-pixel-ratio: 2/1),
-  		only screen and (min-device-pixel-ratio: 2),
-  		only screen and (min-resolution: 192dpi),
-  		only screen and (min-resolution: 2dppx) {
-    	background: #001129 url('../images/nav_bg@2x.png') no-repeat top left;
-    		background-size: 274px auto;
-  		}
+	// background: #001129 url('../images/nav_bg.png') no-repeat top left;
+ //  	@media only screen and (-webkit-min-device-pixel-ratio: 2),
+ //  		only screen and (min--moz-device-pixel-ratio: 2),
+ //  		only screen and (-o-min-device-pixel-ratio: 2/1),
+ //  		only screen and (min-device-pixel-ratio: 2),
+ //  		only screen and (min-resolution: 192dpi),
+ //  		only screen and (min-resolution: 2dppx) {
+ //    	background: #001129 url('../images/nav_bg@2x.png') no-repeat top left;
+ //    		background-size: 274px auto;
+ //  		}
+      // background-color: #001129;
+      background-color: #021234;
 
 
   	h1 {
@@ -17,29 +19,81 @@
   	}
 
     h1 a {
-      background: url('../images/ucsc_logo.png') no-repeat top left;
-      @media
-      only screen and (-webkit-min-device-pixel-ratio: 2),
-      only screen and (   min--moz-device-pixel-ratio: 2),
-      only screen and (     -o-min-device-pixel-ratio: 2/1),
-      only screen and (        min-device-pixel-ratio: 2),
-      only screen and (                min-resolution: 192dpi),
-      only screen and (                min-resolution: 2dppx) {
-        background: url('../images/ucsc_logo@2x.png') no-repeat top left;
-        background-size: 135px 27px;
-      }
-      width: 156px;
-      height: 31px;
-      display: block;
+      // background: url('../images/logo-stacked-white.svg') no-repeat top left;
+      // // @media
+      // // only screen and (-webkit-min-device-pixel-ratio: 2),
+      // // only screen and (   min--moz-device-pixel-ratio: 2),
+      // // only screen and (     -o-min-device-pixel-ratio: 2/1),
+      // // only screen and (        min-device-pixel-ratio: 2),
+      // // only screen and (                min-resolution: 192dpi),
+      // // only screen and (                min-resolution: 2dppx) {
+      // //   background: url('../images/ucsc_logo@2x.png') no-repeat top left;
+      // //   background-size: 135px 27px;
+      // // }
+      // width: 156px;
+      // height: 31px;
+      // display: block;
+      // text-indent: -9999px;
+      // overflow:hidden;
+      // opacity: 0.8;
+      // filter: alpha(opacity=8);
+
+
+      background: transparent url('../inc/logo/logo-stacked-white.svg') no-repeat left top;
       text-indent: -9999px;
-      overflow:hidden;
+      max-width: 380px;
+      height: 70px;
+      float: center;
+      display: block;
+      margin-left: 1em;
+      // margin-right: 4.35%;
+      width: 65%;
+
       opacity: 0.8;
       filter: alpha(opacity=8);
 
     }
 
+    .ucsc-logo {
+      margin-bottom: 0px;
+    }
+
+    .btn-group {
+      .btn-default {
+        // background-color: transparent;
+        // opacity: 0.5;
+        // filter: alpha(opacity=5);
+        background-color: #021234;
+        border-color: #A2A8B5;
+        color: #3A4563;
+        padding: .4em 1.4em;
+
+        i {
+          font-size: 1.2em;
+        }
+      }
+      .active {
+        background-color: #101E42;
+        color: #ccc;
+        // opacity: 1;
+        // filter: alpha(opacity=10);
+        // border-color: #ccc;
+      }
+    }
+    
+
+
+
+
+    .sidebar-tabs {
+      float: center;
+      // width: 100%;
+      text-align: center;
+      margin: 0 0 10px 0;
+    }
+
     .scrollable-content {
-      padding: 10px 0;
+      padding: 0;
 
       &::-webkit-scrollbar {
         width:4px;
@@ -58,25 +112,37 @@
     }
 
     .list-group {
-    	padding: 0.5em 0;
+    	padding: 0.6em 0;
+      // background-color: #001129;
 
     	.list-group-item {
-    		margin-left: 1.35em;
+    		margin-left: 1.5em;
     		background-color: transparent;
     		border: none;
         // opacity: 0.9;
         // filter: alpha(opacity=9);
-        color: #999;
+        color: #bbb;
 
     		font-size: 17px;
     		text-decoration: none;
-        font-weight: 500;
+        font-weight: 400;
     	}
       a i {
-        padding-right: 5px;
+        padding-right: 10px;
+        font-weight: 800;
+        color: #fff;
+        opacity: 0.7;
+        filter: alpha(opacity=7);
+        font-size: 20px;
       }
       a.list-group-item:hover, a.selected {
         color: #fff;
+         i {
+          color: #fff;
+          opacity: 1;
+        filter: alpha(opacity=100);
+         }
+        
       }
     }
 
@@ -87,4 +153,97 @@
         color: #666;
       }
     }
+
+    .side-footer {
+      width: 100%;
+      display: block;
+      color: #aaa;
+      p {
+        text-align: center;
+        font-size:12px;
+        margin-top:40px
+
+
+      }
+      a {
+          color: #999;
+          text-decoration: underline;
+        }
+      
+    }
+
+
+    @item-width:100px;
+@item-height:100px;
+@marginV: 10px;
+@marginH: 10px;
+@min-cols:2;
+@max-cols:19; //set an upper limit of how may columns you want to write the media queries for
+
+ul.icon-grid {
+  padding: 15px 5px;
+  margin: 0;
+  text-align: center;
+  overflow: auto;
+    display: block;
+    list-style:none;
+    background-color: #021234;
+    li {
+      // border: 2px dashed #999;
+      border: 1px solid #000817;
+      border-radius: 10px;
+      display: inline-block;
+      height: @item-height;
+      width: @item-width;
+      margin:@marginV @marginH;
+      padding: 0;
+      font-size: 15px;
+      line-height: 28px;
+      font-weight: 400;
+      background-color: #101E42;
+      color: #ccc;
+
+      i{
+      display: block;
+      font-size: 30px;
+      text-align: center;
+      margin-top: 20px;
+      }
+
+    }
+    a.selected {
+      background-color: #021234;
+
+      li {
+        background-color: #002986;
+      }
+    }
+}
+
+.info {
+  color: #ccc;
+  padding: 20px;
+
+  a {
+    color: #eee;
+  }
+
+  a.feedback {
+    text-decoration: underline;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      display: block;
+      padding: 5px 0 5px 20px;
+      margin: 0;
+    }
+    li::before {
+      margin-left: -20px;
+    }
+  }
+}
 }

@@ -1,0 +1,401 @@
+article.dashboard {
+
+	background-color: #efefef;
+
+
+	
+
+// @item-width:125px;
+// @item-height:125px;
+// @marginV: 4px;
+// @marginH: 2px;
+// @min-cols:2;
+// @max-cols:20; //set an upper limit of how may columns you want to write the media queries for
+
+// ul.icon-grid {
+//   text-align: center;
+//   // float: center;
+//   // width: auto;
+//     min-width: @min-cols * @item-width;
+//     max-width: @max-cols * @item-width;
+  
+//   li {
+// 	  background-color: #ddd;
+// 	  border:1px solid #999;
+// 	  width: @item-width;
+// 	  height: @item-height;
+// 	  display: inline-block;
+// 	  // float: left;
+// 	}
+// }
+
+// ul.icon-grid {
+// 	margin: 0 auto;
+
+// 	li {
+// 		display: block;
+// 		float: left;
+// 		width: 125px;
+// 		height: 125px;
+// 		border: 1px solid #999;
+// 		background-color: #ddd;
+// 	}
+// }
+
+// padding: 20px;
+
+
+
+@item-width:100px;
+@item-height:100px;
+@marginV: 10px;
+@marginH: 10px;
+@min-cols:2;
+@max-cols:19; //set an upper limit of how may columns you want to write the media queries for
+
+ul.icon-grid {
+  padding: 15px 5px;
+  margin: 0;
+  text-align: center;
+  overflow: auto;
+    display: block;
+    list-style:none;
+    li {
+      // border: 2px dashed #999;
+      border: 1px solid #ddd;
+   	  border-radius: 10px;
+      display: inline-block;
+      height: @item-height;
+      width: @item-width;
+      margin:@marginV @marginH;
+      padding: 0;
+      font-size: 15px;
+      line-height: 28px;
+      font-weight: 400;
+      background-color: #f9f9f9;
+      color: #4c4c4c;
+
+      i{
+  		display: block;
+  		font-size: 30px;
+  		text-align: center;
+  		margin-top: 22px;
+	  }
+
+	  .breakpoint(one-col; {
+		height: 90px;
+		width: 90px;
+		margin: 5px 5px;
+
+		i {
+			font-size: 28px;
+			margin-top: 20px;
+		}
+
+		font-size: 13px;
+	  });
+    }
+}
+
+.dash-footer {
+	text-align: center;
+	padding: 0;
+	// margin: 40px 10px 20px 10px;
+	margin: 0 auto;
+	font-size: 11px;
+	color: #777;
+
+	.gestures {
+		display: none;
+	}
+
+	.breakpoint(two-col; {
+		.gestures {
+			margin-top: 40px;
+			display: block;
+			img {
+				height: 80px;
+			}
+			p {
+				margin: 0;
+				padding: 10px;
+			}
+			// margin-bottom: 50px;
+		}
+	});
+
+	.ucsc-logo {
+		margin-top: 50px;
+		img {
+			width: 200px;
+		}
+		padding-bottom: 10px;
+	}
+	p {
+
+	}
+	ul {
+		// display: block;
+		// float: center;
+
+		// margin-bottom: 20px;
+		// padding: 0;
+		padding: 5px 5px 20px 5px;
+		// margin: 20px;
+		// display: flex;
+		// flex-direction: column;
+		// justify-content: center;
+		// resize: vertical;
+		// overflow: auto;
+		text-align: left;
+        display: inline-block;
+		li {
+			display: inline-block;
+			min-height: 40px;
+			vertical-align: top;
+			// text-align: left;
+			// padding: 20px;
+			// resize: vertical;
+			// overflow: auto;
+			// text-align: left;
+
+			a {
+				color: #666;
+			}
+			// margin-right: 30px;
+		}
+		li:first-child {
+			margin-right: 25px;
+		}
+	}
+	.breakpoint(one-col; {
+		ul li {
+			display: block;
+		}
+	});
+}
+
+
+// .loopingClass (@index-width) when (@index-width <= @item-width * @max-cols) {
+//     @media (min-width:@index-width) {
+//         ul.icon-grid{
+//             width: @index-width;
+//         }
+//     }
+
+//     .loopingClass(@index-width + @item-width + 2*@marginH);
+// }
+
+// .loopingClass (@item-width * @min-cols + @min-cols*@marginH*2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	// ul.icon-grid {
+
+		// display: inline-block;
+		// float: center;
+
+		// padding: 20px 0 20px 20px;
+
+
+		// text-align: center;
+		// box-sizing: border-box;
+		// display: block;
+		// height: 0px;
+		// line-height: 20px;
+		// list-style-image: none;
+		// list-style-position: outside;
+		// list-style-type: none;
+		// margin: 0 auto;
+
+		// padding-left: 0px;
+
+		//latest
+		// box-sizing: border-box;
+		// display: block;
+		// height: 0px;
+		// line-height: 20px;
+		// list-style-image: none;
+		// list-style-position: outside;
+		// list-style-type: none;
+		// margin-bottom: 10px;
+		// margin: 0px;
+		// padding: 0px;
+		// width: 100%;
+
+		// list-style-image: none;
+		// list-style-position: outside;
+		// list-style-type: none;
+		// padding: 10px;
+		// text-align: center;
+
+
+		// display: flex;
+  //   display: -webkit-flex;
+  //   display: -moz-flex;
+  //   justify-content: flex-start;
+  //   -webkit-justify-content: flex-start;
+  //   -moz-justify-content: flex-start;
+  //   flex-flow: row wrap;
+  //   -webkit-flex-flow: row wrap;
+  //   -moz-flex-flow: row wrap;
+  //   align-items: center;
+    // justify-content: center;
+
+
+
+		// border-bottom-color: rgb(221, 221, 221);
+		// border-bottom-style: solid;
+		// border-bottom-width: 0px;
+		// border-left-color: rgb(221, 221, 221);
+		// border-left-style: solid;
+		// border-left-width: 1px;
+		// border-right-color: rgb(221, 221, 221);
+		// border-right-style: solid;
+		// border-right-width: 0px;
+		// border-top-color: rgb(221, 221, 221);
+		// border-top-style: solid;
+		// border-top-width: 1px;
+		// box-sizing: border-box;
+		// color: rgb(51, 51, 51);
+		// display: block;
+		// font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		// font-size: 14px;
+		// height: 94px;
+		// line-height: 19px;
+		// list-style-image: none;
+		// list-style-position: outside;
+		// list-style-type: none;
+		// margin-bottom: 0px;
+		// margin-left: 0px;
+		// margin-right: 0px;
+		// margin-top: 0px;
+		// padding-bottom: 0px;
+		// padding-left: 0px;
+		// padding-right: 0px;
+		// padding-top: 0px;
+
+
+
+
+
+
+		// li {
+
+			// -webkit-user-select: none;
+			// background-color: rgb(255, 255, 255);
+			// border-bottom-color: rgb(221, 221, 221);
+			// border-bottom-style: solid;
+			// border-bottom-width: 1px;
+			// border-left-color: rgb(221, 221, 221);
+			// border-left-style: solid;
+			// border-left-width: 0px;
+			// border-right-color: rgb(221, 221, 221);
+			// border-right-style: solid;
+			// border-right-width: 1px;
+			// border-top-color: rgb(221, 221, 221);
+			// border-top-style: solid;
+			// border-top-width: 0px;
+			// box-sizing: border-box;
+			// color: rgb(51, 51, 51);
+			// display: inline-block;
+			// font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			// font-size: 14px;
+			// height: 93px;
+			// line-height: 19px;
+			// list-style-image: none;
+			// list-style-position: outside;
+			// list-style-type: none;
+			// padding-bottom: 6px;
+			// padding-left: 12px;
+			// padding-right: 12px;
+			// padding-top: 6px;
+			// position: relative;
+			// text-align: center;
+
+
+			//latest
+			// float: left;
+			// width: 12.5%;
+			// height: 115px;
+			// padding: 10px;
+			// font-size: 10px;
+			// line-height: 1.4;
+			// text-align: center;
+			// a {
+			// 	width: 125px;
+			// 	height: 125px;
+			// 	display: block;
+
+			// 	background-color: #f9f9f9;
+			// 	border: 1px solid #fff;
+			// }
+   //  		.breakpoint(two-col; {
+			// 	width: 25%;
+			// 	font-size: 12px;
+			// });
+
+			// .breakpoint(one-col; {
+			// 	width: 33.3%;
+			// 	font-size: 12px;
+			// });
+			// end latest
+
+
+			// display: inline-block;
+			// width: 125px;
+			// height: 125px;
+			// margin: 10px;
+			// background-color: #f9f9f9;
+			// border: 1px solid #fff;
+
+
+			// background-color: rgb(249, 249, 249);
+			// border-bottom-color: rgb(255, 255, 255);
+			// border-bottom-style: solid;
+			// border-bottom-width: 1px;
+			// border-left-color: rgb(255, 255, 255);
+			// border-left-style: solid;
+			// border-left-width: 1px;
+			// border-right-color: rgb(255, 255, 255);
+			// border-right-style: solid;
+			// border-right-width: 1px;
+			// border-top-color: rgb(255, 255, 255);
+			// border-top-style: solid;
+			// border-top-width: 1px;
+			// box-sizing: border-box;
+			// color: rgb(51, 51, 51);
+			// display: list-item;
+			// float: left;
+			// font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			// font-size: 12px;
+			// height: 115px;
+			// line-height: 16px;
+			// list-style-image: none;
+			// list-style-position: outside;
+			// list-style-type: none;
+			// padding-bottom: 10px;
+			// padding-left: 10px;
+			// padding-right: 10px;
+			// padding-top: 10px;
+			// text-align: center;
+	// 	}
+	// }
+
+	// ul.icon-grid > [class*='colu-']:last-of-type {
+ //  		padding-right: 20px;
+	// }
+	
+}

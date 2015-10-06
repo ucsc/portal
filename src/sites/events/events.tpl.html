@@ -13,6 +13,7 @@
   </div>
   <div class="scrollable-content">
     <div class="list-group">
+      <a href="http://registrar.ucsc.edu/calendar/key-dates/key-dates2015-16.html" class="list-group-item">Key Dates <i class="icon-export-1 pull-right"></i></a>
       <a ng-repeat="item in eventsMenu" ui-sref=".feed({url:'{{item.url}}'})" ui-sref-active="selected" class="list-group-item">
         {{ item.title }}
       </a>

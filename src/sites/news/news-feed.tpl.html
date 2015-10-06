@@ -15,7 +15,7 @@
     <div class="list-group">
       <ul>
           <li ng-repeat="article in articles">
-              <a href="{{article.link}}" target="_blank">
+              <a href="{{article.link}}">
                   <div class="title" ng-bind-html='article.title | createAnchors'></div>
                   <!-- <div ng-bind-html-unsafe='article.title | unsafe'></div> -->
                   <div class="date">{{article.publishedDate | rssDate}}</div>

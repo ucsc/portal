@@ -1,4 +1,4 @@
-var app = angular.module('UCSCMobile', ['main','main.test','main.directory','main.emergency','main.news','main.social','main.support','main.visit','main.about','main.events','main.library','main.map']);
+var app = angular.module('UCSCMobile', ['main','main.directory','main.emergency','main.news','main.social','main.support','main.visit','main.about','main.events','main.library','main.map']);
 
 // app.config(function($stateProvider, $locationProvider) {
 //   $stateProvider.state('app', {

@@ -1,4 +1,4 @@
-article.list {
+article[class*="list"] {
 	.scrollable-content {
 		ul{
 			list-style: none;
@@ -10,20 +10,36 @@ article.list {
 				border-bottom: 1px solid #ddd;
 
 				a{
-					color: #555;
+					color: #444;
 					background-color: white;
 					.title {
 						font-weight: 600;
-						display: inline-block;
-						color: #333;
+						font-size: 17px;
+						display: block;
+						color: @brand-primary;
 					}
 					.date {
-						display: inline-block;
-						color: @brand-primary;
-
+						display: block;
+						color: #666;
 						font-weight: 400;
 					}
+					.location {
+						display: block;
+						color: #333;
+						font-weight: 500;
+						margin-left: -2px;
+					}
 				}
+			}
+		}
+		.list-group{
+			a{
+				padding: 1.2em;
+			}
+		}
+		.list-group ul{
+			a{
+				padding: 0;
 			}
 		}
 	}

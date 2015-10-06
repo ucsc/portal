@@ -28,6 +28,17 @@ map.config(function($stateProvider) {
 map.controller('MapCtrl', function($scope, $state, $http, mapRestrooms, mapTransit, mapParking, leafletData) {
   	$scope.trackback="main.map";
 
+  	// $scope.route1 = true;
+  	// $scope.route2 = false;
+  	// $scope.route3 = false;
+  	// $scope.route4 = false;
+  	$scope.routes = {
+    	route1: false,
+    	route2: false,
+    	route3: false,
+    	route4: false
+  	};
+
  //  	$http.get("api/static/maps/parking.json").success(function(data, status) {
 	//     $scope.definedParking = data;
 	// });

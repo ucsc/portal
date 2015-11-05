@@ -7,10 +7,10 @@
     "angular-route": "1.x",
     "angular-ui-router": "0.2.x",
     "mobile-angular-ui": "1.2.x",
-    "font-awesome": "4.2",
+    "font-awesome": "4.x",
     "bootstrap": "3.x",
     "leaflet": "0.7.x",
-    "angular-leaflet-directive": "0.8.x",
+    "angular-leaflet-directive": "0.8.7",
     "Leaflet.label": "*",
     "leaflet-plugins": "*",
     "Leaflet.extra-markers": "*"

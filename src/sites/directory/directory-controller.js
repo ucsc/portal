@@ -115,7 +115,8 @@ directory.controller('DirectorySearchPersonCtrl', function($scope, $state, $stat
 directory.controller('DirectoryBrowseCtrl', function($scope, $state, searchFactory) {
     $scope.trackback="main.directory.browse";
     searchFactory.getDivisions().success(function(data){
-        $scope.divisions=data.ucscdirectoryelementoptions;
+        // $scope.divisions=data.ucscdirectoryelementoptions;
+        $scope.divisions=data;
         $scope.resultscount=data.length;
         console.log(data);
     }).error(function(data){
